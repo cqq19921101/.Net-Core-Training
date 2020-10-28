@@ -1,0 +1,10 @@
+//鉴权中心 JWT
+dotnet QtechAuthenticationCenter.dll --urls="http://*:9527" --ip="127.0.0.1" --port=9527
+
+//鉴权中心 IdentityServer4
+dotnet QtechAuthenticationCenterIds4.dll --urls="http://*:7200" --ip="127.0.0.1" --port=7200
+http://localhost:7200/.well-known/openid-configuration
+http://localhost:7200/connect/token
+
+//AuthDemo Client
+dotnet QtechAuthDemo.dll --urls="http://*:5726" --ip="127.0.0.1" --5726

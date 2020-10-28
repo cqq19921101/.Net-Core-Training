@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Coreapi.cs \
+obj\Debug\netcoreapp3.1/CoreapiGrpc.cs: Protos/coreapi.proto

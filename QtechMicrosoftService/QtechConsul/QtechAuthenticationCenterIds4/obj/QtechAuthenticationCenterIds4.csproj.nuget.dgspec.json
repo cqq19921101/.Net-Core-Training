@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Github\\.Net-Core-Training\\QtechMicrosoftService\\QtechConsul\\QtechAuthenticationCenterIds4\\QtechAuthenticationCenterIds4.csproj": {}
+  },
+  "projects": {
+    "D:\\Github\\.Net-Core-Training\\QtechMicrosoftService\\QtechConsul\\QtechAuthenticationCenterIds4\\QtechAuthenticationCenterIds4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\QtechMicrosoftService\\QtechConsul\\QtechAuthenticationCenterIds4\\QtechAuthenticationCenterIds4.csproj",
+        "projectName": "QtechAuthenticationCenterIds4",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\QtechMicrosoftService\\QtechConsul\\QtechAuthenticationCenterIds4\\QtechAuthenticationCenterIds4.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\QtechMicrosoftService\\QtechConsul\\QtechAuthenticationCenterIds4\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "IdentityServer4.EntityFramework": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "IdentityServer4.EntityFramework.Storage": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.Security.Principal.Windows": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

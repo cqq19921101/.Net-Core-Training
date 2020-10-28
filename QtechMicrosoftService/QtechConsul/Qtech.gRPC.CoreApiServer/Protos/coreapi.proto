@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "Qtech.gRPC.CoreApiServer";
+
+package coreapi;
+
+// The greeting service definition.
+service coreapi {
+  // Sends a greeting
+  rpc GetValue (coreapiRequest) returns (coreapiReply);
+}
+
+// The request message containing the user's name.
+message coreapiRequest {
+  int32 Id = 1;
+}
+
+// The response message containing the greetings.
+message coreapiReply {
+  coreapiModel corepara = 1;
+  message coreapiModel{
+        int32 Id = 1;
+        string Name=2;
+        string Remark=3;
+  }
+}

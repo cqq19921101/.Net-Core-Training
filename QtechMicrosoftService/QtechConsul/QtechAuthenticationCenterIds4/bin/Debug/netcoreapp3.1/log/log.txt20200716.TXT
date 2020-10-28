@@ -1,0 +1,16 @@
+2020-07-16 08:17:25,064 [1] INFO  IdentityServer4.Startup - Starting IdentityServer4 version 3.1.3.0
+2020-07-16 08:17:25,076 [1] FATAL IdentityServer4.Startup - No storage mechanism for grants specified. Use the 'AddInMemoryPersistedGrants' extension method to register a development version.
+2020-07-16 08:17:25,111 [1] FATAL Microsoft.AspNetCore.Hosting.Diagnostics - Application startup exception
+System.InvalidOperationException: No storage mechanism for grants specified. Use the 'AddInMemoryPersistedGrants' extension method to register a development version.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.TestService(IServiceProvider serviceProvider, Type service, ILogger logger, String message, Boolean doThrow)
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app, IdentityServerMiddlewareOptions options)
+   at QtechAuthenticationCenterIds4.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAuthenticationCenterIds4\Startup.cs:line 113
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)

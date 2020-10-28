@@ -1,0 +1,142 @@
+{
+	"id": "2feef860-ff3e-43a1-98d4-4322ec8d1b86",
+	"name": "Test",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"dbcbad59-3e6f-4bcb-971d-d1b5e50baea5",
+		"6604bb98-c78c-449b-87f1-6f801189c7b0",
+		"e10655a3-07b6-48f9-a00b-f44091a4caa0"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "6604bb98-c78c-449b-87f1-6f801189c7b0",
+			"name": "ids4 Post Get Token --- Password Mode",
+			"url": "http://localhost:7200/connect/token",
+			"description": "",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "cqq",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "cqq123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scope",
+					"value": "TestApi",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "qianqianchen",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "dbcbad59-3e6f-4bcb-971d-d1b5e50baea5",
+			"name": "ids4 Post Get Token --- ClientMode",
+			"url": "http://localhost:7200/connect/token",
+			"description": "",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "client_credentials",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "QtechAuthDemo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "cqq123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "e10655a3-07b6-48f9-a00b-f44091a4caa0",
+			"name": "AuthDemo Test",
+			"url": "http://localhost:5726/Ids4/Index",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkJpSFZDQjBSOGlETTZaQXhxVXRFM0EiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE1OTQzNjk1MzgsImV4cCI6MTU5NDM3MzEzOCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo3MjAwIiwiYXVkIjoiVGVzdEFwaSIsImNsaWVudF9pZCI6ImNxcSIsInN1YiI6IjAiLCJhdXRoX3RpbWUiOjE1OTQzNjk1MzgsImlkcCI6ImxvY2FsIiwicm9sZSI6IkFkbWluIiwiZU1haWwiOiJjcXFAcXEuY29tIiwic2NvcGUiOlsiVGVzdEFwaSJdLCJhbXIiOlsicHdkIl19.BmXVX5cfFYaoMco9sw7fiwWWui0dqwSm79AY11rYnFPGnPRSBP0Ja20c2CnPT-tfAe065EdDbm6flhfiviOElP91tyR__P3vvrRy4noWbEARnJz_zo6cXF9SorRJujpT3RaCvRdeRrcUSLOl7xQ_4qR8XxCs-X07bfPeRnKK7SgMdNPkLeAckejv2ThZ3OHr7Qo6qx_IZJZPpeDSgvuIWU2kZEZbM08KKm6oS04mCSDqgPJ9rhxREaLHBwKWfXuBWp8_MC9J7fzDxkdikiNyr5syrfSe9MKaUI90TSMqAbxXU8LSD9OHwLpIvAjk-uoWMYd8Y_sBzWM5Yddn_n-iDg"
+					}
+				]
+			},
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		}
+	]
+}

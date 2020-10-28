@@ -1,0 +1,8 @@
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\bin\Debug\netcoreapp3.1\QtechAgilityFramework.deps.json
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\bin\Debug\netcoreapp3.1\QtechAgilityFramework.dll
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\obj\Debug\netcoreapp3.1\QtechAgilityFramework.AssemblyInfoInputs.cache
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\obj\Debug\netcoreapp3.1\QtechAgilityFramework.AssemblyInfo.cs
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\bin\Debug\netcoreapp3.1\QtechAgilityFramework.pdb
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\obj\Debug\netcoreapp3.1\QtechAgilityFramework.csproj.CoreCompileInputs.cache
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\obj\Debug\netcoreapp3.1\QtechAgilityFramework.dll
+D:\WorkShop\MiddleWare\QtechMicrosoftService\QtechConsul\QtechAgilityFramework\obj\Debug\netcoreapp3.1\QtechAgilityFramework.pdb
