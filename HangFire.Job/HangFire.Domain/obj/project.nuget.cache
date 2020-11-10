@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TH3lwBeSvyjk625ZzBjHFF9YmWmEiYsa0Ht4lVrFchS8iEKx0zgDSUoLYZRRFXdcOb6lf8rIaX75EXnG7aRpPg==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qianqian.chen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

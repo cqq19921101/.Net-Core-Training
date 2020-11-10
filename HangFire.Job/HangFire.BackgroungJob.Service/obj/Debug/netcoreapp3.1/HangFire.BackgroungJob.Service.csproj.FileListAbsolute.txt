@@ -1,9 +1,9 @@
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\bin\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.deps.json
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\bin\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\bin\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.csprojAssemblyReference.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.AssemblyInfoInputs.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.AssemblyInfo.cs
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.csproj.CoreCompileInputs.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroungJob.Service\obj\Debug\netcoreapp3.1\HangFire.BackgroungJob.Service.csprojAssemblyReference.cache
