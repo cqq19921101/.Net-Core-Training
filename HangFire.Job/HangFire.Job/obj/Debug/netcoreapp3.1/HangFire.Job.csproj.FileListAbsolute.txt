@@ -1,6 +1,5 @@
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Job.exe
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Job.deps.json
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Job.runtimeconfig.json
@@ -77,3 +76,4 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\V
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\Volo.Abp.Core.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\HangFire.Job.csproj.CoreCompileInputs.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\HangFire.Job.MvcApplicationPartsAssemblyInfo.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\scopedcss\bundle\HangFire.Job.styles.css

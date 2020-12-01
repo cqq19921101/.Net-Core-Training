@@ -1,19 +1,28 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using HangFire.Domain.Configuration;
+using HangFire.Common.Extensions;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace HangFire.Job
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            await Host.CreateDefaultBuilder(args)
+                      .UseLog4Net()
+                      .ConfigureWebHostDefaults(builder =>
+                      {
+                          builder.UseIISIntegration()
+                                 .ConfigureKestrel(options =>
+                                 {
+                                     options.AddServerHeader = false;
+                                 })
+                                 .UseUrls($"http://*:{Appsettings.ListenPort}")
+                                 .UseStartup<Startup>();
+                      })
+                      .UseAutofac().Build().RunAsync();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

@@ -1,0 +1,14 @@
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.BackgroundJobs.deps.json
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.BackgroundJobs.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.BackgroundJobs.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.csprojAssemblyReference.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.Domain.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.Common.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.Common.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Release\netcoreapp3.1\HangFire.Domain.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Release\netcoreapp3.1\HangFire.BackgroundJobs.csproj.CopyComplete
