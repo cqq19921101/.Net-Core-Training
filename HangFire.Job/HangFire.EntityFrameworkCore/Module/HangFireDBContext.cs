@@ -8,18 +8,15 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace HangFire.EntityFrameworkCore.Module
 {
-    [HangFireConnectionStringAttribute]
+    [HangFireConnectionString]
     public class HangFireDBContext : AbpDbContext<HangFireDBContext>
     {
         public HangFireDBContext(DbContextOptions<HangFireDBContext> options) : base(options)
         {
         }
 
-        #region DbSet
-        /// <summary>
-        /// FaceImage SourceData
-        /// </summary>
-        public DbSet<v_smartpark_emp> v_smartpark_emp { get; set; }
+        #region Database Mapping
+        //public DbSet<FaceImageApi> FaceImageApi { get; set; }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

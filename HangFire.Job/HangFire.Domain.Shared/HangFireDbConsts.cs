@@ -9,7 +9,7 @@ namespace HangFire.Domain.Shared
         /// <summary>
         /// 人脸接口 视图
         /// </summary>
-        public const string v_smartpark_emp = "v_smartpark_emp";
+        public const string FaceImageApi = "v_smartpark_emp";
 
 
 

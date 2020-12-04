@@ -8,7 +8,7 @@ namespace HangFire.Domain.FaceImage
     /// <summary>
     /// Data View
     /// </summary>
-    public partial class v_smartpark_emp : Entity<Guid>
+    public partial class FaceImageApi : Entity<Guid>
     {
         /// <summary>
         /// 工号

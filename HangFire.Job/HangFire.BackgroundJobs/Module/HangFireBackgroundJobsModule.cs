@@ -83,10 +83,12 @@ namespace HangFire.BackgroundJobs.Module
                 DashboardTitle = "任务调度中心"
             });
 
-            //Add Schedule Job Service
+            //Add Service Schedule Job
             var service = context.ServiceProvider;
 
             service.UseFaceImageApiJob();//FaceImageApi Schedule Job
+
+            /*Add Other Schedule Job*/
         }
     }
 }

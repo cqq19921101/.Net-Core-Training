@@ -14,8 +14,8 @@ namespace HangFire.BackgroundJobs.Module
         {
             var job = service.GetService<FaceImageApiJob>();
 
-            RecurringJob.AddOrUpdate("测试", () => job.ExecuteAsync(), HangFireCronType.Minute(5));
-                
+            //5 minute Execute
+            //RecurringJob.AddOrUpdate("cqq测试", () => job.ExecuteAsync(), HangFireCronType.Minute(5));
         }
     }
 }

@@ -12,12 +12,17 @@ namespace HangFire.BackgroundJobs.Jobs.FaceImageApi
     public class FaceImageApiJob : IBackgroundJobs
     {
 
-        private readonly IFaceImageApiRepository _FaceImageApiRepository;
 
-        public FaceImageApiJob(IFaceImageApiRepository FaceImageApiRepository)
-        {
-            _FaceImageApiRepository = FaceImageApiRepository;
-        }
+        //private readonly IFaceImageApiRepository _faceimageapirepository;
+
+        ///// <summary>
+        ///// Construct 
+        ///// </summary>
+        ///// <param name="FaceImageApiRepository"></param>
+        //public FaceImageApiJob(IFaceImageApiRepository faceimageapirepository)
+        //{
+        //    _faceimageapirepository = faceimageapirepository;
+        //}
 
 
         /// <summary>

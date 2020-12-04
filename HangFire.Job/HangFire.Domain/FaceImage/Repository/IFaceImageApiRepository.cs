@@ -6,7 +6,7 @@ namespace HangFire.Domain.FaceImage.Repository
     /// <summary>
     /// IFaceImageApiRepository
     /// </summary>
-    public interface IFaceImageApiRepository : IRepository<v_smartpark_emp, Guid>
+    public interface IFaceImageApiRepository : IRepository<FaceImageApi, Guid>
     {
 
     }
