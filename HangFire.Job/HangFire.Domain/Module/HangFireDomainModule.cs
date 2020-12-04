@@ -1,11 +1,10 @@
-﻿using Abp.Modules;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using HangFire.Domain.Shared.Module;
+using Volo.Abp.Identity;
+using Volo.Abp.Modularity;
 
 namespace HangFire.Domain.Module
 {
-    //[DependsOn(typeof(AbpIdentityDomainModule))]
+    [DependsOn(typeof(AbpIdentityDomainModule),typeof(HangFireDoaminSharedModule))]
     public class HangFireDomainModule  : AbpModule
     {
 

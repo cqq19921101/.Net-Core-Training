@@ -3,19 +3,18 @@ using HangFire.Domain.Configuration;
 using Volo.Abp.BackgroundJobs.Hangfire;
 using Volo.Abp.Modularity;
 using Hangfire.SQLite;
-using Hangfire.Dashboard;
-using HangFire.Common.Consts;
 using Hangfire.SqlServer;
 using Hangfire.Dashboard.BasicAuthorization;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
+using HangFire.Domain.Shared;
 
 namespace HangFire.BackgroundJobs.Module
 {
     /// <summary>
     /// Reference Abp Hangfire Frame
     /// </summary>
-    [DependsOn(typeof(AbpBackgroundJobsHangfireModule))]
+    [DependsOn(typeof(AbpBackgroundJobsHangfireModule),typeof(AbpAspNetCoreMvcModule))]
 
     public class HangFireBackgroundJobsModule : AbpModule
     {
@@ -37,13 +36,14 @@ namespace HangFire.BackgroundJobs.Module
                     //    break;
 
                     case "Sqlite":
+                        //string con = Appsettings.ConnectionStrings;
                         config.UseSQLiteStorage(Appsettings.ConnectionStrings, new SQLiteStorageOptions
                         {
                             SchemaName = tablePrefix
                         });
                         break;
-
                     case "SqlServer":
+                        string con = Appsettings.ConnectionStrings;
                         config.UseSqlServerStorage(Appsettings.ConnectionStrings, new SqlServerStorageOptions
                         {
                             SchemaName = tablePrefix
@@ -57,7 +57,10 @@ namespace HangFire.BackgroundJobs.Module
         {
             var app = context.GetApplicationBuilder();
 
+            //Add HangFire Service
             app.UseHangfireServer();
+
+            //User HangFire Dashboard
             app.UseHangfireDashboard(options: new DashboardOptions
             {
                 Authorization = new[]
@@ -80,12 +83,10 @@ namespace HangFire.BackgroundJobs.Module
                 DashboardTitle = "任务调度中心"
             });
 
-            //Schedule Job
+            //Add Schedule Job Service
             var service = context.ServiceProvider;
 
-            //service.UseWallpaperJob();
-            //service.UseHotNewsJob();
-            //service.UsePuppeteerTestJob();
+            service.UseFaceImageApiJob();//FaceImageApi Schedule Job
         }
     }
 }

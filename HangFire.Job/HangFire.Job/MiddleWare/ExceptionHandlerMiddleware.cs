@@ -1,9 +1,7 @@
-﻿using HangFire.Domain.Base;
-using HangFire.Domain.Extensions;
+﻿using HangFire.Common.Base;
+using HangFire.Common.Extensions;
 using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 

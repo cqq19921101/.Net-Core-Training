@@ -6,5 +6,6 @@ namespace HangFire.Application.Contracts.FaceImageApi
 {
     public partial class FaceImageApiDto
     {
+
     }
 }

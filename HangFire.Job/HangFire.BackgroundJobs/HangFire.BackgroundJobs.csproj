@@ -9,16 +9,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Abp" Version="6.0.0" />
     <PackageReference Include="Hangfire.Core" Version="1.7.11" />
     <PackageReference Include="Hangfire.Dashboard.BasicAuthorization" Version="1.0.2" />
     <PackageReference Include="Hangfire.SQLite" Version="1.4.2" />
     <PackageReference Include="Hangfire.SqlServer" Version="1.7.11" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.3.1" />
     <PackageReference Include="Volo.Abp.BackgroundJobs.HangFire" Version="3.3.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HangFire.Common\HangFire.Common.csproj" />
+    <ProjectReference Include="..\HangFire.Domain.Shared\HangFire.Domain.Shared.csproj" />
     <ProjectReference Include="..\HangFire.Domain\HangFire.Domain.csproj" />
   </ItemGroup>
 

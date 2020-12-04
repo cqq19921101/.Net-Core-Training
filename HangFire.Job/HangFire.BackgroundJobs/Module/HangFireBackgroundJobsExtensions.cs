@@ -1,6 +1,7 @@
 ﻿using Hangfire;
 using HangFire.BackgroundJobs.Jobs.FaceImageApi;
 using System;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HangFire.BackgroundJobs.Module
 {
@@ -9,12 +10,12 @@ namespace HangFire.BackgroundJobs.Module
     /// </summary>
     public static class HangFireBackgroundJobsExtensions
     {
-        public static void ExcuteTest(this IServiceProvider service)
+        public static void UseFaceImageApiJob(this IServiceProvider service)
         {
-            //var job = service.GetService<FaceImageApiJob>();
+            var job = service.GetService<FaceImageApiJob>();
 
-            //RecurringJob.AddOrUpdate("测试", () => job.ExecuteAsync(), HangFireCronType.Hour(1, 3));
-
+            RecurringJob.AddOrUpdate("测试", () => job.ExecuteAsync(), HangFireCronType.Minute(5));
+                
         }
     }
 }

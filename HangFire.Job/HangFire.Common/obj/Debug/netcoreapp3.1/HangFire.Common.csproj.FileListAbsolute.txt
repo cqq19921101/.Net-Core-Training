@@ -1,0 +1,9 @@
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\bin\Debug\netcoreapp3.1\HangFire.Common.deps.json
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\bin\Debug\netcoreapp3.1\HangFire.Common.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\bin\Debug\netcoreapp3.1\HangFire.Common.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\obj\Debug\netcoreapp3.1\HangFire.Common.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\obj\Debug\netcoreapp3.1\HangFire.Common.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\obj\Debug\netcoreapp3.1\HangFire.Common.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\obj\Debug\netcoreapp3.1\HangFire.Common.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\obj\Debug\netcoreapp3.1\HangFire.Common.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Common\obj\Debug\netcoreapp3.1\HangFire.Common.csprojAssemblyReference.cache

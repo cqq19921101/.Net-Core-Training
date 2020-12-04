@@ -1,8 +1,5 @@
-﻿using Abp.Dependency;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Volo.Abp.DependencyInjection;
 
 namespace HangFire.BackgroundJobs
 {
@@ -15,6 +12,6 @@ namespace HangFire.BackgroundJobs
         /// Excute Task
         /// </summary>
         /// <returns></returns>
-        Task ExcuteAsync();
+        Task ExecuteAsync();
     }
 }

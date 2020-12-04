@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire.BackgroundJobs", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire.Common", "HangFire.Common\HangFire.Common.csproj", "{9BD82BCD-20E2-4021-97C2-6D05E42209FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Application.Contracts", "HangFire.Application.Contracts\HangFire.Application.Contracts.csproj", "{7FB3CC39-AE85-4404-AB3B-59C484F28235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire.Application.Contracts", "HangFire.Application.Contracts\HangFire.Application.Contracts.csproj", "{7FB3CC39-AE85-4404-AB3B-59C484F28235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Domain.Shared", "HangFire.Domain.Shared\HangFire.Domain.Shared.csproj", "{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{7FB3CC39-AE85-4404-AB3B-59C484F28235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB3CC39-AE85-4404-AB3B-59C484F28235}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB3CC39-AE85-4404-AB3B-59C484F28235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

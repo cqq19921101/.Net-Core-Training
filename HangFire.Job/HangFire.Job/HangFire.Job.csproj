@@ -18,6 +18,7 @@
     <ProjectReference Include="..\HangFire.BackgroundJobs\HangFire.BackgroundJobs.csproj" />
     <ProjectReference Include="..\HangFire.Common\HangFire.Common.csproj" />
     <ProjectReference Include="..\HangFire.Domain\HangFire.Domain.csproj" />
+    <ProjectReference Include="..\HangFire.EntityFrameworkCore\HangFire.EntityFrameworkCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -262,8 +262,12 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Castle.Facilities.Logging.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Castle.Windsor.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Dapper.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Hangfire.AspNetCore.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Hangfire.Core.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Hangfire.Dashboard.BasicAuthorization.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Hangfire.SQLite.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Hangfire.SqlServer.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\JetBrains.Annotations.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\log4net.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -278,6 +282,7 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
@@ -318,9 +323,11 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Nito.Collections.Deque.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\Nito.Disposables.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\NUglify.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.Drawing.Common.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\System.Linq.Dynamic.Core.dll
@@ -406,6 +413,11 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
@@ -414,8 +426,10 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\HangFire.BackgroundJobs.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\HangFire.Common.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\HangFire.Domain.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\HangFire.BackgroundJobs.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\HangFire.Common.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Release\netcoreapp3.1\HangFire.Domain.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Release\netcoreapp3.1\HangFire.Job.csprojAssemblyReference.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Release\netcoreapp3.1\HangFire.Job.AssemblyInfoInputs.cache

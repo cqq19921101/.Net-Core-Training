@@ -2,6 +2,7 @@
 using HangFire.Common.Base;
 using HangFire.Common.Extensions;
 using HangFire.Domain.Configuration;
+using HangFire.EntityFrameworkCore.Module;
 using HangFire.Job.MiddleWare;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -23,6 +24,7 @@ namespace HangFire.Job.Mouble
     [DependsOn(
        typeof(AbpAspNetCoreMvcModule),
        typeof(AbpAutofacModule),
+       typeof(HangFireEFCoreModule),
        typeof(HangFireBackgroundJobsModule)
      )]
 

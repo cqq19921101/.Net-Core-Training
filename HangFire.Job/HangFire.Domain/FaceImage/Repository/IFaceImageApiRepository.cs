@@ -1,7 +1,5 @@
-﻿using Abp.Domain.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
+using Volo.Abp.Domain.Repositories;
 
 namespace HangFire.Domain.FaceImage.Repository
 {

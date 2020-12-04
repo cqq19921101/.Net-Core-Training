@@ -1,0 +1,9 @@
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.deps.json
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\obj\Debug\netcoreapp3.1\HangFire.Domain.Shared.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\obj\Debug\netcoreapp3.1\HangFire.Domain.Shared.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\obj\Debug\netcoreapp3.1\HangFire.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\obj\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\obj\Debug\netcoreapp3.1\HangFire.Domain.Shared.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain.Shared\obj\Debug\netcoreapp3.1\HangFire.Domain.Shared.csprojAssemblyReference.cache

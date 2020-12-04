@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HangFire.Common.Consts
+namespace HangFire.Domain.Shared
 {
     /// <summary>
     /// 全局常量
@@ -12,7 +12,7 @@ namespace HangFire.Common.Consts
         /// <summary>
         /// 数据库表前缀
         /// </summary>
-        public const string DbTablePrefix = "hangfire_";
+        public const string DbTablePrefix = "cqq_";
 
         /// <summary>
         /// 缓存过期时间策略
