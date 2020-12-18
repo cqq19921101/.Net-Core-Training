@@ -3,10 +3,12 @@ using HangFire.Common.Base;
 using HangFire.Common.Extensions;
 using HangFire.Domain.Configuration;
 using HangFire.EntityFrameworkCore.Module;
+using HangFire.Job.Filter;
 using HangFire.Job.MiddleWare;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,21 +33,20 @@ namespace HangFire.Job.Mouble
     public class HangFireHostingMouble : AbpModule
     {
         /// <summary>
-        /// 重写 ConfigureServices
+        /// Configure Ioc Container
         /// </summary>
         /// <param name="context"></param>
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             Configure<MvcOptions>(options =>
             {
-                var filterMetadata = options.Filters.FirstOrDefault(x => x is ServiceFilterAttribute attribute
-                                                                    && attribute.ServiceType.Equals(typeof(AbpExceptionFilter)));
+                var filterMetadata = options.Filters.FirstOrDefault(x => x is ServiceFilterAttribute attribute && attribute.ServiceType.Equals(typeof(AbpExceptionFilter)));
 
                 // 移除 AbpExceptionFilter
                 options.Filters.Remove(filterMetadata);
 
                 // 添加自己实现的 ExceptionHandlerMiddleware
-                options.Filters.Add(typeof(ExceptionHandlerMiddleware));
+                options.Filters.Add(typeof(HangFireExceptionFilter));
             });
 
             // 跨域配置
@@ -133,10 +134,10 @@ namespace HangFire.Job.Mouble
             app.UseHsts();
 
             // 转发将标头代理到当前请求，配合 Nginx 使用，获取用户真实IP
-            //app.UseForwardedHeaders(new ForwardedHeadersOptions
-            //{
-            //    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
-            //});
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
 
             // 路由
             app.UseRouting();
@@ -154,7 +155,7 @@ namespace HangFire.Job.Mouble
             app.UseAuthorization();
 
             // HTTP => HTTPS
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             // 路由映射
             app.UseEndpoints(endpoints =>

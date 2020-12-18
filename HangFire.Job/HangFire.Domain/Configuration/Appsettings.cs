@@ -27,9 +27,14 @@ namespace HangFire.Domain.Configuration
         }
 
         /// <summary>
-        /// Choose Sql Connection
+        /// Choose Hangfire Sql Connection
         /// </summary>
         public static string EnableDb => _config["ConnectionStrings:Enable"];
+
+        /// <summary>
+        /// Choose FaceImageApi Sql Connection
+        /// </summary>
+        public static string FaceImageEnableDb => _config["ConnectionStrings:FaceImageEnable"];
 
         /// <summary>
         /// ConnectionStrings Config
@@ -158,6 +163,23 @@ namespace HangFire.Domain.Configuration
 
             }
         }
+        #endregion
+
+        #region FaceImageApi Config
+        /// <summary>
+        /// FaceImageApi
+        /// </summary>
+        public static class FaceImageInterface
+        {
+            public static string TokenUrl => _config["FaceImageInterface:TokenUrl"];
+            public static string CreateUserUrl => _config["FaceImageInterface:CreateUserUrl"];
+            public static string DelLeaveEmpUrl => _config["FaceImageInterface:DelLeaveEmpUrl"];
+            public static string GetSubjectIDUrl => _config["FaceImageInterface:GetSubjectIDUrl"];
+            public static string UpdateEmpUrl => _config["FaceImageInterface:UpdateEmpUrl"];
+            public static string LoginId => _config["FaceImageInterface:LoginId"];
+            public static string LoginPsd => _config["FaceImageInterface:LoginPsd"];
+        }
+
         #endregion
     }
 }

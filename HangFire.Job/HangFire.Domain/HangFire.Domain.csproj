@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HangFire.Common\HangFire.Common.csproj" />
     <ProjectReference Include="..\HangFire.Domain.Shared\HangFire.Domain.Shared.csproj" />
   </ItemGroup>
 

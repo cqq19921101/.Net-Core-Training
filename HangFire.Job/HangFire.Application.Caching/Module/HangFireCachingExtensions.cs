@@ -1,8 +1,6 @@
 ﻿using HangFire.Common.Extensions;
 using Microsoft.Extensions.Caching.Distributed;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using static HangFire.Domain.Shared.HangFireConsts;
 

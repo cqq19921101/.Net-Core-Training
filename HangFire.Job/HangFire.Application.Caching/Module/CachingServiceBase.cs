@@ -1,8 +1,8 @@
-﻿using Abp.Dependency;
-using HangFire.Common.Extensions;
+﻿using HangFire.Common.Extensions;
 using Microsoft.Extensions.Caching.Distributed;
 using System.Linq;
 using System.Threading.Tasks;
+using Volo.Abp.DependencyInjection;
 
 namespace HangFire.Application.Caching.Module
 {
@@ -25,8 +25,8 @@ namespace HangFire.Application.Caching.Module
             var keys = scan.Items;
 
             if (keys.Any() && key.IsNotNullOrEmpty())
-            {
                 keys = keys.Where(x => x.StartsWith(key)).ToArray();
+            {
 
                 await RedisHelper.DelAsync(keys);
             }

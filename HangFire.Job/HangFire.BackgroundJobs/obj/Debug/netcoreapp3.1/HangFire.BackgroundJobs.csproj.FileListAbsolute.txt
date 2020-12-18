@@ -106,6 +106,7 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netc
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
@@ -202,6 +203,7 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netc
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
@@ -211,7 +213,9 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netc
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
@@ -236,6 +240,7 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netc
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Web.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
@@ -246,10 +251,18 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netc
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Application.Caching.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Application.Contracts.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Application.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Common.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Domain.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Application.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Common.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Domain.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Application.Caching.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Application.Contracts.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netcoreapp3.1\HangFire.BackgroundJobs.csprojAssemblyReference.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netcoreapp3.1\HangFire.BackgroundJobs.AssemblyInfoInputs.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netcoreapp3.1\HangFire.BackgroundJobs.AssemblyInfo.cs
@@ -257,12 +270,3 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netc
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netcoreapp3.1\HangFire.BackgroundJobs.csproj.CopyComplete
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netcoreapp3.1\HangFire.BackgroundJobs.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\obj\Debug\netcoreapp3.1\HangFire.BackgroundJobs.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Caching.Memory.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.BackgroundJobs\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.pdb

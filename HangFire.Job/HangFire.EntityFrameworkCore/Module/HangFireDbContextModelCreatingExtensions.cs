@@ -16,6 +16,18 @@ namespace HangFire.EntityFrameworkCore.Module
         public static void Configure(this ModelBuilder builder)
         {
             Check.NotNull(builder, nameof(builder));
+
+            //builder.Entity<FaceImageApi>(b =>
+            //{
+            //    b.ToTable(HangFireConsts.DbTablePrefix + DbTableName.FaceImageApi);
+            //    b.HasKey(x => x.Id);
+            //    b.Property(x => x.Id).ValueGeneratedOnAdd();
+            //    b.Property(x => x.EmpNumber).HasMaxLength(200).IsRequired();
+            //    b.Property(x => x.EmpName).HasMaxLength(100).IsRequired();
+            //    b.Property(x => x.JDate).HasColumnType("datetime").IsRequired();
+            //    b.Property(x => x.LDate).HasColumnType("datetime").IsRequired();
+            //    b.Property(x => x.FileData).HasColumnType("byte").IsRequired();
+            //});
         }
 
     }

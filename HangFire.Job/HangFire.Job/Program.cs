@@ -21,15 +21,7 @@ namespace HangFire.Job
                                  })
                                  .UseUrls($"http://*:{Appsettings.ListenPort}")
                                  .UseStartup<Startup>();
-                      })
-                      .UseAutofac().Build().RunAsync();
+                      }).UseAutofac().Build().RunAsync();
         }
-
-        //public static IHostBuilder CreateHostBuilder(string[] args) =>
-        //    Host.CreateDefaultBuilder(args)
-        //        .ConfigureWebHostDefaults(webBuilder =>
-        //        {
-        //            webBuilder.UseStartup<Startup>();
-        //        });
     }
 }

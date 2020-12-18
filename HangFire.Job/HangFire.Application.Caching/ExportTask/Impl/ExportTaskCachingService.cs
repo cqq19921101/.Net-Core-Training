@@ -7,7 +7,7 @@ namespace HangFire.Application.Caching.ExportTask.Impl
     /// <summary>
     /// ExportTask Implement Interface
     /// </summary>
-    public class ExportTaskService
+    public class ExportTaskCachingService : IExportTaskCacheService
     {
 
     }

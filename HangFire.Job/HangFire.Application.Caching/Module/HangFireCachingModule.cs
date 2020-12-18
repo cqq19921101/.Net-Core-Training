@@ -11,6 +11,10 @@ namespace HangFire.Application.Caching.Module
     [DependsOn(typeof(AbpCachingModule),typeof(HangFireDomainModule))]
     public class HangFireCachingModule : AbpModule
     {
+        /// <summary>
+        /// Configure Ioc Container
+        /// </summary>
+        /// <param name="context"></param>
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             //Redis Cache IsOpen

@@ -1,5 +1,6 @@
 ﻿using HangFire.Domain.Configuration;
 using HangFire.Domain.Module;
+using HangFire.EntityFrameworkCore.DBContext;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.MySQL;
@@ -12,7 +13,7 @@ namespace HangFire.EntityFrameworkCore.Module
     [DependsOn(
     typeof(HangFireDomainModule),
     typeof(AbpEntityFrameworkCoreModule),
-    //typeof(AbpEntityFrameworkCoreMySQLModule),
+    typeof(AbpEntityFrameworkCoreMySQLModule),
     typeof(AbpEntityFrameworkCoreSqlServerModule),
     typeof(AbpEntityFrameworkCoreSqliteModule)
 )]
@@ -20,7 +21,7 @@ namespace HangFire.EntityFrameworkCore.Module
     public class HangFireEFCoreModule : AbpModule
     {
         /// <summary>
-        /// 重写 ConfigureServices
+        /// Configure Ioc Container
         /// </summary>
         /// <param name="context"></param>
         public override void ConfigureServices(ServiceConfigurationContext context)
@@ -34,11 +35,12 @@ namespace HangFire.EntityFrameworkCore.Module
             {
                 switch (Appsettings.EnableDb)
                 {
-
+                    case "Mysql":
+                        options.UseMySQL();
+                        break;
                     case "SqlServer":
                         options.UseSqlServer();
                         break;
-
                     case "Sqlite":
                         options.UseSqlite();
                         break;

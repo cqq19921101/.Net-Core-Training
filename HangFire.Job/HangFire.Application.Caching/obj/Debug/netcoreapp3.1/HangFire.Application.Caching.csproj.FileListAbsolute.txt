@@ -2,7 +2,11 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Application.Caching.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Application.Caching.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Common.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Common.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug\netcoreapp3.1\HangFire.Application.Caching.csprojAssemblyReference.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug\netcoreapp3.1\HangFire.Application.Caching.AssemblyInfoInputs.cache
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug\netcoreapp3.1\HangFire.Application.Caching.AssemblyInfo.cs
@@ -10,7 +14,3 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug\netcoreapp3.1\HangFire.Application.Caching.csproj.CopyComplete
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug\netcoreapp3.1\HangFire.Application.Caching.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\obj\Debug\netcoreapp3.1\HangFire.Application.Caching.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.Caching\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.pdb

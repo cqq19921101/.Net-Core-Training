@@ -1,12 +1,9 @@
-﻿using HangFire.Domain.FaceImage;
+﻿using HangFire.EntityFrameworkCore.Module;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Volo.Abp.EntityFrameworkCore;
 
 
-namespace HangFire.EntityFrameworkCore.Module
+namespace HangFire.EntityFrameworkCore.DBContext
 {
     [HangFireConnectionString]
     public class HangFireDBContext : AbpDbContext<HangFireDBContext>
@@ -14,10 +11,6 @@ namespace HangFire.EntityFrameworkCore.Module
         public HangFireDBContext(DbContextOptions<HangFireDBContext> options) : base(options)
         {
         }
-
-        #region Database Mapping
-        //public DbSet<FaceImageApi> FaceImageApi { get; set; }
-        #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

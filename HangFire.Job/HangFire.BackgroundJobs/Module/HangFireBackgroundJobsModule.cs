@@ -1,23 +1,28 @@
 ﻿using Hangfire;
-using HangFire.Domain.Configuration;
-using Volo.Abp.BackgroundJobs.Hangfire;
-using Volo.Abp.Modularity;
+using Hangfire.Dashboard.BasicAuthorization;
+using Hangfire.MySql.Core;
 using Hangfire.SQLite;
 using Hangfire.SqlServer;
-using Hangfire.Dashboard.BasicAuthorization;
+using HangFire.Domain.Configuration;
+using HangFire.Domain.Shared;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc;
-using HangFire.Domain.Shared;
+using Volo.Abp.BackgroundJobs.Hangfire;
+using Volo.Abp.Modularity;
 
 namespace HangFire.BackgroundJobs.Module
 {
     /// <summary>
     /// Reference Abp Hangfire Frame
     /// </summary>
-    [DependsOn(typeof(AbpBackgroundJobsHangfireModule),typeof(AbpAspNetCoreMvcModule))]
+    [DependsOn(typeof(AbpBackgroundJobsHangfireModule))]
 
     public class HangFireBackgroundJobsModule : AbpModule
     {
+        /// <summary>
+        /// Configure Ioc Container
+        /// </summary>
+        /// <param name="context"></param>
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             context.Services.AddHangfire(config =>
@@ -26,24 +31,22 @@ namespace HangFire.BackgroundJobs.Module
 
                 switch (Appsettings.EnableDb)
                 {
-                    //case "MySql":
-                    //    config.UseStorage(
-                    //        new MySqlStorage(AppSettings.ConnectionStrings,
-                    //        new MySqlStorageOptions
-                    //        {
-                    //            TablePrefix = tablePrefix
-                    //        }));
-                    //    break;
+                    case "MySql":
+                        config.UseStorage(
+                            new MySqlStorage(Appsettings.ConnectionStrings,
+                            new MySqlStorageOptions
+                            {
+                                TablePrefix = tablePrefix
+                            }));
+                        break;
 
                     case "Sqlite":
-                        //string con = Appsettings.ConnectionStrings;
                         config.UseSQLiteStorage(Appsettings.ConnectionStrings, new SQLiteStorageOptions
                         {
                             SchemaName = tablePrefix
                         });
                         break;
                     case "SqlServer":
-                        string con = Appsettings.ConnectionStrings;
                         config.UseSqlServerStorage(Appsettings.ConnectionStrings, new SqlServerStorageOptions
                         {
                             SchemaName = tablePrefix
@@ -86,9 +89,22 @@ namespace HangFire.BackgroundJobs.Module
             //Add Service Schedule Job
             var service = context.ServiceProvider;
 
-            service.UseFaceImageApiJob();//FaceImageApi Schedule Job
+            //service.UseTestMailJob();//Test SendMail
 
-            /*Add Other Schedule Job*/
+            #region FaceImageApi Schedule Job
+
+            service.UseFaceImageApiJob_GetNewEmployee();//同步新入职员工
+            //service.UseFaceImageApiJob_GetResignedEmployee();//同步离职员工
+            //service.UseFaceImageApiJob_GetUpdatedEmployee();//同步更新过资料的员工
+
+
+            //service.UseFaceImageApiJob_GetAllEmployee();//同步全厂员工
+
+            #endregion
+
+            #region ExportTask Schedule Job
+
+            #endregion
         }
     }
 }

@@ -10,12 +10,61 @@ namespace HangFire.BackgroundJobs.Module
     /// </summary>
     public static class HangFireBackgroundJobsExtensions
     {
-        public static void UseFaceImageApiJob(this IServiceProvider service)
+        #region Test
+        public static void UseTestMailJob(this IServiceProvider service)
         {
-            var job = service.GetService<FaceImageApiJob>();
+            var job = service.GetService<TestSendMail>();
 
-            //5 minute Execute
-            //RecurringJob.AddOrUpdate("cqq测试", () => job.ExecuteAsync(), HangFireCronType.Minute(5));
+            RecurringJob.AddOrUpdate("Cqq SendMail 测试", () => job.ExecuteAsync(), HangFireCronType.Minute(3));
         }
+
+        #endregion
+
+        #region FaceImage Api Job
+        /// <summary>
+        /// All Employee
+        /// </summary>
+        /// <param name="service"></param>
+        public static void UseFaceImageApiJob_GetAllEmployee(this IServiceProvider service)
+        {
+            var job = service.GetService<GetAllEmployeeJob_FaceImageApi>();
+
+            RecurringJob.AddOrUpdate("旷视人脸接口-同步全厂员工",() => job.ExecuteAsync(),HangFireCronType.Hour(5));
+        }
+
+        /// <summary>
+        /// New Employee 
+        /// </summary>
+        /// <param name="service"></param>
+        public static void UseFaceImageApiJob_GetNewEmployee(this IServiceProvider service)
+        {
+            var job = service.GetRequiredService<GetNewEmployeeJob_FaceImageApi>();
+
+            RecurringJob.AddOrUpdate("旷视人脸接口-同步新入职员工", () => job.ExecuteAsync(), HangFireCronType.Hour(5));
+        }
+
+        /// <summary>
+        /// Resigned Employee
+        /// </summary>
+        /// <param name="service"></param>
+        public static void UseFaceImageApiJob_GetResignedEmployee(this IServiceProvider service)
+        {
+            var job = service.GetService<GetResignedEmployeeJob_FaceImageApi>();
+
+            RecurringJob.AddOrUpdate("旷视人脸接口-同步离职员工", () => job.ExecuteAsync(), HangFireCronType.Hour(5));
+        }
+
+        /// <summary>
+        /// Updated Employee
+        /// </summary>
+        /// <param name="service"></param>
+        public static void UseFaceImageApiJob_GetUpdatedEmployee(this IServiceProvider service)
+        {
+            var job = service.GetService<GetUpdatedEmployeeJob_FaceImageApi>();
+
+            RecurringJob.AddOrUpdate("旷视人脸接口-同步更新过资料员工", () => job.ExecuteAsync(), HangFireCronType.Hour(5));
+        }
+
+        #endregion
     }
 }

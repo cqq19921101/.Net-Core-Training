@@ -4,7 +4,10 @@ using Volo.Abp.Modularity;
 
 namespace HangFire.Domain.Module
 {
-    [DependsOn(typeof(AbpIdentityDomainModule),typeof(HangFireDoaminSharedModule))]
+    [DependsOn(
+        typeof(AbpIdentityDomainModule),
+        typeof(HangFireDoaminSharedModule)
+    )]
     public class HangFireDomainModule  : AbpModule
     {
 

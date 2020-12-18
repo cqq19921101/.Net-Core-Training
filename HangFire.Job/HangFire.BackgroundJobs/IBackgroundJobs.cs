@@ -13,5 +13,6 @@ namespace HangFire.BackgroundJobs
         /// </summary>
         /// <returns></returns>
         Task ExecuteAsync();
+
     }
 }

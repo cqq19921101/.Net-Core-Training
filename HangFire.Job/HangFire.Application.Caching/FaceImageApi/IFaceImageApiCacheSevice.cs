@@ -10,18 +10,25 @@ namespace HangFire.Application.Caching.FaceImageApi
     public interface IFaceImageApiCacheSevice
     {
         /// <summary>
+        /// Get FaceImage Token Cache
+        /// </summary>
+        /// <param name="factory"></param>
+        /// <returns></returns>
+        Task<string> GetFaceImageTokenCacheAsync(string Tokenurl,Func<Task<string>> factory);
+
+        /// <summary>
         /// Get New Employee Cahce
         /// </summary>
         /// <param name="factory"></param>
         /// <returns></returns>
-        Task<ServiceResult<string>> GetNewEmployee(Func<Task<ServiceResult<string>>> factory);
+        Task<ServiceResult<Domain.FaceImage.FaceImageApi>> GetNewEmployeeCacheAsync(Func<Task<ServiceResult<Domain.FaceImage.FaceImageApi>>> factory);
 
         /// <summary>
         /// Get Resigned Employee Cahce
         /// </summary>
         /// <param name="factory"></param>
         /// <returns></returns>
-        Task<ServiceResult<string>> GetResignedEmployee(Func<Task<ServiceResult<string>>> factory);
+        Task<ServiceResult<Domain.FaceImage.FaceImageApi>> GetResignedEmployeeCacheAsync(Func<Task<ServiceResult<Domain.FaceImage.FaceImageApi>>> factory);
 
 
         /// <summary>
@@ -29,7 +36,7 @@ namespace HangFire.Application.Caching.FaceImageApi
         /// </summary>
         /// <param name="factory"></param>
         /// <returns></returns>
-        Task<ServiceResult<string>> GetUpdatedEmployee(Func<Task<ServiceResult<string>>> factory);
+        Task<ServiceResult<Domain.FaceImage.FaceImageApi>> GetUpdatedEmployeeCacheAsync(Func<Task<ServiceResult<Domain.FaceImage.FaceImageApi>>> factory);
 
     }
 }

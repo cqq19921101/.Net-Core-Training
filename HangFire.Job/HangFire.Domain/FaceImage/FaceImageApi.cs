@@ -6,7 +6,7 @@ using Volo.Abp.Domain.Entities;
 namespace HangFire.Domain.FaceImage
 {
     /// <summary>
-    /// Data View
+    /// 
     /// </summary>
     public partial class FaceImageApi : Entity<Guid>
     {

@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire.Common", "HangFire
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire.Application.Contracts", "HangFire.Application.Contracts\HangFire.Application.Contracts.csproj", "{7FB3CC39-AE85-4404-AB3B-59C484F28235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFire.Domain.Shared", "HangFire.Domain.Shared\HangFire.Domain.Shared.csproj", "{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFire.Domain.Shared", "HangFire.Domain.Shared\HangFire.Domain.Shared.csproj", "{0DAD6DD7-DDD9-49CA-BA80-7C9E98818469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

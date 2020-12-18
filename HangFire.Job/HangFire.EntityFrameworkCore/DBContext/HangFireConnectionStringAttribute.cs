@@ -1,7 +1,7 @@
 ﻿using HangFire.Domain.Configuration;
 using Volo.Abp.Data;
 
-namespace HangFire.EntityFrameworkCore.Module
+namespace HangFire.EntityFrameworkCore.DBContext
 {
     /// <summary>
     /// HangFireConnectionStringAttribute
