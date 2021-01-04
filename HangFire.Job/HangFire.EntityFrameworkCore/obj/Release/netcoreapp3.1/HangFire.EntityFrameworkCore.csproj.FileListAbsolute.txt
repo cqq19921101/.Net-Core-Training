@@ -1,9 +1,0 @@
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\bin\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.deps.json
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\bin\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\bin\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\obj\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.csprojAssemblyReference.cache
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\obj\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.AssemblyInfoInputs.cache
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\obj\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.AssemblyInfo.cs
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\obj\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.csproj.CoreCompileInputs.cache
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\obj\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.EntityFrameworkCore\obj\Release\netcoreapp3.1\HangFire.EntityFrameworkCore.pdb

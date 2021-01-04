@@ -1,9 +1,0 @@
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\bin\Release\netcoreapp3.1\HangFire.Application.deps.json
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\bin\Release\netcoreapp3.1\HangFire.Application.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\bin\Release\netcoreapp3.1\HangFire.Application.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\obj\Release\netcoreapp3.1\HangFire.Application.AssemblyInfoInputs.cache
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\obj\Release\netcoreapp3.1\HangFire.Application.AssemblyInfo.cs
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\obj\Release\netcoreapp3.1\HangFire.Application.csproj.CoreCompileInputs.cache
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\obj\Release\netcoreapp3.1\HangFire.Application.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\obj\Release\netcoreapp3.1\HangFire.Application.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application\obj\Release\netcoreapp3.1\HangFire.Application.csprojAssemblyReference.cache
