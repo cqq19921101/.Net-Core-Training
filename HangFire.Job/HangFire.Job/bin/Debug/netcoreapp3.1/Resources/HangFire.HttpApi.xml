@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HangFire.HttpApi</name>
+    </assembly>
+    <members>
+        <member name="M:HangFire.HttpApi.Controllers.AuthController.GetAccessTokenAsync(System.String)">
+            <summary>
+            获取AccessToken
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HangFire.HttpApi.Controllers.AuthController.GenerateTokenAsync(System.String)">
+            <summary>
+            登录成功，生成Token
+            </summary>
+            <param name="access_token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HangFire.HttpApi.Controllers.AuthController.VerifyToken(System.String)">
+            <summary>
+            验证Token是否合法
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HangFire.HttpApi.Controllers.FaceImageController.Callbackjson(System.String)">
+            <summary>
+            旷世回调测试
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HangFire.HttpApi.Controllers.Test2Controller.GetTest2(System.String)">
+            <summary>
+            GetTest2
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HangFire.HttpApi.Controllers.Test3Controller.GetTest3(System.String)">
+            <summary>
+            GetTest3
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

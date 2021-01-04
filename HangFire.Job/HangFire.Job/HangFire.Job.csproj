@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>f4316c5e-113a-4696-87ce-a1bacca9b65d</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="3.0.4" />
+
+    <Content Include="Resources\HangFire.Application.Contracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HangFire.BackgroundJobs\HangFire.BackgroundJobs.csproj" />
+    <ProjectReference Include="..\HangFire.EntityFrameworkCore\HangFire.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\HangFire.HttpApi\HangFire.HttpApi.csproj" />
+    <ProjectReference Include="..\HangFire.Swagger\HangFire.Swagger.csproj" />
+  </ItemGroup>
+
+</Project>

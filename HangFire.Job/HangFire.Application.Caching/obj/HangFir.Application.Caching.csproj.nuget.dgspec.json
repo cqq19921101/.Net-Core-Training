@@ -1,0 +1,438 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Caching\\HangFir.Application.Caching.csproj": {}
+  },
+  "projects": {
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Caching\\HangFir.Application.Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Caching\\HangFir.Application.Caching.csproj",
+        "projectName": "HangFir.Application.Caching",
+        "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Caching\\HangFir.Application.Caching.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Contracts\\Meowv.Blog.Application.Contracts.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Contracts\\Meowv.Blog.Application.Contracts.csproj"
+              },
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.EventBus\\Meowv.Blog.Application.EventBus.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.EventBus\\Meowv.Blog.Application.EventBus.csproj"
+              },
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.ToolKits\\Meowv.Blog.ToolKits.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.ToolKits\\Meowv.Blog.ToolKits.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Caching.CSRedis": {
+              "target": "Package",
+              "version": "[3.6.5, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Volo.Abp.Caching": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Contracts\\Meowv.Blog.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Contracts\\Meowv.Blog.Application.Contracts.csproj",
+        "projectName": "Meowv.Blog.Application.Contracts",
+        "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Contracts\\Meowv.Blog.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.EventBus\\Meowv.Blog.Application.EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.EventBus\\Meowv.Blog.Application.EventBus.csproj",
+        "projectName": "Meowv.Blog.Application.EventBus",
+        "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.EventBus\\Meowv.Blog.Application.EventBus.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Application.EventBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Volo.Abp.EventBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain.Shared\\Meowv.Blog.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain.Shared\\Meowv.Blog.Domain.Shared.csproj",
+        "projectName": "Meowv.Blog.Domain.Shared",
+        "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain.Shared\\Meowv.Blog.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj",
+        "projectName": "Meowv.Blog.Domain",
+        "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain.Shared\\Meowv.Blog.Domain.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain.Shared\\Meowv.Blog.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Volo.Abp.Identity.Domain": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Blog\\src\\Meowv.Blog.ToolKits\\Meowv.Blog.ToolKits.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Blog\\src\\Meowv.Blog.ToolKits\\Meowv.Blog.ToolKits.csproj",
+        "projectName": "Meowv.Blog.ToolKits",
+        "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.ToolKits\\Meowv.Blog.ToolKits.csproj",
+        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.ToolKits\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj": {
+                "projectPath": "D:\\Desktop\\Blog\\src\\Meowv.Blog.Domain\\Meowv.Blog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

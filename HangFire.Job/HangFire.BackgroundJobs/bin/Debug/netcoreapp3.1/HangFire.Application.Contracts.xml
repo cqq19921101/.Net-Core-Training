@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HangFire.Application.Contracts</name>
+    </assembly>
+    <members>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.ExceptionEntity.Root.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.ExceptionEntity.Root.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.ExceptionEntity.Root.desc">
+            <summary>
+            无权限
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.ExceptionEntity.Root.timecost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.attendance_on">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.attendance_weekdays">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.consigner">
+            <summary>
+            胡正好
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.create_time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.data_version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.deployment">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.door_range">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.door_weekdays">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.feature_version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.fmp_on">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.full_day">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.lang">
+            <summary>
+            中文简体
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.lang_code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.logo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.max_temperature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.min_temperature">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.name">
+            <summary>
+            丘钛
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.notdetermined_on">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.scenario">
+            <summary>
+            正常使用
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.temperature_warn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.temperature_warn_last">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.temperature_warn_open_door_limit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.upload">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Company.yellowlist_warn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.auth_token">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.avatar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.company">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.company_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.lang">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.lang_code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.organization_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.password_reseted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.permission">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.role_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Data.verify">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Root.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Root.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Root.photo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Root.page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.JsonEntity.Root.timecost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.GroupsItem.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.GroupsItem.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.company_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.origin_url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.quality">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.subject_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.PhotosItem.version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.avatar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.birthday">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.come_from">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.company_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.create_time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.department">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.end_time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.entry_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.extra_id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.gender">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.groups">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.interviewee">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.interviewee_pinyin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.job_number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.name">
+            <summary>
+            陈乾乾
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.password_reseted">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.phone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.photos">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.pinyin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.purpose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.start_time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.subject_type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.visit_notify">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.DataItem.wg_number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Page.count">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Page.current">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Page.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Page.total">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Root.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Root.data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Root.page">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.ExceptionEntity.Root.timecost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiDto.EmpNumber">
+            <summary>
+            工号
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiDto.EmpName">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiDto.JDate">
+            <summary>
+            JDate
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiDto.LDate">
+            <summary>
+            JDate
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiDto.FileData">
+            <summary>
+            Image
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiJobItem`1.Result">
+            <summary>
+            <see cref="P:HangFire.Application.Contracts.FaceImageApi.FaceImageApiJobItem`1.Result"/>
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.EmpName">
+            <summary>
+            EmpName
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.FilePath">
+            <summary>
+            文件路径
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.ParameterDictory">
+            <summary>
+            Parameter Key/Value
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.timeout">
+            <summary>
+            TimeOut
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.DeleteUserInput.SubjectId">
+            <summary>
+            SubjectId
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.DeleteUserInput.ResignedSubjectIdList">
+            <summary>
+            离职员工对应的SubjectId集合
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.DeleteUserInput.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.SubjectIdInput.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.SubjectIdInput.EmpName">
+            <summary>
+            EmpName
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.SubjectIdInput.EmpNumber">
+            <summary>
+            EmpNumber
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.UpdatedUserInput.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="T:HangFire.Application.Contracts.PagingInput">
+            <summary>
+            分页输入参数
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.PagingInput.Page">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.PagingInput.Limit">
+            <summary>
+            限制条数
+            </summary>
+        </member>
+    </members>
+</doc>
