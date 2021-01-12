@@ -25,7 +25,7 @@
             <param name="token"></param>
             <returns></returns>
         </member>
-        <member name="M:HangFire.HttpApi.Controllers.FaceImageController.Callbackjson(System.String)">
+        <member name="M:HangFire.HttpApi.Controllers.FaceImageController.Callbackjson">
             <summary>
             旷世回调测试
             </summary>

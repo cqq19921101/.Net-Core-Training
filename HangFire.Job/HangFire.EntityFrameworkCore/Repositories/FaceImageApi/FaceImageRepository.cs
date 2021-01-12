@@ -8,7 +8,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace HangFire.EntityFrameworkCore.Repositories.FaceImageApi
 {
-    public class FaceImageRepository : EfCoreRepository<FaceImageDBContext, Domain.FaceImage.FaceImageApi,Guid>, IFaceImageRepository
+    public class FaceImageRepository : EfCoreRepository<FaceImageDBContext, Domain.FaceImage.FaceImageApi, long>, IFaceImageRepository
     {
         public FaceImageRepository(IDbContextProvider<FaceImageDBContext> dbContextProvider) : base(dbContextProvider)
         {
@@ -22,7 +22,7 @@ namespace HangFire.EntityFrameworkCore.Repositories.FaceImageApi
         public async Task<List<Domain.FaceImage.FaceImageApi>> QueryAllEmployeeAsync()
         {
             var sql = string.Empty;
-            sql = @"select EmpNumber,EmpName,JDate,LDate,FileData,UTime from v_smartpark_emp
+            sql = @"select ROW_NUMBER() over(order by JDate asc) as Id ,* from v_smartpark_emp
                         where LDate IS NULL and FileData IS Not Null 
                         order by JDate";
             return await DbContext.Set<Domain.FaceImage.FaceImageApi>().FromSqlRaw(sql).ToListAsync();
@@ -33,26 +33,25 @@ namespace HangFire.EntityFrameworkCore.Repositories.FaceImageApi
         /// Get New Employee 
         /// </summary>
         /// <returns></returns>
-        public async Task<List<Domain.FaceImage.FaceImageApi>> QueryNewEmployeeAsync()
+        public async Task<IEnumerable<Domain.FaceImage.FaceImageApi>> QueryNewEmployeeAsync()
         {
             var sql = string.Empty;
-            //sql = @"select  * from v_smartpark_emp
+            //sql = @"select  ROW_NUMBER() over(order by JDate asc) as Id ,* from v_smartpark_emp
             //             where DateDiff(dd,JDate,getdate()) <= 3
             //             and FileData is not null and LDate is NULL
             //             order by JDate";
-            sql = @"select * from v_smartpark_emp where EmpNumber = '12200473'";
+            sql = @"select ROW_NUMBER() over(order by JDate asc) as Id ,* from v_smartpark_emp where EmpNumber in ('12200473','12200151')";
             return await DbContext.FaceImageApi.FromSqlRaw(sql).ToListAsync();
-                //Set<Domain.FaceImage.FaceImageApi>().FromSqlRaw(sql).ToListAsync();
         }
 
         /// <summary>
         /// Get Resigned Employee
         /// </summary>
         /// <returns></returns>
-        public async Task<List<Domain.FaceImage.FaceImageApi>> QueryResignedEmployeeAsync()
+        public async Task<IEnumerable<Domain.FaceImage.FaceImageApi>> QueryResignedEmployeeAsync()
         {
             var sql = string.Empty;
-            sql = @"select * from v_smartpark_emp
+            sql = @"select ROW_NUMBER() over(order by JDate asc) as Id ,* from v_smartpark_emp
                          where DateDiff(dd, LDATE, GetDate()) <= 90 and FileData is  not  NULL
                          order by JDate";
             return await DbContext.Set<Domain.FaceImage.FaceImageApi>().FromSqlRaw(sql).ToListAsync();
@@ -66,7 +65,7 @@ namespace HangFire.EntityFrameworkCore.Repositories.FaceImageApi
         {
             string NDate = DateTime.Now.ToString("yyyy-MM-dd");
             var sql = string.Empty;
-            sql = $@"Select * from v_smartpark_emp 
+            sql = $@"Select ROW_NUMBER() over(order by JDate asc) as Id ,* from v_smartpark_emp 
                          where CONVERT(varchar(10),UTime,120) = '{NDate}'
                          and FileData is not null and LDate is NULL
                          order by JDate";

@@ -160,6 +160,11 @@
             /// 参数错误
             /// </summary>
             public const string PARAMETER_ERROR = "参数错误";
+
+            /// <summary>
+            /// 返回成功
+            /// </summary>
+            public const string RESPONSE_RESULT = "返回成功";
         }
     }
 }

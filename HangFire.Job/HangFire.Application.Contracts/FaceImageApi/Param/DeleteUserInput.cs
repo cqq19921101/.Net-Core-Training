@@ -13,14 +13,8 @@ namespace HangFire.Application.Contracts.FaceImageApi.Param
         public string SubjectId { get; set; }
 
         /// <summary>
-        /// 离职员工对应的SubjectId集合
-        /// </summary>
-        public ArrayList ResignedSubjectIdList { get; set; }
-
-        /// <summary>
         /// Token
         /// </summary>
         public string Token { get; set; }
-
     }
 }

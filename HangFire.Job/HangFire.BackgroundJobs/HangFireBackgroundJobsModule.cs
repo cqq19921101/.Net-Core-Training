@@ -77,7 +77,7 @@ namespace HangFire.BackgroundJobs
 
             #region FaceImageApi Schedule Job
 
-            //service.UseFaceImageApiJob_GetNewEmployee();//同步新入职员工
+            service.UseFaceImageApiJob_GetNewEmployee();//同步新入职员工
             //service.UseFaceImageApiJob_GetResignedEmployee();//同步离职员工
             //service.UseFaceImageApiJob_GetUpdatedEmployee();//同步更新过资料的员工
 

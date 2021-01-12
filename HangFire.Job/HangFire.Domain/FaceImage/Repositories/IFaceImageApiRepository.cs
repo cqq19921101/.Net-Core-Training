@@ -8,7 +8,7 @@ namespace HangFire.Domain.FaceImage.Repositories
     /// <summary>
     /// IFaceImageApiRepository
     /// </summary>
-    public interface IFaceImageRepository : IRepository<FaceImageApi, Guid>
+    public interface IFaceImageRepository : IRepository<FaceImageApi, long>
     {
         /// <summary>
         /// Get All Employee List
@@ -21,13 +21,13 @@ namespace HangFire.Domain.FaceImage.Repositories
         /// Get New Employee List
         /// </summary>
         /// <returns></returns>
-        Task<List<Domain.FaceImage.FaceImageApi>> QueryNewEmployeeAsync();
+        Task<IEnumerable<Domain.FaceImage.FaceImageApi>> QueryNewEmployeeAsync();
 
         /// <summary>
         /// Get Resigned Employee List
         /// </summary>
         /// <returns></returns>
-        Task<List<Domain.FaceImage.FaceImageApi>> QueryResignedEmployeeAsync();
+        Task<IEnumerable<Domain.FaceImage.FaceImageApi>> QueryResignedEmployeeAsync();
 
         /// <summary>
         /// Get Updated Employee List

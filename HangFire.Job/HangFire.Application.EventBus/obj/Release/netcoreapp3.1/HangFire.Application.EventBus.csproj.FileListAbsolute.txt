@@ -1,0 +1,14 @@
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Application.EventBus.deps.json
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Application.EventBus.dll
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Application.EventBus.pdb
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.dll
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.pdb
+D:\Desktop\HangFire\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.pdb
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csprojAssemblyReference.cache
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.AssemblyInfoInputs.cache
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.AssemblyInfo.cs
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csproj.CoreCompileInputs.cache
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csproj.CopyComplete
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.dll
+D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.pdb

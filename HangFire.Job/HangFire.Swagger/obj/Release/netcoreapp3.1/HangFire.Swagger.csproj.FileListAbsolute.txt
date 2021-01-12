@@ -1,0 +1,14 @@
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Swagger.deps.json
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Swagger.dll
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Swagger.pdb
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Domain.dll
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Domain.pdb
+D:\Desktop\HangFire\HangFire.Swagger\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.pdb
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.csprojAssemblyReference.cache
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.AssemblyInfoInputs.cache
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.AssemblyInfo.cs
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.csproj.CoreCompileInputs.cache
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.csproj.CopyComplete
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.dll
+D:\Desktop\HangFire\HangFire.Swagger\obj\Release\netcoreapp3.1\HangFire.Swagger.pdb

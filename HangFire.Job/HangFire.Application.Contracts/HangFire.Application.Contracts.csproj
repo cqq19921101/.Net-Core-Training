@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>..\HangFire.Job\Resources\HangFire.Application.Contracts.xml</DocumentationFile>
+    <DocumentationFile>..\HangFire.Job\bin\Debug\netcoreapp3.1\Resources\HangFire.Application.Contracts.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

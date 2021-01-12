@@ -17,7 +17,7 @@ namespace HangFire.Swagger
         /// <summary>
         /// 当前API版本，从appsettings.json获取
         /// </summary>
-        private static readonly string version = $"v{AppSettings.Version}";
+        private static readonly string version = $"Version : {AppSettings.Version}";
 
         /// <summary>
         /// Swagger描述信息
@@ -31,18 +31,18 @@ namespace HangFire.Swagger
             new SwaggerApiInfo
             {
                 UrlPrefix = Grouping.GroupName_v1,
-                Name = "接口1",
+                Name = "人脸库接口",
                 OpenApiInfo = new OpenApiInfo
                 {
                     Version = version,
-                    Title = "测试接口1",
+                    Title = "人脸库接口_",
                     Description = description
                 }
             },
             new SwaggerApiInfo
             {
                 UrlPrefix = Grouping.GroupName_v2,
-                Name = "接口2",
+                Name = "测试接口2",
                 OpenApiInfo = new OpenApiInfo
                 {
                     Version = version,
@@ -53,7 +53,7 @@ namespace HangFire.Swagger
             new SwaggerApiInfo
             {
                 UrlPrefix = Grouping.GroupName_v3,
-                Name = "接口3",
+                Name = "测试接口3",
                 OpenApiInfo = new OpenApiInfo
                 {
                     Version = version,
@@ -88,7 +88,6 @@ namespace HangFire.Swagger
                 {
                     options.SwaggerDoc(x.UrlPrefix, x.OpenApiInfo);
                 });
-
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.HttpApi.xml"));
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.Domain.xml"));
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.Application.Contracts.xml"));

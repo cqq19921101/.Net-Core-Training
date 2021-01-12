@@ -25,4 +25,8 @@
     <ProjectReference Include="..\HangFire.Swagger\HangFire.Swagger.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
 </Project>

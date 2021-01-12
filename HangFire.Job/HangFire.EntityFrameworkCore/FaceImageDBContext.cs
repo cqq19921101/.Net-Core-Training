@@ -17,7 +17,7 @@ namespace HangFire.EntityFrameworkCore
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Configure(); 
+            modelBuilder.FaceImageConfigure(); 
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

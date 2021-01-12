@@ -209,31 +209,6 @@
             
             </summary>
         </member>
-        <member name="P:HangFire.Domain.FaceImage.FaceImageApi.EmpNumber">
-            <summary>
-            工号
-            </summary>
-        </member>
-        <member name="P:HangFire.Domain.FaceImage.FaceImageApi.EmpName">
-            <summary>
-            姓名
-            </summary>
-        </member>
-        <member name="P:HangFire.Domain.FaceImage.FaceImageApi.JDate">
-            <summary>
-            JDate
-            </summary>
-        </member>
-        <member name="P:HangFire.Domain.FaceImage.FaceImageApi.LDate">
-            <summary>
-            JDate
-            </summary>
-        </member>
-        <member name="P:HangFire.Domain.FaceImage.FaceImageApi.FileData">
-            <summary>
-            Image
-            </summary>
-        </member>
         <member name="T:HangFire.Domain.FaceImage.Repositories.IFaceImageRepository">
             <summary>
             IFaceImageApiRepository

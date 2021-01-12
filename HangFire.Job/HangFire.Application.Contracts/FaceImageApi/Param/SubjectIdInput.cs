@@ -20,5 +20,11 @@ namespace HangFire.Application.Contracts.FaceImageApi.Param
         /// EmpNumber
         /// </summary>
         public string EmpNumber { get; set; }
+
+
+        /// <summary>
+        /// SubList
+        /// </summary>
+        public List<string> SubList { get; set; }
     }
 }

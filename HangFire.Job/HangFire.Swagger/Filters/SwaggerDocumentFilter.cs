@@ -18,9 +18,9 @@ namespace HangFire.Swagger.Filters
             var tags = new List<OpenApiTag>
             {
                 new OpenApiTag {
-                    Name = "Test1",
-                    Description = "模板测试1",
-                    ExternalDocs = new OpenApiExternalDocs { Description = "测试1"}
+                    Name = "FaceImage",
+                    Description = "人脸库接口",
+                    ExternalDocs = new OpenApiExternalDocs { Description = "人脸库接口"}
                 },
                 new OpenApiTag {
                     Name = "Test2",

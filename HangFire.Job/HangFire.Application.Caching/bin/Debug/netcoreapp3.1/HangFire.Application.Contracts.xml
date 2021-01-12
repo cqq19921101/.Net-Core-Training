@@ -534,14 +534,14 @@
             Token
             </summary>
         </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.CreateUserInput.NewEmp">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.DeleteUserInput.SubjectId">
             <summary>
             SubjectId
-            </summary>
-        </member>
-        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.DeleteUserInput.ResignedSubjectIdList">
-            <summary>
-            离职员工对应的SubjectId集合
             </summary>
         </member>
         <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.DeleteUserInput.Token">
@@ -562,6 +562,11 @@
         <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.SubjectIdInput.EmpNumber">
             <summary>
             EmpNumber
+            </summary>
+        </member>
+        <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.SubjectIdInput.SubList">
+            <summary>
+            SubList
             </summary>
         </member>
         <member name="P:HangFire.Application.Contracts.FaceImageApi.Param.UpdatedUserInput.Token">
