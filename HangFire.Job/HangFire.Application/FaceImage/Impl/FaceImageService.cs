@@ -37,23 +37,30 @@ namespace HangFire.Application.FaceImageApi.Impl
             _faceimageCacheService = faceimageCacheService;
             _httpclientfactory = httpclientfactory;
         }
-        
+
         #region Serveice
         /// <summary>
         /// Get FaceImage Api Token
         /// </summary>
         /// <param name="TokenUrl"></param>
         /// <returns></returns>
-        public  async Task<string> GetFaceImageToken_Test(string TokenUrl)
+        public async Task<string> GetFaceImageToken_Test(string TokenUrl)
         {
             return await _faceimageCacheService.GetFaceImageTokenCacheAsync(TokenUrl, async () =>
             {
                 string result = string.Empty;
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(TokenUrl));
-                request.Timeout = 30 * 1000;//设置30s的超时
-                request.ContentType = "application/json";
-                request.UserAgent = "Koala Admin";
-                request.Method = "POST";
+                var content = new StringContent(signatureUrl.Parameter);
+                content.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
+                using var client = _httpclientfactory.CreateClient();
+                client.DefaultRequestHeaders.Add("ContentType", "application/json");
+                client.DefaultRequestHeaders.Add("User-Agent", "Koala Admin");
+                client.DefaultRequestHeaders.Add("Method", "POST");
+
+                //HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(TokenUrl));
+                //request.Timeout = 30 * 1000;//设置30s的超时
+                //request.ContentType = "application/json";
+                //request.UserAgent = "Koala Admin";
+                //request.Method = "POST";
 
                 var temp = new
                 {
@@ -98,7 +105,7 @@ namespace HangFire.Application.FaceImageApi.Impl
                 var input = new CreateUserInput
                 {
                     Token = Token,
-                    NewEmp = NewEmpLst,
+                    NewEmplst = NewEmpLst,
                 };
                 result = await CreateUploadUser(input);
             }
@@ -154,10 +161,10 @@ namespace HangFire.Application.FaceImageApi.Impl
         public async Task ExcuteUpdateEmpAsync()
         {
             string Token = await GetFaceImageToken(AppSettings.FaceImageInterface.TokenUrl);
-            var UpdatedEmp = _faceimageRepository.QueryUpdatedEmployeeAsync();
-            if (UpdatedEmp != null)
-            { 
-                
+            var UpdatedEmp = await _faceimageRepository.QueryUpdatedEmployeeAsync();
+            if (UpdatedEmp.Any())
+            {
+
             }
         }
 
@@ -168,10 +175,10 @@ namespace HangFire.Application.FaceImageApi.Impl
         public async Task ExcuteInsertAllEmp()
         {
             string Token = await GetFaceImageToken(AppSettings.FaceImageInterface.TokenUrl);
-            var AllEmp = _faceimageRepository.QueryAllEmployeeAsync();
+            var AllEmp = await _faceimageRepository.QueryAllEmployeeAsync();
             if (AllEmp != null)
-            { 
-                
+            {
+
             }
         }
 
@@ -222,132 +229,38 @@ namespace HangFire.Application.FaceImageApi.Impl
         }
 
         /// <summary>
-        /// 创建用户并上传图片底库
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        private async Task<ServiceResult<string>> CreateUploadUser(CreateUserInput input)
-        {
-            string ResponseResult;
-            var result = new ServiceResult<string>();
-            foreach (Domain.FaceImage.FaceImageApi item in input.NewEmp)
-            {
-                Dictionary<string, object> dic = new Dictionary<string, object>();
-                dic.Add("subject_type", "0");
-                dic.Add("group_ids", "0");
-                dic.Add("extra_id", item.EmpNumber);
-                dic.Add("name", item.EmpName);
-
-                Stream stream = new MemoryStream(item.FileData);
-                Bitmap img = new Bitmap(stream);
-                string filepath = AppDomain.CurrentDomain.BaseDirectory + $@"\Photo\{item.EmpName}.jpg";
-
-                //IOHelper.CreateIfNotExists(filepath);
-
-                img.Save(filepath);
-
-                input = new CreateUserInput
-                {
-                    Token = input.Token,
-                    timeout = 30000,
-                    FileName = "photo",
-                    FilePath = filepath,
-                    ParameterDictory = dic
-                };
-                ResponseResult = await PostCreateUpLoadUser(input);
-
-                ExceptionEntity.Root da = JsonConvert.DeserializeObject<ExceptionEntity.Root>(ResponseResult);
-                if (da.desc != null && da.desc.Length > 0)
-                {
-                    if (da.desc != "唯一标识重复")
-                    {
-                        string ErrprPhoto = AppDomain.CurrentDomain.BaseDirectory + $@"\ErrorPhoto\{item.EmpName}.jpg";
-                        if (!IOHelper.FileExists(ErrprPhoto))
-                        {
-                            IOHelper.CreateIfNotExists(ErrprPhoto);
-                        }
-                        img.Save(ErrprPhoto);
-                        //Write Exception log
-                        LoggerHelper.WriteErrorLog($"工号 : {item.EmpNumber} 姓名 ：{item.EmpName} 异常信息 ： {da.desc}");
-                    }
-                }
-            }
-            result.IsSuccess(ResponseText.RESPONSE_RESULT);
-            return result;
-        }
-
-        /// <summary>
-        /// 根据离职工号获取对应的subjectid集合
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        private async Task<string> GetSubListByLeavingEmpNo(SubjectIdInput input)
-        {
-            throw new ExecutionEngineException();
-            //string subjectid;
-            //Usublist = new ArrayList();
-            //var  = _faceimageapiRepository();
-            //if (UEmplist != null && UEmplist.Count > 0)
-            //{
-            //    foreach (v_smartpark_emp item in UEmplist)
-            //    {
-            //        subjectid = _StaffManagementRepository.GetSubjectID(url, Token, item.EmpNumber);
-            //        if (subjectid != null && subjectid.Length > 0)
-            //        {
-            //            Usublist.Add(subjectid);
-            //        }
-            //        else if (item.LDate == null)
-            //        {
-            //            await CreateUploadUser(AppSettings.FaceImageInterface.CreateUserUrl, item, Token);
-            //        }
-            //    }
-            //}
-            //else
-            //{
-
-            //}
-        }
-
-        /// <summary>
-        /// Get SubjectId By EmpNumber
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        private async Task<string> GetSubjectIdByEmpNumber(SubjectIdInput input)
-        {
-            string result;
-            string url = AppSettings.FaceImageInterface.GetSubjectIDUrl;
-            url = AppSettings.FaceImageInterface.GetSubjectIDUrl + $"category=employee&name=&department=&interviewee=&start_time=&end_time=&filterstr=&remark=&extra_id={input.EmpNumber}";
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(url));
-            request.Timeout = 30 * 1000;//设置30s的超时
-            request.ContentType = "application/json";
-            var Headers = request.Headers;
-            Headers["Authorization"] = input.Token;//Token认证
-            request.Method = "GET";
-
-            var httpWebResponse = await request.GetResponseAsync() as HttpWebResponse;
-            StreamReader streamReader = new StreamReader(httpWebResponse.GetResponseStream());
-            result = await streamReader.ReadToEndAsync();
-            httpWebResponse.Close();
-            streamReader.Close();
-
-            Root da = JsonConvert.DeserializeObject<Root>(result);
-            if (da.page.count > 0)
-            {
-                PhotosItem photoitem = da.data.FirstOrDefault().photos.FirstOrDefault();
-                return photoitem.subject_id.ToString();
-            }
-            return null;
-        }
-
-        /// <summary>
         /// 根据当天更新过资料的工号获取对应的subjectid集合和员工实体集合
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        private Task GetUpdatedSubjectid(UpdatedUserInput input)
+        private async Task<List<string>> GetUpdatedSubjectid(UpdatedUserInput input)
         {
-            throw new NotImplementedException();
+            string subjectid;
+            var result = new ServiceResult<string>();
+            var sublist = new List<string>();
+            foreach (Domain.FaceImage.FaceImageApi EmpItem in input.UpdatedEmp)
+            {
+                var subinput = new SubjectIdInput
+                {
+                    Token = input.Token,
+                    EmpNumber = EmpItem.EmpNumber,
+                };
+                subjectid = await GetSubjectIdByEmpNumber(subinput);
+                if (subjectid != null && subjectid.Length > 0)
+                {
+                    sublist.Add(subjectid);
+                }
+                else if (EmpItem.Ldate == null)
+                {
+                    var newinput = new CreateUserInput
+                    {
+                        Token = input.Token,
+                        NewEmp = EmpItem
+                    };
+                    result = await CreateUploadUserSingle(newinput);
+                }
+            }
+            return null;
         }
 
         /// <summary>
@@ -427,6 +340,139 @@ namespace HangFire.Application.FaceImageApi.Impl
             request.Abort();
 
             return ResponseResult;
+        }
+
+        /// <summary>
+        /// 创建用户并上传图片底库 集合
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        private async Task<ServiceResult<string>> CreateUploadUser(CreateUserInput input)
+        {
+            string ResponseResult;
+            var result = new ServiceResult<string>();
+            foreach (Domain.FaceImage.FaceImageApi item in input.NewEmplst)
+            {
+                Dictionary<string, object> dic = new Dictionary<string, object>();
+                dic.Add("subject_type", "0");
+                dic.Add("group_ids", "0");
+                dic.Add("extra_id", item.EmpNumber);
+                dic.Add("name", item.EmpName);
+
+                Stream stream = new MemoryStream(item.FileData);
+                Bitmap img = new Bitmap(stream);
+                string filepath = AppDomain.CurrentDomain.BaseDirectory + $@"\Photo\{item.EmpName}.jpg";
+                img.Save(filepath);
+
+                input = new CreateUserInput
+                {
+                    Token = input.Token,
+                    timeout = 30000,
+                    FileName = "photo",
+                    FilePath = filepath,
+                    ParameterDictory = dic
+                };
+                ResponseResult = await PostCreateUpLoadUser(input);
+
+                ExceptionEntity.Root da = JsonConvert.DeserializeObject<ExceptionEntity.Root>(ResponseResult);
+                if (da.desc != null && da.desc.Length > 0)
+                {
+                    if (da.desc != "唯一标识重复")
+                    {
+                        string ErrprPhoto = AppDomain.CurrentDomain.BaseDirectory + $@"\ErrorPhoto\{item.EmpName}.jpg";
+                        if (!IOHelper.FileExists(ErrprPhoto))
+                        {
+                            IOHelper.CreateIfNotExists(ErrprPhoto);
+                        }
+                        img.Save(ErrprPhoto);
+                        //Write Exception log
+                        LoggerHelper.WriteErrorLog($"工号 : {item.EmpNumber} 姓名 ：{item.EmpName} 异常信息 ： {da.desc}");
+                    }
+                }
+            }
+            result.IsSuccess(ResponseText.RESPONSE_RESULT);
+            return result;
+        }
+
+        /// <summary>
+        /// 创建用户并上传图片底库 Single
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        private async Task<ServiceResult<string>> CreateUploadUserSingle(CreateUserInput input)
+        {
+            string ResponseResult;
+            var result = new ServiceResult<string>();
+            Dictionary<string, object> dic = new Dictionary<string, object>();
+            dic.Add("subject_type", "0");
+            dic.Add("group_ids", "0");
+            dic.Add("extra_id", input.NewEmp.EmpNumber);
+            dic.Add("name", input.NewEmp.EmpName);
+
+            Stream stream = new MemoryStream(input.NewEmp.FileData);
+            Bitmap img = new Bitmap(stream);
+            string filepath = AppDomain.CurrentDomain.BaseDirectory + $@"\Photo\{input.NewEmp.EmpName}.jpg";
+            img.Save(filepath);
+
+            input = new CreateUserInput
+            {
+                Token = input.Token,
+                timeout = 30000,
+                FileName = "photo",
+                FilePath = filepath,
+                ParameterDictory = dic
+            };
+            ResponseResult = await PostCreateUpLoadUser(input);
+
+            ExceptionEntity.Root da = JsonConvert.DeserializeObject<ExceptionEntity.Root>(ResponseResult);
+            if (da.desc != null && da.desc.Length > 0)
+            {
+                if (da.desc != "唯一标识重复")
+                {
+                    string ErrorPhoto = AppDomain.CurrentDomain.BaseDirectory + $@"\ErrorPhoto\{input.NewEmp.EmpName}.jpg";
+                    if (!IOHelper.FileExists(ErrorPhoto))
+                    {
+                        IOHelper.CreateIfNotExists(ErrorPhoto);
+                    }
+                    img.Save(ErrorPhoto);
+                    //Write Exception log
+                    LoggerHelper.WriteErrorLog($"工号 : {input.NewEmp.EmpNumber} 姓名 ：{input.NewEmp.EmpName} 异常信息 ： {da.desc}");
+                }
+            }
+            result.IsSuccess(ResponseText.RESPONSE_RESULT);
+            return result;
+        }
+
+        /// <summary>
+        /// Get SubjectId By EmpNumber
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        private async Task<string> GetSubjectIdByEmpNumber(SubjectIdInput input)
+        {
+            string result;
+            string url = AppSettings.FaceImageInterface.GetSubjectIDUrl;
+            url = AppSettings.FaceImageInterface.GetSubjectIDUrl + $"category=employee&name=&department=&interviewee=&start_time=&end_time=&filterstr=&remark=&extra_id={input.EmpNumber}";
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(url));
+            request.Timeout = 30 * 1000;//设置30s的超时
+            request.ContentType = "application/json";
+            var Headers = request.Headers;
+            Headers["Authorization"] = input.Token;//Token认证
+            request.Method = "GET";
+
+            var httpWebResponse = await request.GetResponseAsync() as HttpWebResponse;
+            StreamReader streamReader = new StreamReader(httpWebResponse.GetResponseStream());
+            result = await streamReader.ReadToEndAsync();
+            httpWebResponse.Close();
+            streamReader.Close();
+
+            Root da = JsonConvert.DeserializeObject<Root>(result);
+            if (da.page.count > 0)
+            {
+                PhotosItem photoitem = da.data.FirstOrDefault().photos.FirstOrDefault();
+                return photoitem.subject_id.ToString();
+            }
+            return null;
         }
 
         /// <summary>

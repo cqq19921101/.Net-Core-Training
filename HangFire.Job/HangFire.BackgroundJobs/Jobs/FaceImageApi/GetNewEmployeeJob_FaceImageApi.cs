@@ -1,5 +1,6 @@
 ﻿using HangFire.Application.Contracts.FaceImageApi;
 using HangFire.Application.FaceImageApi;
+using HangFire.Common.Base;
 using HangFire.Common.Helper;
 using HangFire.Domain.Configurations;
 using HangFire.Domain.FaceImage.Repositories;
@@ -13,26 +14,19 @@ namespace HangFire.BackgroundJobs.Jobs.FaceImageApi
 {
     public class GetNewEmployeeJob_FaceImageApi : IBackgroundJob
     {
-        private IFaceImageRepository _faceImageRepository;
         private IFaceImageService _faceImageService;
 
-        public GetNewEmployeeJob_FaceImageApi(IFaceImageRepository faceImageRepository, IFaceImageService faceImageService)
+        public GetNewEmployeeJob_FaceImageApi(IFaceImageService faceImageService)
         {
-            _faceImageRepository = faceImageRepository;
             _faceImageService = faceImageService;
         }
 
-        //private IFaceImageService _faceImageService;
-
-        //public GetNewEmployeeJob_FaceImageApi(IFaceImageService faceImageService)
-        //{
-        //    _faceImageService = faceImageService;
-        //}
-
-
         public async Task ExecuteAsync()
         {
-           await  _faceImageService.ExcuteInsertNewEmpAsync();
+            //var result = new ServiceResult<string>();
+            //result = await _faceImageService.ExcuteInsertNewEmpAsync();
+
+            string token = await _faceImageService.GetFaceImageToken_Test(AppSettings.FaceImageInterface.TokenUrl);
             //List<Domain.FaceImage.FaceImageApi> lst = await _faceImageRepository.QueryNewEmployeeAsync();
             //var message = new MimeMessage
             //{
@@ -43,7 +37,6 @@ namespace HangFire.BackgroundJobs.Jobs.FaceImageApi
             //    }.ToMessageBody()
             //};
             //await EmailHelper.SendMailAsync(message);
-
         }
     }
 }

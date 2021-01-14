@@ -40,7 +40,9 @@ namespace HangFire.Application.Contracts.FaceImageApi.Param
         /// <summary>
         /// 
         /// </summary>
-        public IEnumerable<Domain.FaceImage.FaceImageApi> NewEmp { get; set; }
+        public IEnumerable<Domain.FaceImage.FaceImageApi> NewEmplst { get; set; }
+
+        public Domain.FaceImage.FaceImageApi NewEmp { get; set; }
 
     }
 }

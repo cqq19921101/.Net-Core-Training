@@ -61,7 +61,7 @@ namespace HangFire.EntityFrameworkCore.Repositories.FaceImageApi
         /// Get Updated Employee
         /// </summary>
         /// <returns></returns>
-        public async Task<List<Domain.FaceImage.FaceImageApi>> QueryUpdatedEmployeeAsync()
+        public async Task<IEnumerable<Domain.FaceImage.FaceImageApi>> QueryUpdatedEmployeeAsync()
         {
             string NDate = DateTime.Now.ToString("yyyy-MM-dd");
             var sql = string.Empty;

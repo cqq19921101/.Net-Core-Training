@@ -33,7 +33,7 @@ namespace HangFire.Domain.FaceImage.Repositories
         /// Get Updated Employee List
         /// </summary>
         /// <returns></returns>
-        Task<List<Domain.FaceImage.FaceImageApi>> QueryUpdatedEmployeeAsync();
+        Task<IEnumerable<Domain.FaceImage.FaceImageApi>> QueryUpdatedEmployeeAsync();
 
     }
 }

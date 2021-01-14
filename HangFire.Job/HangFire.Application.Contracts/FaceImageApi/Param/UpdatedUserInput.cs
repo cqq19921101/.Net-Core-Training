@@ -11,5 +11,7 @@ namespace HangFire.Application.Contracts.FaceImageApi.Param
         /// </summary>
         public string Token { get; set; }
 
+
+        public IEnumerable<Domain.FaceImage.FaceImageApi> UpdatedEmp { get; set; }
     }
 }
