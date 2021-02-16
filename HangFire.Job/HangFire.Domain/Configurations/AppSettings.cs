@@ -29,7 +29,7 @@ namespace HangFire.Domain.Configurations
         /// <summary>
         /// System Version
         /// </summary>
-        public static string Version => _config["Version"];
+        public static string Version => _config["ApiVersion"];
 
         /// <summary>
         /// Listen Port

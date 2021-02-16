@@ -15,6 +15,18 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "IGeekFan.AspNetCore.Knife4jUI/0.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/IGeekFan.AspNetCore.Knife4jUI.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/IGeekFan.AspNetCore.Knife4jUI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "JetBrains.Annotations/2020.1.0": {
         "type": "package",
         "compile": {
@@ -471,7 +483,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.OpenApi/1.2.2": {
+      "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
@@ -639,10 +651,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.AspNetCore.Swagger/5.5.1": {
+      "Swashbuckle.AspNetCore.Swagger/5.6.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.OpenApi": "1.1.4"
+          "Microsoft.OpenApi": "1.2.3"
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
@@ -654,10 +666,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/5.5.1": {
+      "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
         "type": "package",
         "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "5.5.1"
+          "Swashbuckle.AspNetCore.Swagger": "5.6.3"
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
@@ -1641,6 +1653,21 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
+    "IGeekFan.AspNetCore.Knife4jUI/0.0.8": {
+      "sha512": "qly5NnpOjWP1V+syqVO811/ZCFljuh+G4N871PXry+lY5YpEVc29QIhIuupP81ZG0Z3+NrTKwk6OGJib/QDo+A==",
+      "type": "package",
+      "path": "igeekfan.aspnetcore.knife4jui/0.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "igeekfan.aspnetcore.knife4jui.0.0.8.nupkg.sha512",
+        "igeekfan.aspnetcore.knife4jui.nuspec",
+        "lib/netcoreapp3.0/IGeekFan.AspNetCore.Knife4jUI.dll",
+        "lib/netcoreapp3.0/IGeekFan.AspNetCore.Knife4jUI.xml",
+        "lib/netstandard2.0/IGeekFan.AspNetCore.Knife4jUI.dll",
+        "lib/netstandard2.0/IGeekFan.AspNetCore.Knife4jUI.xml"
+      ]
+    },
     "JetBrains.Annotations/2020.1.0": {
       "sha512": "kD9D2ey3DGeLbfIzS8PkwLFkcF5vCOLk2rdjgfSxTfpoyovl7gAyoS6yq6T77zo9QgJGaVJ7PO/cSgLopnKlzg==",
       "type": "package",
@@ -2306,10 +2333,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.OpenApi/1.2.2": {
-      "sha512": "+diTWkzj9OSDKhZj56sUKu0F4N4yAu5j1pRSn3/2D8sD2gQcUyEncbDbqhe6SfRlZut2QytyH8zoaexrd1fKYw==",
+    "Microsoft.OpenApi/1.2.3": {
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
-      "path": "microsoft.openapi/1.2.2",
+      "path": "microsoft.openapi/1.2.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2319,7 +2346,7 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.1.2.2.nupkg.sha512",
+        "microsoft.openapi.1.2.3.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -2541,10 +2568,10 @@
         "swashbuckle.aspnetcore.filters.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.Swagger/5.5.1": {
-      "sha512": "YlrnRiIFQdjh+MfBtiUzPPsRwk5745dv1DeWwgNBehN3PwZjIs+gczVaS0h5KKP9ON+e8GM3ieajV6BVZtc/dQ==",
+    "Swashbuckle.AspNetCore.Swagger/5.6.3": {
+      "sha512": "rn/MmLscjg6WSnTZabojx5DQYle2GjPanSPbCU3Kw8Hy72KyQR3uy8R1Aew5vpNALjfUFm2M/vwUtqdOlzw+GA==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swagger/5.5.1",
+      "path": "swashbuckle.aspnetcore.swagger/5.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2554,14 +2581,14 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
-        "swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/5.5.1": {
-      "sha512": "SftLofzIA063y73rn17YCf4dSXrgZdxLBig9E/HT4IIZ9mlsm12KmsNKUXf4U+X09KO8sVq1D29XfjVtC69eAg==",
+    "Swashbuckle.AspNetCore.SwaggerGen/5.6.3": {
+      "sha512": "CkhVeod/iLd3ikVTDOwG5sym8BE5xbqGJ15iF3cC7ZPg2kEwDQL4a88xjkzsvC9oOB2ax6B0rK0EgRK+eOBX+w==",
       "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/5.5.1",
+      "path": "swashbuckle.aspnetcore.swaggergen/5.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2571,7 +2598,7 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
         "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
-        "swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
     },
@@ -4978,8 +5005,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "HangFire.Domain >= 1.0.0",
+      "IGeekFan.AspNetCore.Knife4jUI >= 0.0.8",
       "Swashbuckle.AspNetCore >= 5.5.1",
       "Swashbuckle.AspNetCore.Filters >= 5.1.2",
+      "Swashbuckle.AspNetCore.Swagger >= 5.6.3",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 5.6.3",
       "Volo.Abp.AspNetCore >= 3.0.4"
     ]
   },
@@ -4990,11 +5020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj",
+      "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj",
       "projectName": "HangFire.Swagger",
-      "projectPath": "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj",
+      "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj",
       "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\HangFire\\HangFire.Swagger\\obj\\",
+      "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5014,8 +5044,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-              "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+            "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+              "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
             }
           }
         }
@@ -5030,6 +5060,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "IGeekFan.AspNetCore.Knife4jUI": {
+            "target": "Package",
+            "version": "[0.0.8, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.5.1, )"
@@ -5037,6 +5071,14 @@
           "Swashbuckle.AspNetCore.Filters": {
             "target": "Package",
             "version": "[5.1.2, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[5.6.3, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[5.6.3, )"
           },
           "Volo.Abp.AspNetCore": {
             "target": "Package",

@@ -167,7 +167,7 @@ namespace HangFire.Common.Extensions
         /// <returns></returns>
         public static string TryToDateTime(this DateTime date, string formater = "MMMM dd, yyyy HH:mm:ss", string cultureInfo = "en-us")
         {
-            return date.ToString(formater, new CultureInfo(cultureInfo));
+            return date.ToString(formater, new CultureInfo(cultureInfo));   
         }
 
         /// <summary>

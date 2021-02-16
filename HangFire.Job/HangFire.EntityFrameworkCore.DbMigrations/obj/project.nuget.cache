@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fGB8dhGm46GKBmg5THgrzW440qAgIm4qKWr6ppvlQcMTaKzyq1N6nIdoLtGuGroCdQvJhQ7ixVjLdtBLPngiXw==",
+  "dgSpecHash": "Xwwi9Rar1r9P/HMbFs5fBtIDnOdtpyrBUxu2jDtqrVn17WcTHoYqqAh3qoIg56cXaswjj0Xq+bl4xkYsnQQUXA==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",

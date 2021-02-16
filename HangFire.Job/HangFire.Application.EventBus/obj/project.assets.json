@@ -3952,11 +3952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
+      "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
       "projectName": "HangFire.Application.EventBus",
-      "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
+      "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
       "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\obj\\",
+      "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3976,8 +3976,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-              "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+            "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+              "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfDDGgm8+/i8rIJfhG0U+uLRAwGpRXnXwyxpkPhwTPi4zilHgA0msr9AsF9amyPg6uzci6qsok2QmAAQC0D5cw==",
+  "dgSpecHash": "PfyVk3diugR7+Bynq79wcGtpvElQsZjqhvb6SJt2MoZ2QR3qoVueenHgeHg3BqxFKv1P0+u4aCb8BJJY7f7zHQ==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj",
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\baidu.ai\\3.6.14\\baidu.ai.3.6.14.nupkg.sha512",

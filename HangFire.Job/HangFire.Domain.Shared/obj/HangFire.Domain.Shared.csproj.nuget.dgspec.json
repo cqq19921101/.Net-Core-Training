@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {}
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
         "projectName": "HangFire.Domain.Shared",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

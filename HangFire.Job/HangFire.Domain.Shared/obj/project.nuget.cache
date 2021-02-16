@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Q2p+7Gq/b0o8xCLmukPNkGP87hgKlCIQa4YWfZBzEKiWM9gVbVvGF1kCFrg0VSLplpxxtPKbTZEXFwge3gA7w==",
+  "dgSpecHash": "B8u7/Rd+pIAxXmmyypapn9PYfKOS5ni3xD6MZLXqiEUnWZyssTPE3gZLqBK73y0nqIRjwhSw4oBGC1YnonfxUw==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H3mi2iM2GlyXslZ6j6Knof1wSlhc1bmK0LQg+n87ed7VK0O/CSRMDAa7IQn14peAB0qQWcldNxKWH9Z/QmtpGg==",
+  "dgSpecHash": "fIjFQUdqeslYh1719TJR2apCe60XtK3hirUcx0jiBhkBRTYc0fQpqcU7yTu5AImvLKXMaAFozcQql9/UXB8rGQ==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj",
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",

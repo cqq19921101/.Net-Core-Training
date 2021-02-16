@@ -7080,11 +7080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
+      "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
       "projectName": "HangFire.EntityFrameworkCore.DbMigrations",
-      "projectPath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
+      "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
       "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore.DbMigrations\\obj\\",
+      "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore.DbMigrations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7104,8 +7104,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj": {
-              "projectPath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj"
+            "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj"
             }
           }
         }

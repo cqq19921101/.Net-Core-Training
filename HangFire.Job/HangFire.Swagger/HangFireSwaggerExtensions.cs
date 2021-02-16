@@ -10,6 +10,12 @@ using System.Collections.Generic;
 using System.IO;
 using static HangFire.Domain.Shared.HangFireConsts;
 
+
+using Microsoft.AspNetCore.Mvc.Controllers;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using IGeekFan.AspNetCore.Knife4jUI;
+
 namespace HangFire.Swagger
 {
     public static class HangFireSwaggerExtensions
@@ -23,6 +29,7 @@ namespace HangFire.Swagger
         /// Swagger描述信息
         /// </summary>
         private static readonly string description = @"<b>Hangfire</b>：<a target=""_blank"" href=""/hangfire"">任务调度中心</a><code>Powered by .NET Core 3.1</code>";
+     
         /// <summary>
         /// Swagger分组信息，将进行遍历使用
         /// </summary>
@@ -88,6 +95,14 @@ namespace HangFire.Swagger
                 {
                     options.SwaggerDoc(x.UrlPrefix, x.OpenApiInfo);
                 });
+
+                options.CustomOperationIds(apiDesc =>
+                {
+                    var controllerAction = apiDesc.ActionDescriptor as ControllerActionDescriptor;
+                    return controllerAction.ControllerName + "-" + controllerAction.ActionName;
+                });
+
+                options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.Swagger.xml"),true);
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.HttpApi.xml"));
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.Domain.xml"));
                 options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "Resources/HangFire.Application.Contracts.xml"));
@@ -118,8 +133,10 @@ namespace HangFire.Swagger
         /// <param name="app"></param>
         public static void UseSwaggerUI(this IApplicationBuilder app)
         {
-            app.UseSwaggerUI(options =>
+            app.UseKnife4UI(options =>
             {
+                //options.RoutePrefix = ""; // serve the UI at root
+                //options.SwaggerEndpoint("/v1/api-docs", "V1 Docs");
                 // 遍历分组信息，生成Json
                 ApiInfos.ForEach(x =>
                 {
@@ -129,12 +146,37 @@ namespace HangFire.Swagger
                 // 模型的默认扩展深度，设置为 -1 完全隐藏模型
                 options.DefaultModelsExpandDepth(-1);
                 // API文档仅展开标记
-                options.DocExpansion(DocExpansion.List);
+                options.DocExpansion(IGeekFan.AspNetCore.Knife4jUI.DocExpansion.List);
                 // API前缀设置为空
                 options.RoutePrefix = string.Empty;
                 // API页面Title
                 options.DocumentTitle = "接口文档";
+
             });
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
+            //    endpoints.MapSwagger("{documentName}/api-docs");
+            //});
+
+            //app.UseSwaggerUI(options =>
+            //{
+            //    // 遍历分组信息，生成Json
+            //    ApiInfos.ForEach(x =>
+            //    {
+            //        options.SwaggerEndpoint($"/swagger/{x.UrlPrefix}/swagger.json", x.Name);
+            //    });
+
+            //    // 模型的默认扩展深度，设置为 -1 完全隐藏模型
+            //    options.DefaultModelsExpandDepth(-1);
+            //    // API文档仅展开标记
+            //    options.DocExpansion(DocExpansion.List);
+            //    // API前缀设置为空
+            //    options.RoutePrefix = string.Empty;
+            //    // API页面Title
+            //    options.DocumentTitle = "接口文档";
+            //});
         }
 
         internal class SwaggerApiInfo

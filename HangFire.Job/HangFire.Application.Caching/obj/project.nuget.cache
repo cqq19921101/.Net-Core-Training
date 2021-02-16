@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uY9XSbq4LidC1aQyh2nv0U+8OgGsmoST6LSzkGS+KvWZxjI461hHs4RZi1oKC3jj+Jzzt/0kNvHBje8y3Y/Lew==",
+  "dgSpecHash": "WSXNAtxTHiMANz7KG4TsQtaxf3566vhf4zvLfRvoAsPF+UOuoKcMksLsu+Sgy3I+rnnKrgPYxLFxKOcAsbzbRg==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\caching.csredis\\3.6.5\\caching.csredis.3.6.5.nupkg.sha512",

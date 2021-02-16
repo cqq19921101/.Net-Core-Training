@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\HangFire\\HangFire.Job\\HangFire.Job.csproj": {}
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Job\\HangFire.Job.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
         "projectName": "HangFire.Application.Caching",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,14 +31,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj",
         "projectName": "HangFire.Application.Contracts",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -112,8 +112,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
         "projectName": "HangFire.Application.EventBus",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Application.EventBus\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -173,8 +173,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
               }
             }
           }
@@ -213,14 +213,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj",
         "projectName": "HangFire.Application",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Application\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -240,8 +240,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj"
               }
             }
           }
@@ -299,14 +299,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj",
         "projectName": "HangFire.BackgroundJobs",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -326,14 +326,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Contracts\\HangFire.Application.Contracts.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj"
               }
             }
           }
@@ -407,14 +407,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj",
         "projectName": "HangFire.Common",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Common\\HangFire.Common.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\HangFire.Common.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Common\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -434,8 +434,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
               }
             }
           }
@@ -502,14 +502,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
         "projectName": "HangFire.Domain.Shared",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -565,14 +565,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj",
         "projectName": "HangFire.Domain",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -592,8 +592,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain.Shared\\HangFire.Domain.Shared.csproj"
               }
             }
           }
@@ -632,14 +632,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj",
         "projectName": "HangFire.EntityFrameworkCore",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -659,8 +659,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
               }
             }
           }
@@ -703,14 +703,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.HttpApi\\HangFire.HttpApi.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.HttpApi\\HangFire.HttpApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.HttpApi\\HangFire.HttpApi.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.HttpApi\\HangFire.HttpApi.csproj",
         "projectName": "HangFire.HttpApi",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.HttpApi\\HangFire.HttpApi.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.HttpApi\\HangFire.HttpApi.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.HttpApi\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.HttpApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -730,8 +730,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Application\\HangFire.Application.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application\\HangFire.Application.csproj"
               }
             }
           }
@@ -773,14 +773,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Job\\HangFire.Job.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Job\\HangFire.Job.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Job\\HangFire.Job.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Job\\HangFire.Job.csproj",
         "projectName": "HangFire.Job",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Job\\HangFire.Job.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Job\\HangFire.Job.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Job\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Job\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -800,17 +800,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.BackgroundJobs\\HangFire.BackgroundJobs.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore\\HangFire.EntityFrameworkCore.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.HttpApi\\HangFire.HttpApi.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.HttpApi\\HangFire.HttpApi.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.HttpApi\\HangFire.HttpApi.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.HttpApi\\HangFire.HttpApi.csproj"
               },
-              "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj"
               }
             }
           }
@@ -856,14 +856,14 @@
         }
       }
     },
-    "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj": {
+    "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj",
+        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj",
         "projectName": "HangFire.Swagger",
-        "projectPath": "D:\\Desktop\\HangFire\\HangFire.Swagger\\HangFire.Swagger.csproj",
+        "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\HangFire.Swagger.csproj",
         "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\HangFire\\HangFire.Swagger\\obj\\",
+        "outputPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Swagger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -883,8 +883,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj": {
-                "projectPath": "D:\\Desktop\\HangFire\\HangFire.Domain\\HangFire.Domain.csproj"
+              "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj": {
+                "projectPath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Domain\\HangFire.Domain.csproj"
               }
             }
           }
@@ -899,6 +899,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "IGeekFan.AspNetCore.Knife4jUI": {
+              "target": "Package",
+              "version": "[0.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.1, )"
@@ -906,6 +910,14 @@
             "Swashbuckle.AspNetCore.Filters": {
               "target": "Package",
               "version": "[5.1.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             },
             "Volo.Abp.AspNetCore": {
               "target": "Package",
