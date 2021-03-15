@@ -1,4 +1,6 @@
-﻿namespace HangFire.Domain.Shared
+﻿using System;
+
+namespace HangFire.Domain.Shared
 {
     /// <summary>
     /// 全局常量

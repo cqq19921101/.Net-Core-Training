@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "joUqers+MH4sV38jRUDu1q8aidTq5OQONZ+ck65K3zlLFFPP9XA1S7z7wpaRxxJMvTBN7wSUDb2MGObGZi7Z9A==",
+  "dgSpecHash": "bgl6taMgxClaHYw4bjFyg/XGK1w34dadQJ9Vze1rFGPd6AMApybbeFu2nOQQuDCp5EeG2rUc+klbkKV80Zq+pg==",
   "success": true,
   "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.EventBus\\HangFire.Application.EventBus.csproj",
   "expectedPackageFiles": [

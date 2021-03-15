@@ -21,6 +21,7 @@ using Volo.Abp.AspNetCore.Mvc.ExceptionHandling;
 using Volo.Abp.Autofac;
 using Volo.Abp.Modularity;
 using HangFire.Swagger;
+using HangFire.Application.EventBus;
 
 namespace HangFire.HttpApi.Hosting
 {
@@ -30,6 +31,7 @@ namespace HangFire.HttpApi.Hosting
        typeof(HangFireHttpApiModule),
        typeof(HangFireSwaggerModule),
        typeof(HangFireFrameworkCoreModule),
+       //typeof(HangFireApplicationEventBusModule),
        typeof(HangFireBackgroundJobsModule)
     )]
     public class HangFireHostingModule : AbpModule

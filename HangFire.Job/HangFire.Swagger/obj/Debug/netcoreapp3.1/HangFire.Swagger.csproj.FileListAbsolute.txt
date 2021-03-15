@@ -46,6 +46,7 @@ D:\Desktop\HangFire\HangFire.Swagger\obj\Debug\netcoreapp3.1\HangFire.Swagger.pd
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Swagger.deps.json
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Swagger.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Swagger.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Swagger.xml
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Domain.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Domain.Shared.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Domain.pdb
@@ -58,4 +59,3 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\obj\Debug\netcoreapp3
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\obj\Debug\netcoreapp3.1\HangFire.Swagger.csproj.CopyComplete
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\obj\Debug\netcoreapp3.1\HangFire.Swagger.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\obj\Debug\netcoreapp3.1\HangFire.Swagger.pdb
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Swagger\bin\Debug\netcoreapp3.1\HangFire.Swagger.xml

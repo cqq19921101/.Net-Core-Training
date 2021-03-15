@@ -19,16 +19,6 @@ namespace HangFire.BackgroundJobs
         #endregion
 
         #region FaceImage Api Job
-        /// <summary>
-        /// All Employee
-        /// </summary>
-        /// <param name="service"></param>
-        public static void UseFaceImageApiJob_GetAllEmployee(this IServiceProvider service)
-        {
-            var job = service.GetService<GetAllEmployeeJob_FaceImageApi>();
-
-            RecurringJob.AddOrUpdate("旷视人脸接口-同步全厂员工", () => job.ExecuteAsync(), HangFireCronType.Hour(5,5));
-        }
 
         /// <summary>
         /// New Employee 

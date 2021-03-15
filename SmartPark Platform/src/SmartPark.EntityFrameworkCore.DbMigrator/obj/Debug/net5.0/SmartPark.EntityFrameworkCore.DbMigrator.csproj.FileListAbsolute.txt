@@ -1,0 +1,15 @@
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\bin\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.deps.json
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\bin\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.runtimeconfig.json
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\bin\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.runtimeconfig.dev.json
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\bin\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.dll
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\bin\Debug\net5.0\ref\SmartPark.EntityFrameworkCore.DbMigrator.dll
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\bin\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.pdb
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.csprojAssemblyReference.cache
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.AssemblyInfoInputs.cache
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.AssemblyInfo.cs
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.csproj.CoreCompileInputs.cache
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.dll
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\ref\SmartPark.EntityFrameworkCore.DbMigrator.dll
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.pdb
+D:\Github\Blog\SmartPark.EntityFrameworkCore.DbMigrator\obj\Debug\net5.0\SmartPark.EntityFrameworkCore.DbMigrator.genruntimeconfig.cache

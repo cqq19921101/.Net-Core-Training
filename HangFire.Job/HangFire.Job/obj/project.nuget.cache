@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KolBRViA6aRuJ90ZDmmFBhE+FADlxOphQH3Lj0PjhOcdNNG1zAizLCk0PWQapC9raZ5ZJZmSawteQvekMOk2QQ==",
+  "dgSpecHash": "QhKsypJ56UEWr/V9glaHqqDF3cCuZ3lKq4cMrCMlycyzWnJdTf6UJ1//H+C92GnHGhTCRMyHewV11zKvcenHvA==",
   "success": true,
   "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Job\\HangFire.Job.csproj",
   "expectedPackageFiles": [
@@ -314,7 +314,8 @@
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\volo.abp.users.domain.shared\\3.0.4\\volo.abp.users.domain.shared.3.0.4.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\volo.abp.validation\\3.0.4\\volo.abp.validation.3.0.4.nupkg.sha512",
     "C:\\Users\\qianqian.chen\\.nuget\\packages\\volo.abp.validation.abstractions\\3.0.4\\volo.abp.validation.abstractions.3.0.4.nupkg.sha512",
-    "C:\\Users\\qianqian.chen\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.0.4\\volo.abp.virtualfilesystem.3.0.4.nupkg.sha512"
+    "C:\\Users\\qianqian.chen\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.0.4\\volo.abp.virtualfilesystem.3.0.4.nupkg.sha512",
+    "C:\\Users\\qianqian.chen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
   ],
   "logs": []
 }

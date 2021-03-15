@@ -47,68 +47,63 @@ namespace HangFire.Application.FaceImageApi.Impl
         /// <returns></returns>
         public async Task<string> GetFaceImageToken_Test(string TokenUrl)
         {
-            try
+            string result = string.Empty;
+
+            using var client = _httpclientfactory.CreateClient();
+            client.Timeout = TimeSpan.FromSeconds(60);
+            client.DefaultRequestHeaders.Add("User-Agent", "Koala Admin");
+            //client.DefaultRequestHeaders.Add("accept", "application/json");
+            //client.DefaultRequestHeaders.Add("Accept", "application/json");
+            var param = new Dictionary<string, string>()
             {
-                //return await _faceimageCacheService.GetFaceImageTokenCacheAsync(TokenUrl, async () =>
-                //{
-                string result = string.Empty;
+                ["username"] = AppSettings.FaceImageInterface.LoginId,
+                ["password"] = AppSettings.FaceImageInterface.LoginPsd,
+                ["auth_token"] = "true"
+            };
+            var content = new ByteArrayContent("{\"username\":\"qtech@mail.com\",\"password\":\"qtech123456\",\"auth_token\":true}".GetBytes());
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            var httpResponse = await client.PostAsync(TokenUrl, content);
+            var response = await httpResponse.Content.ReadAsStringAsync();
 
-                var request = new HttpRequestMessage(HttpMethod.Post, TokenUrl);
-                request.Headers.Add("ContentType", "application/json");
-                request.Headers.Add("User-Agent", "Koala Admin");
 
-                var temp = new
-                {
-                    username = AppSettings.FaceImageInterface.LoginId,
-                    password = AppSettings.FaceImageInterface.LoginPsd,
-                    auto_token = true
-                };
-                var postData = JsonConvert.SerializeObject(temp);
-                var content = new StringContent(postData);
+            //var postData = JsonConvert.SerializeObject(temp);
+            //byte[] data = Encoding.UTF8.GetBytes(postData);
+            //request.ContentLength = data.Length;
+            //Stream postStream = await request.GetRequestStreamAsync();
+            //postStream.Write(data, 0, data.Length);
+            //postStream.Close();
+            //var res = await request.GetResponseAsync() as HttpWebResponse;
 
-                var client = _httpclientfactory.CreateClient();
-                //var httpResponse = await client.PostAsync(TokenUrl, content);
-                var httpResponse = await client.SendAsync(request);
-                var response = await httpResponse.Content.ReadAsStringAsync();
 
-                //HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(TokenUrl));
-                //request.Timeout = 30 * 1000;//设置30s的超时
-                //request.ContentType = "application/json";
-                //request.UserAgent = "Koala Admin";
-                //request.Method = "POST";
 
-                //var temp = new
-                //{
-                //    username = AppSettings.FaceImageInterface.LoginId,
-                //    password = AppSettings.FaceImageInterface.LoginPsd,
-                //    auth_token = true
-                //};
+            //var request = new HttpRequestMessage(HttpMethod.Post, TokenUrl);
+            //request.Headers.Add("User-Agent", "Koala Admin");
+            //var postdata = JsonConvert.SerializeObject(temp);
+            //byte[] data = Encoding.UTF8.GetBytes(postdata);
+            //Stream postStream = await client.GetStreamAsync(TokenUrl);
+            //postStream.Write(data, 0, data.Length);
+            //postStream.Close();
+            //var response = await client.PostAsync(TokenUrl,);
 
-                //var postData = JsonConvert.SerializeObject(temp);
-                //byte[] data = Encoding.UTF8.GetBytes(postData);
-                //request.ContentLength = data.Length;
-                //Stream postStream = await request.GetRequestStreamAsync();
-                //postStream.Write(data, 0, data.Length);
-                //postStream.Close();
-                //var res = await request.GetResponseAsync() as HttpWebResponse;
-                //if (res.StatusCode == HttpStatusCode.OK)
-                //{
-                //    StreamReader reader = new StreamReader(res.GetResponseStream(), Encoding.UTF8);
-                //    result = await reader.ReadToEndAsync();
-                //    reader.Close();
-                //}
-                //request.Abort();
+            //var postdata = JsonConvert.SerializeObject(temp,Formatting.Indented);
+            //var buffer = System.Text.Encoding.UTF8.GetBytes(postdata);
+            //var byteContent = new ByteArrayContent(buffer);
+            //byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-                JsonEntity.Root da = JsonConvert.DeserializeObject<JsonEntity.Root>(result);
-                return da.data.auth_token;
-                //});
+            //var data = new StringContent(postdata, Encoding.UTF8, "application/json");
+            //request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            //var httpResponse = await client.SendAsync(request);
+            //var httpResponse = await client.PostAsJsonAsync(TokenUrl, temp);
+            ////var res = httpResponse.Content.
+            //if (httpResponse.StatusCode == HttpStatusCode.OK)
+            //{
+            //    var reader = new StreamReader(await httpResponse.Content.ReadAsStreamAsync(), Encoding.UTF8);
+            //    result = await reader.ReadToEndAsync();
+            //}
 
-            }
-            catch (Exception ex)
-            {
+            //string tokenpara = await GetFaceImageToken(TokenUrl);
 
-                throw ex;
-            }        
+            return null;
         }
 
         /// <summary>
@@ -214,40 +209,40 @@ namespace HangFire.Application.FaceImageApi.Impl
         /// <returns></returns>
         private async Task<string> GetFaceImageToken(string TokenUrl)
         {
-            return await _faceimageCacheService.GetFaceImageTokenCacheAsync(TokenUrl, async () =>
+            //return await _faceimageCacheService.GetFaceImageTokenCacheAsync(TokenUrl, async () =>
+            //{
+            string result = string.Empty;
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(TokenUrl));
+            request.Timeout = 30 * 1000;//设置30s的超时
+            request.ContentType = "application/json";
+            request.UserAgent = "Koala Admin";
+            request.Method = "POST";
+
+            var temp = new
             {
-                string result = string.Empty;
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(new Uri(TokenUrl));
-                request.Timeout = 30 * 1000;//设置30s的超时
-                request.ContentType = "application/json";
-                request.UserAgent = "Koala Admin";
-                request.Method = "POST";
+                username = AppSettings.FaceImageInterface.LoginId,
+                password = AppSettings.FaceImageInterface.LoginPsd,
+                auth_token = true
+            };
 
-                var temp = new
-                {
-                    username = AppSettings.FaceImageInterface.LoginId,
-                    password = AppSettings.FaceImageInterface.LoginPsd,
-                    auth_token = true
-                };
+            var postData = JsonConvert.SerializeObject(temp,Formatting.Indented);
+            byte[] data = Encoding.UTF8.GetBytes(postData);
+            request.ContentLength = data.Length;
+            Stream postStream = await request.GetRequestStreamAsync();
+            postStream.Write(data, 0, data.Length);
+            postStream.Close();
+            var res = await request.GetResponseAsync() as HttpWebResponse;
+            if (res.StatusCode == HttpStatusCode.OK)
+            {
+                StreamReader reader = new StreamReader(res.GetResponseStream(), Encoding.UTF8);
+                result = await reader.ReadToEndAsync();
+                reader.Close();
+            }
+            request.Abort();
 
-                var postData = JsonConvert.SerializeObject(temp);
-                byte[] data = Encoding.UTF8.GetBytes(postData);
-                request.ContentLength = data.Length;
-                Stream postStream = await request.GetRequestStreamAsync();
-                postStream.Write(data, 0, data.Length);
-                postStream.Close();
-                var res = await request.GetResponseAsync() as HttpWebResponse;
-                if (res.StatusCode == HttpStatusCode.OK)
-                {
-                    StreamReader reader = new StreamReader(res.GetResponseStream(), Encoding.UTF8);
-                    result = await reader.ReadToEndAsync();
-                    reader.Close();
-                }
-                request.Abort();
-
-                JsonEntity.Root da = JsonConvert.DeserializeObject<JsonEntity.Root>(result);
-                return da.data.auth_token;
-            });
+            JsonEntity.Root da = JsonConvert.DeserializeObject<JsonEntity.Root>(result);
+            return da.data.auth_token;
+            //});
         }
 
         /// <summary>

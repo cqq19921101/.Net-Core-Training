@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Meowv.Blog.Core</name>
+    </assembly>
+    <members>
+        <member name="P:Meowv.Blog.Domain.Blog.Category.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Category.Alias">
+            <summary>
+            别名
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.FriendLink.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.FriendLink.Url">
+            <summary>
+            网址
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.Url">
+            <summary>
+            链接
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.Markdown">
+            <summary>
+            Markdown
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.Category">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.Tags">
+            <summary>
+            标签列表
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Post.CreatedAt">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Blog.Repositories.IPostRepository.GetPagedListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get post list by paging.
+            </summary>
+            <param name="skipCount"></param>
+            <param name="maxResultCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Blog.Repositories.IPostRepository.GetListByCategoryAsync(System.String)">
+            <summary>
+            Get post list by category.
+            </summary>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Blog.Repositories.IPostRepository.GetListByTagAsync(System.String)">
+            <summary>
+            Get post list by tag.
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Blog.Repositories.IPostRepository.GetCountByCategoryAsync(MongoDB.Bson.ObjectId)">
+            <summary>
+            Get post count by category id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Blog.Repositories.IPostRepository.GetCountByTagAsync(MongoDB.Bson.ObjectId)">
+            <summary>
+            Get post count by tag id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Blog.Repositories.ITagRepository.GetListAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Get tag list by names
+            </summary>
+            <param name="names"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Tag.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Blog.Tag.Alias">
+            <summary>
+            别名
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Domain.Hots.Hot.Source">
+            <summary>
+            <see cref="T:Meowv.Blog.Domain.Hots.Hot.KnownSources"/>
+            </summary>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Hots.Repositories.IHotRepository.GetSourcesAsync">
+            <summary>
+            Get the list of sources.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Messages.Repositories.IMessageRepository.GetPagedListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of messages by paging.
+            </summary>
+            <param name="skipCount"></param>
+            <param name="maxResultCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Sayings.Repositories.ISayingRepository.GetPagedListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get sayings list by paging.
+            </summary>
+            <param name="skipCount"></param>
+            <param name="maxResultCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Sayings.Repositories.ISayingRepository.GetRandomAsync">
+            <summary>
+            Get a saying.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Domain.Signatures.Repositories.ISignatureRepository.GetPagedListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of signatures by paging.
+            </summary>
+            <param name="skipCount"></param>
+            <param name="maxResultCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.SerializeToJson(System.Object)">
+            <summary>
+            Convert object to json string
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.DeserializeToObject``1(System.String)">
+            <summary>
+            Convert json string to <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.ToObjectId(System.String)">
+            <summary>
+            String to <see cref="T:MongoDB.Bson.ObjectId"/>
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.ToDateTime(System.String,System.DateTime)">
+            <summary>
+            The string time format is converted to DateTime
+            </summary>
+            <param name="time"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.GeneratePostUrl(System.String,System.DateTime)">
+            <summary>
+            Generate post link
+            </summary>
+            <param name="url"></param>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.FormatTime(System.DateTime)">
+            <summary>
+            Format time
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.DownloadAsync(System.Byte[],System.String)">
+            <summary>
+            Save the array type file to the specified path
+            </summary>
+            <param name="buffer"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.AddWatermarkAndSaveItAsync(System.String,System.String)">
+            <summary>
+            Add watermark and save the it
+            </summary>
+            <param name="imgPath"></param>
+            <param name="watermarkImgPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.GetIpAddress(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            Get ip address
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.IsIp(System.String)">
+            <summary>
+            Check the ip address
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.ToQueryString(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Convert <paramref name="dic"/> to query string
+            </summary>
+            <param name="dic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.ToQueryStringWithEncode(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Convert <paramref name="dic"/> to query string with encode
+            </summary>
+            <param name="dic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.GenerateRandomCode(System.Int32)">
+            <summary>
+            Generate random code
+            </summary>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.TimestampToDateTime(System.String)">
+            <summary>
+            Convert <paramref name="timestamp"/> to <see cref="T:System.DateTime"/>
+            </summary>
+            <param name="timestamp">秒</param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Extensions.Extensions.FromJsonFile``1(System.String,System.String)">
+            <summary>
+            Get data from json file
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Swagger">
+            <summary>
+            Swagger
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Storage">
+            <summary>
+            Storage
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Cors">
+            <summary>
+            Cors
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Jwt">
+            <summary>
+            Jwt
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Worker">
+            <summary>
+            Worker
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Signature">
+            <summary>
+            Signature
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.TencentCloud">
+            <summary>
+            TencentCloud
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AppOptions.Authorize">
+            <summary>
+            Authorize
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.Github">
+            <summary>
+            Github
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.Gitee">
+            <summary>
+            Gitee
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.Alipay">
+            <summary>
+            Alipay
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.Dingtalk">
+            <summary>
+            Dingtalk
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.Microsoft">
+            <summary>
+            Microsoft
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.Weibo">
+            <summary>
+            Weibo
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.AuthorizeOptions.QQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.CorsOptions.PolicyName">
+            <summary>
+            The name of the policy.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.CorsOptions.Origins">
+            <summary>
+            The origins that are allowed.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.JwtOptions.Expires">
+            <summary>
+            Get or set the expiration time(minutes) of the verification token.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.JwtOptions.Issuer">
+            <summary>
+            Gets or sets a System.String that represents a valid issuer that will be used to check against the token's issuer.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.JwtOptions.Audience">
+            <summary>
+            Gets or sets a string that represents a valid audience that will be used to check against the token's audience.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.JwtOptions.SigningKey">
+            <summary>
+            Gets or sets the Microsoft.IdentityModel.Tokens.SecurityKey that is to be used for signature validation.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.StorageOptions.Mongodb">
+            <summary>
+            Gets or sets mongodb connection string
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.StorageOptions.RedisIsEnabled">
+            <summary>
+            Gets or sets whether redis is enabled
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.StorageOptions.Redis">
+            <summary>
+            Gets or sets redis connection string
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.StorageOptions.SqlServer">
+            <summary>
+            Sql Server
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.SwaggerOptions.Version">
+            <summary>
+            The version of the OpenAPI document.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.SwaggerOptions.Name">
+            <summary>
+            A URI-friendly name that uniquely identifies the document.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.SwaggerOptions.Title">
+            <summary>
+            The title of the application.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.SwaggerOptions.Description">
+            <summary>
+            A short description of the application.
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.SwaggerOptions.RoutePrefix">
+            <summary>
+            Gets or sets a route prefix for accessing the swagger-ui
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.SwaggerOptions.DocumentTitle">
+            <summary>
+            Gets or sets a title for the swagger-ui page
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.WorkerOptions.IsEnabled">
+            <summary>
+            Gets or sets whether background worker is enabled
+            </summary>
+        </member>
+        <member name="P:Meowv.Blog.Options.WorkerOptions.Cron">
+            <summary>
+            The cron expression to base the schedule on
+            </summary>
+        </member>
+    </members>
+</doc>

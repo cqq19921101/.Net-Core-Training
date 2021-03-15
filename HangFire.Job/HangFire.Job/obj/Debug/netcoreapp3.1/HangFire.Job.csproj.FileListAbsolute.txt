@@ -1868,6 +1868,7 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\H
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\Hangfire.SQLite.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\Hangfire.SqlServer.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\IGeekFan.AspNetCore.Knife4jUI.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\IP2Region.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\log4net.dll
@@ -2097,6 +2098,7 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\H
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.HttpApi.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.HttpApi.xml
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Swagger.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Swagger.xml
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Application.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Application.Caching.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Application.Contracts.pdb
@@ -2120,5 +2122,3 @@ D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\H
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\HangFire.Job.dll
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\HangFire.Job.pdb
 D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\obj\Debug\netcoreapp3.1\HangFire.Job.genruntimeconfig.cache
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\IGeekFan.AspNetCore.Knife4jUI.dll
-D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Job\bin\Debug\netcoreapp3.1\HangFire.Swagger.xml

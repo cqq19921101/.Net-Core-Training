@@ -10,3 +10,15 @@ D:\Desktop\HangFire\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.cs
 D:\Desktop\HangFire\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.csproj.CopyComplete
 D:\Desktop\HangFire\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.dll
 D:\Desktop\HangFire\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\bin\Release\netcoreapp3.1\HangFire.Domain.deps.json
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\bin\Release\netcoreapp3.1\HangFire.Domain.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\bin\Release\netcoreapp3.1\HangFire.Domain.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.csprojAssemblyReference.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.csproj.CopyComplete
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Domain\obj\Release\netcoreapp3.1\HangFire.Domain.pdb

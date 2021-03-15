@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HangFire.Swagger</name>
+    </assembly>
+    <members>
+        <member name="T:HangFire.Swagger.Filters.SwaggerDocumentFilter">
+            <summary>
+            对应Controller的API文档描述信息
+            </summary>
+        </member>
+        <member name="F:HangFire.Swagger.HangFireSwaggerExtensions.version">
+            <summary>
+            当前API版本，从appsettings.json获取
+            </summary>
+        </member>
+        <member name="F:HangFire.Swagger.HangFireSwaggerExtensions.description">
+            <summary>
+            Swagger描述信息
+            </summary>
+        </member>
+        <member name="F:HangFire.Swagger.HangFireSwaggerExtensions.ApiInfos">
+            <summary>
+            Swagger分组信息，将进行遍历使用
+            </summary>
+        </member>
+        <member name="M:HangFire.Swagger.HangFireSwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            AddSwagger
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HangFire.Swagger.HangFireSwaggerExtensions.UseSwaggerUI(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            UseSwaggerUI
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="P:HangFire.Swagger.HangFireSwaggerExtensions.SwaggerApiInfo.UrlPrefix">
+            <summary>
+            URL前缀
+            </summary>
+        </member>
+        <member name="P:HangFire.Swagger.HangFireSwaggerExtensions.SwaggerApiInfo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:HangFire.Swagger.HangFireSwaggerExtensions.SwaggerApiInfo.OpenApiInfo">
+            <summary>
+            <see cref="T:Microsoft.OpenApi.Models.OpenApiInfo"/>
+            </summary>
+        </member>
+    </members>
+</doc>

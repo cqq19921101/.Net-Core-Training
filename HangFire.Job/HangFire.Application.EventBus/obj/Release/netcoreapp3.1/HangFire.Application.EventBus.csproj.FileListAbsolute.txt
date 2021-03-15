@@ -12,3 +12,17 @@ D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\Hang
 D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csproj.CopyComplete
 D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.dll
 D:\Desktop\HangFire\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Application.EventBus.deps.json
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Application.EventBus.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Application.EventBus.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\bin\Release\netcoreapp3.1\HangFire.Domain.Shared.pdb
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csprojAssemblyReference.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.csproj.CopyComplete
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.dll
+D:\Github\.Net-Core-Training\HangFire.Job\HangFire.Application.EventBus\obj\Release\netcoreapp3.1\HangFire.Application.EventBus.pdb

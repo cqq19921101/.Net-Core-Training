@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xwwi9Rar1r9P/HMbFs5fBtIDnOdtpyrBUxu2jDtqrVn17WcTHoYqqAh3qoIg56cXaswjj0Xq+bl4xkYsnQQUXA==",
+  "dgSpecHash": "pCq3ozms/i1qebCsQr/RE6eKRnNRvHw4TmLGgWQpWyvpcDk2nqHzu3bZ7zr+aZgxwIAEC93Hvya7Z/C1m4zCmw==",
   "success": true,
   "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.EntityFrameworkCore.DbMigrations\\HangFire.EntityFrameworkCore.DbMigrations.csproj",
   "expectedPackageFiles": [

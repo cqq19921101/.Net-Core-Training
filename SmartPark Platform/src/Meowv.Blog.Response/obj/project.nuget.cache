@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uM9mTsdhVl0kGf25g8G4ttzOfLnR3KfRGZYOzqTC8UVyUoF0xV7zgPJwyINvckbOsu+bKnif4kb7LqNSb5JjtQ==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qianqian.chen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

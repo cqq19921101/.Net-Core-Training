@@ -255,6 +255,8 @@ namespace HangFire.Domain.Configurations
             public static string UpdateEmpUrl => _config["FaceImageInterface:UpdateEmpUrl"];
             public static string LoginId => _config["FaceImageInterface:LoginId"];
             public static string LoginPsd => _config["FaceImageInterface:LoginPsd"];
+
+            public static bool Auth_Token => Convert.ToBoolean(_config["FaceImageInterface:Auth_Token"]);
         }
 
         #endregion

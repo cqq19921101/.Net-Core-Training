@@ -21,7 +21,7 @@ namespace HangFire.Application.Caching.FaceImageApi.Impl
         /// <returns></returns>
         public async Task<string> GetFaceImageTokenCacheAsync(string TokenUrl,Func<Task<string>> factory)
         {
-            return await Cache.GetOrAddAsync(KEY_GetToken, factory, CacheStrategy.ONE_HOURS);
+            return await Cache.GetOrAddAsync(KEY_GetToken, factory, CacheStrategy.ONE_MINUTE);
         }
 
         /// <summary>

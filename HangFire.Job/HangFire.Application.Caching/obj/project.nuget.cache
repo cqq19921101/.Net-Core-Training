@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WSXNAtxTHiMANz7KG4TsQtaxf3566vhf4zvLfRvoAsPF+UOuoKcMksLsu+Sgy3I+rnnKrgPYxLFxKOcAsbzbRg==",
+  "dgSpecHash": "rU0BI1HUMYUwYFyGA8BdHKbd1bgdGxTyIC1D7jXlslnng4KL+kyzcPBrvxcU949cAu8pn8dcM94+AEWHyeJDhw==",
   "success": true,
   "projectFilePath": "D:\\Github\\.Net-Core-Training\\HangFire.Job\\HangFire.Application.Caching\\HangFire.Application.Caching.csproj",
   "expectedPackageFiles": [
