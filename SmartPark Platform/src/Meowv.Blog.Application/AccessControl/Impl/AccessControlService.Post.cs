@@ -20,19 +20,24 @@ namespace Meowv.Blog.AccessControl.Impl
         /// <param name="page"></param>
         /// <param name="limit"></param>
         /// <returns></returns>
-        [Authorize]
+        //[Authorize]
         [Route("api/meowv/accesscontrol/posts/{page}/{limit}")]
         public async Task<SmartParkResponse<PagedList<GetAccessControlListDto>>> GetAccessControlListAsync([Range(1, 100)] int page = 1, [Range(10, 100)] int limit = 10)
         {
             var response = new SmartParkResponse<PagedList<GetAccessControlListDto>>();
 
-            var result = await _facecapturerepository.GetAccessControlHistoryListAsync(page, limit);
-            var total = result.Item1;
-            var posts = ObjectMapper.Map<List<FaceCapture>, List<GetAccessControlListDto>>(result.Item2);
+            //var result = await _facecapturerepository.GetAccessControlHistoryListAsync(page, limit);
+            var result = await _facecapturerepository.GetListAsync(page, limit);
+            //var total = null;
+            //var posts = ObjectMapper.Map<List<FaceCapture>, List<GetAccessControlListDto>>(result.Item2);
 
-            response.Result = new PagedList<GetAccessControlListDto>(total, posts);
-            return response;
+            //response.Result = new PagedList<GetAccessControlListDto>(total, posts);
+            //return response;
+            return null;
         }
+
+
+
 
     }
 }

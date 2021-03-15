@@ -12,5 +12,9 @@ namespace Meowv.Blog.Domain.AccessControl.Repositories
     {
         Task<Tuple<int, List<FaceCapture>>> GetAccessControlHistoryListAsync(int skipCount, int maxResultCount);
 
+
+
+        Task<List<FaceCapture>> GetListAsync(int skipCount, int maxResultCount);
+
     }
 }

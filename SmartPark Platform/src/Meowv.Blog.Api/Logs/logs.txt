@@ -1,67 +1,70 @@
-2021-03-11 16:46:12.971 +08:00 [INF] Application Starting.
-2021-03-11 16:46:13.798 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","ANCM_LAUNCHER_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0\\Meowv.Blog.Api.exe","ANCM_PREFER_ENVIRONMENT_VARIABLES":"true","APPDATA":"C:\\Users\\qianqian.chen\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","APP_POOL_CONFIG":"D:\\Github\\Blog\\.vs\\meowv.blog\\config\\applicationhost.config","APP_POOL_ID":"Meowv.Blog.Api AppPool","ASPNETCORE_ENVIRONMENT":"Development","ASPNETCORE_HTTPS_PORT":"44380","ASPNETCORE_IIS_HTTPAUTH":"anonymous;","ASPNETCORE_IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPLUS_ForceENC":"1","COMPLUS_MDA":"managedDebugger","COMPUTERNAME":"CHENQIANQIAN202","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\Github\\Blog\\src\\Meowv.Blog.Api","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DEV_ENVIRONMENT":"1","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ENVIRONMENT":"Development","ERLANG_HOME":"C:\\Program Files\\erl10.5","ForceIdentityAuthenticationType":"Embedded","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","FPS_BROWSER_USER_PROFILE_STRING":"Default","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\qianqian.chen","HTTPS_PORT":"44380","IISEXPRESS_SITENAME":"Meowv.Blog.Api","IIS_BIN":"C:\\Program Files\\IIS Express","IIS_DRIVE":"C:","IIS_HTTPAUTH":"anonymous;","IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","IIS_SITES_HOME":"C:\\Users\\qianqian.chen\\Documents\\My Web Sites","IIS_USER_HOME":"C:\\Users\\qianqian.chen\\Documents\\IISExpress","JAVA_HOME":"C:\\Program Files\\Java\\jdk-14.0.2","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\qianqian.chen\\AppData\\Local","LOGONSERVER":"\\\\QTECHDC01","MSBuildLoadMicrosoftTargetsReadOnly":"true","MYSQL_HOME":"D:\\Mysql","NODE_PATH":"C:\\Program Files\\nodejs\\node_modules","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\qianqian.chen\\OneDrive","OS":"Windows_NT","Path":"C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Ruby23-x64\\bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1\\bin;C:\\oracle\\product\\10.2.0\\db_1\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\oracle\\product\\10.2.0\\client_1\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\PuTTY\\;c:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\erl10.5\\bin;C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3\\sbin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\WindowsApps;c:\\program files\\esafenet\\cobra docguard client;C:\\Users\\qianqian.chen\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files\\nodejs\\node_global;C:\\oracle\\product\\10.2.0\\db_1\\BIN;","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW","PERL5LIB":"C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\sysman\\admin\\scripts;","PkgDefApplicationConfigFile":"C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_c314258a\\devenv.exe.config","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\","PUBLIC":"C:\\Users\\Public","RABBITMQ_SERVER":"C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3","ServiceHubLogSessionKey":"93E1AB10","SESSIONNAME":"Console","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"SignInWithHomeTenantOnly":"True","storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"ThreadedWaitDialogDpiContext":"-4","TMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","TNS_ADMIN":"C:\\oracle\\product\\10.2.0\\client_1\\NETWORK\\ADMIN","USERDNSDOMAIN":"QTECH.COM","USERDOMAIN":"QTECH","USERDOMAIN_ROAMINGPROFILE":"QTECH","USERNAME":"qianqian.chen","USERPROFILE":"C:\\Users\\qianqian.chen","VisualStudioDir":"C:\\Users\\qianqian.chen\\Documents\\Visual Studio 2019","VisualStudioEdition":"Microsoft Visual Studio Professional 2019","VisualStudioVersion":"16.0","VS90COMNTOOLS":"C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\Tools\\","VSAPPIDDIR":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\","VSAPPIDNAME":"devenv.exe","VSLANG":"2052","VSSKUEDITION":"Professional","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"}}
-2021-03-11 16:46:20.339 +08:00 [INF] User profile is available. Using 'C:\Users\qianqian.chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-03-11 16:46:20.463 +08:00 [INF] Loaded ABP modules:
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
-2021-03-11 16:46:20.463 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
-2021-03-11 16:46:20.464 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule
-2021-03-11 16:46:20.694 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2021-03-11 16:46:20.724 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2021-03-11 16:46:20.725 +08:00 [INF] Quartz Scheduler v.3.2.3.0 created.
-2021-03-11 16:46:20.725 +08:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
-2021-03-11 16:46:20.767 +08:00 [INF] RAMJobStore initialized.
-2021-03-11 16:46:20.769 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+2021-03-15 14:38:06.878 +08:00 [INF] Application Starting.
+2021-03-15 14:38:07.214 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","ANCM_LAUNCHER_PATH":"D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0\\Meowv.Blog.Api.exe","ANCM_PREFER_ENVIRONMENT_VARIABLES":"true","APPDATA":"C:\\Users\\qianqian.chen\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","APP_POOL_CONFIG":"D:\\Github\\.Net-Core-Training\\SmartPark Platform\\.vs\\meowv.blog\\config\\applicationhost.config","APP_POOL_ID":"Meowv.Blog.Api AppPool","ASPNETCORE_ENVIRONMENT":"Development","ASPNETCORE_HTTPS_PORT":"44380","ASPNETCORE_IIS_HTTPAUTH":"anonymous;","ASPNETCORE_IIS_PHYSICAL_PATH":"D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPLUS_ForceENC":"1","COMPLUS_MDA":"managedDebugger","COMPUTERNAME":"CHENQIANQIAN202","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DEV_ENVIRONMENT":"1","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ENVIRONMENT":"Development","ERLANG_HOME":"C:\\Program Files\\erl10.5","ForceIdentityAuthenticationType":"Embedded","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","FPS_BROWSER_USER_PROFILE_STRING":"Default","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\qianqian.chen","HTTPS_PORT":"44380","IISEXPRESS_SITENAME":"Meowv.Blog.Api","IIS_BIN":"C:\\Program Files\\IIS Express","IIS_DRIVE":"C:","IIS_HTTPAUTH":"anonymous;","IIS_PHYSICAL_PATH":"D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\","IIS_SITES_HOME":"C:\\Users\\qianqian.chen\\Documents\\My Web Sites","IIS_USER_HOME":"C:\\Users\\qianqian.chen\\Documents\\IISExpress","JAVA_HOME":"C:\\Program Files\\Java\\jdk-14.0.2","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\qianqian.chen\\AppData\\Local","LOGONSERVER":"\\\\QTECHDC03","MSBuildLoadMicrosoftTargetsReadOnly":"true","MYSQL_HOME":"D:\\Mysql","NODE_PATH":"C:\\Program Files\\nodejs\\node_modules","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\qianqian.chen\\OneDrive","OS":"Windows_NT","Path":"c:\\program files (x86)\\microsoft visual studio\\2019\\professional\\common7\\ide\\commonextensions\\microsoft\\teamfoundation\\team explorer\\NativeBinaries\\x86;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Ruby23-x64\\bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1\\bin;C:\\oracle\\product\\10.2.0\\db_1\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\oracle\\product\\10.2.0\\client_1\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\PuTTY\\;c:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\erl10.5\\bin;C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3\\sbin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\WindowsApps;c:\\program files\\esafenet\\cobra docguard client;C:\\Users\\qianqian.chen\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files\\nodejs\\node_global;C:\\oracle\\product\\10.2.0\\db_1\\BIN;","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW","PERL5LIB":"C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\sysman\\admin\\scripts;","PkgDefApplicationConfigFile":"C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_c314258a\\devenv.exe.config","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\","PUBLIC":"C:\\Users\\Public","RABBITMQ_SERVER":"C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3","ServiceHubLogSessionKey":"343B5C45","SESSIONNAME":"Console","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"SignInWithHomeTenantOnly":"True","storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"ThreadedWaitDialogDpiContext":"-4","TMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","TNS_ADMIN":"C:\\oracle\\product\\10.2.0\\client_1\\NETWORK\\ADMIN","USERDNSDOMAIN":"QTECH.COM","USERDOMAIN":"QTECH","USERDOMAIN_ROAMINGPROFILE":"QTECH","USERNAME":"qianqian.chen","USERPROFILE":"C:\\Users\\qianqian.chen","VisualStudioDir":"C:\\Users\\qianqian.chen\\Documents\\Visual Studio 2019","VisualStudioEdition":"Microsoft Visual Studio Professional 2019","VisualStudioVersion":"16.0","VS90COMNTOOLS":"C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\Tools\\","VSAPPIDDIR":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\","VSAPPIDNAME":"devenv.exe","VSLANG":"2052","VSSKUEDITION":"Professional","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"},"_PTVS_PID":"16632"}
+2021-03-15 14:38:09.340 +08:00 [INF] User profile is available. Using 'C:\Users\qianqian.chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-15 14:38:09.424 +08:00 [INF] Loaded ABP modules:
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-03-15 14:38:09.424 +08:00 [INF] - SmartPark.EntityFrameworkCore.SmartParkFrameworkCoreModule
+2021-03-15 14:38:09.424 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule
+2021-03-15 14:38:09.505 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2021-03-15 14:38:09.524 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2021-03-15 14:38:09.524 +08:00 [INF] Quartz Scheduler v.3.2.3.0 created.
+2021-03-15 14:38:09.524 +08:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2021-03-15 14:38:09.543 +08:00 [INF] RAMJobStore initialized.
+2021-03-15 14:38:09.548 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -69,300 +72,75 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2021-03-11 16:46:20.769 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
-2021-03-11 16:46:20.769 +08:00 [INF] Quartz scheduler version: 3.2.3.0
-2021-03-11 16:46:20.792 +08:00 [INF] Adding 0 jobs, 0 triggers.
-2021-03-11 16:46:20.809 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
-2021-03-11 16:46:20.813 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:46:21.068 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:46:22.520 +08:00 [INF] Initialized all ABP modules.
-2021-03-11 16:46:22.561 +08:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-03-11 16:46:22.561 +08:00 [INF] Hosting environment: Development
-2021-03-11 16:46:22.561 +08:00 [INF] Content root path: D:\Github\Blog\src\Meowv.Blog.Api
-2021-03-11 16:46:22.641 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/ - -
-2021-03-11 16:46:23.292 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/index.html - -
-2021-03-11 16:46:23.356 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/ - - - 301 - - 718.6145ms
-2021-03-11 16:46:23.466 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/index.html - - - 200 - text/html;charset=utf-8 173.8621ms
-2021-03-11 16:46:23.508 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger-ui.css - -
-2021-03-11 16:46:23.512 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger-ui-bundle.js - -
-2021-03-11 16:46:23.513 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger-ui-standalone-preset.js - -
-2021-03-11 16:46:23.584 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
-2021-03-11 16:46:23.584 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
-2021-03-11 16:46:23.586 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
-2021-03-11 16:46:23.602 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger-ui.css - - - 200 142933 text/css 93.2214ms
-2021-03-11 16:46:23.610 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 97.7424ms
-2021-03-11 16:46:23.646 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger-ui-bundle.js - - - 200 986342 application/javascript 134.1207ms
-2021-03-11 16:46:24.169 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
-2021-03-11 16:46:24.493 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 324.0603ms
-2021-03-11 16:46:45.620 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:47:11.448 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:47:37.935 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:47:51.061 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
-2021-03-11 16:47:51.179 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 117.7917ms
-2021-03-11 16:47:55.526 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/api/meowv/blog/statistics - -
-2021-03-11 16:47:55.697 +08:00 [INF] Executing endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetStatisticsAsync (Meowv.Blog.Application)'
-2021-03-11 16:47:55.741 +08:00 [INF] Route matched with {action = "GetStatistics", controller = "Blog", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Meowv.Blog.Response.BlogResponse`1[System.Tuple`3[System.Int32,System.Int32,System.Int32]]] GetStatisticsAsync() on controller Meowv.Blog.Blog.Impl.BlogService (Meowv.Blog.Application).
-2021-03-11 16:48:07.754 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:48:17.623 +08:00 [INF] Executing ObjectResult, writing value of type 'Meowv.Blog.Response.BlogResponse`1[[System.Tuple`3[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
-2021-03-11 16:48:19.387 +08:00 [INF] Executed action Meowv.Blog.Blog.Impl.BlogService.GetStatisticsAsync (Meowv.Blog.Application) in 23640.589ms
-2021-03-11 16:48:19.387 +08:00 [INF] Executed endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetStatisticsAsync (Meowv.Blog.Application)'
-2021-03-11 16:48:19.560 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/api/meowv/blog/statistics - - - 200 - application/json;+charset=utf-8 24033.8375ms
-2021-03-11 16:48:35.947 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:49:02.831 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:49:27.569 +08:00 [INF] Application Starting.
-2021-03-11 16:49:28.224 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","ANCM_LAUNCHER_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0\\Meowv.Blog.Api.exe","ANCM_PREFER_ENVIRONMENT_VARIABLES":"true","APPDATA":"C:\\Users\\qianqian.chen\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","APP_POOL_CONFIG":"D:\\Github\\Blog\\.vs\\meowv.blog\\config\\applicationhost.config","APP_POOL_ID":"Meowv.Blog.Api AppPool","ASPNETCORE_ENVIRONMENT":"Development","ASPNETCORE_HTTPS_PORT":"44380","ASPNETCORE_IIS_HTTPAUTH":"anonymous;","ASPNETCORE_IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPLUS_ForceENC":"1","COMPLUS_MDA":"managedDebugger","COMPUTERNAME":"CHENQIANQIAN202","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\Github\\Blog\\src\\Meowv.Blog.Api","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DEV_ENVIRONMENT":"1","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ENVIRONMENT":"Development","ERLANG_HOME":"C:\\Program Files\\erl10.5","ForceIdentityAuthenticationType":"Embedded","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","FPS_BROWSER_USER_PROFILE_STRING":"Default","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\qianqian.chen","HTTPS_PORT":"44380","IISEXPRESS_SITENAME":"Meowv.Blog.Api","IIS_BIN":"C:\\Program Files\\IIS Express","IIS_DRIVE":"C:","IIS_HTTPAUTH":"anonymous;","IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","IIS_SITES_HOME":"C:\\Users\\qianqian.chen\\Documents\\My Web Sites","IIS_USER_HOME":"C:\\Users\\qianqian.chen\\Documents\\IISExpress","JAVA_HOME":"C:\\Program Files\\Java\\jdk-14.0.2","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\qianqian.chen\\AppData\\Local","LOGONSERVER":"\\\\QTECHDC01","MSBuildLoadMicrosoftTargetsReadOnly":"true","MYSQL_HOME":"D:\\Mysql","NODE_PATH":"C:\\Program Files\\nodejs\\node_modules","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\qianqian.chen\\OneDrive","OS":"Windows_NT","Path":"C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Ruby23-x64\\bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1\\bin;C:\\oracle\\product\\10.2.0\\db_1\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\oracle\\product\\10.2.0\\client_1\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\PuTTY\\;c:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\erl10.5\\bin;C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3\\sbin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\WindowsApps;c:\\program files\\esafenet\\cobra docguard client;C:\\Users\\qianqian.chen\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files\\nodejs\\node_global;C:\\oracle\\product\\10.2.0\\db_1\\BIN;","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW","PERL5LIB":"C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\sysman\\admin\\scripts;","PkgDefApplicationConfigFile":"C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_c314258a\\devenv.exe.config","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\","PUBLIC":"C:\\Users\\Public","RABBITMQ_SERVER":"C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3","ServiceHubLogSessionKey":"93E1AB10","SESSIONNAME":"Console","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"SignInWithHomeTenantOnly":"True","storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"ThreadedWaitDialogDpiContext":"-4","TMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","TNS_ADMIN":"C:\\oracle\\product\\10.2.0\\client_1\\NETWORK\\ADMIN","USERDNSDOMAIN":"QTECH.COM","USERDOMAIN":"QTECH","USERDOMAIN_ROAMINGPROFILE":"QTECH","USERNAME":"qianqian.chen","USERPROFILE":"C:\\Users\\qianqian.chen","VisualStudioDir":"C:\\Users\\qianqian.chen\\Documents\\Visual Studio 2019","VisualStudioEdition":"Microsoft Visual Studio Professional 2019","VisualStudioVersion":"16.0","VS90COMNTOOLS":"C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\Tools\\","VSAPPIDDIR":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\","VSAPPIDNAME":"devenv.exe","VSLANG":"2052","VSSKUEDITION":"Professional","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"}}
-2021-03-11 16:49:31.520 +08:00 [INF] User profile is available. Using 'C:\Users\qianqian.chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-03-11 16:49:31.604 +08:00 [INF] Loaded ABP modules:
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
-2021-03-11 16:49:31.604 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
-2021-03-11 16:49:31.605 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule
-2021-03-11 16:49:31.692 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2021-03-11 16:49:31.711 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2021-03-11 16:49:31.711 +08:00 [INF] Quartz Scheduler v.3.2.3.0 created.
-2021-03-11 16:49:31.712 +08:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
-2021-03-11 16:49:31.719 +08:00 [INF] RAMJobStore initialized.
-2021-03-11 16:49:31.722 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2021-03-11 16:49:31.722 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
-2021-03-11 16:49:31.722 +08:00 [INF] Quartz scheduler version: 3.2.3.0
-2021-03-11 16:49:31.745 +08:00 [INF] Adding 0 jobs, 0 triggers.
-2021-03-11 16:49:31.760 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
-2021-03-11 16:49:31.763 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:49:32.002 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:49:32.764 +08:00 [INF] Initialized all ABP modules.
-2021-03-11 16:49:32.794 +08:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-03-11 16:49:32.794 +08:00 [INF] Hosting environment: Development
-2021-03-11 16:49:32.794 +08:00 [INF] Content root path: D:\Github\Blog\src\Meowv.Blog.Api
-2021-03-11 16:49:32.848 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/index.html - -
-2021-03-11 16:49:33.118 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/index.html - - - 200 - text/html;charset=utf-8 272.7520ms
-2021-03-11 16:49:33.419 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
-2021-03-11 16:49:33.746 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 327.4488ms
-2021-03-11 16:50:46.764 +08:00 [INF] Application Starting.
-2021-03-11 16:50:47.490 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","ANCM_LAUNCHER_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0\\Meowv.Blog.Api.exe","ANCM_PREFER_ENVIRONMENT_VARIABLES":"true","APPDATA":"C:\\Users\\qianqian.chen\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","APP_POOL_CONFIG":"D:\\Github\\Blog\\.vs\\meowv.blog\\config\\applicationhost.config","APP_POOL_ID":"Meowv.Blog.Api AppPool","ASPNETCORE_ENVIRONMENT":"Development","ASPNETCORE_HTTPS_PORT":"44380","ASPNETCORE_IIS_HTTPAUTH":"anonymous;","ASPNETCORE_IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPLUS_ForceENC":"1","COMPLUS_MDA":"managedDebugger","COMPUTERNAME":"CHENQIANQIAN202","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\Github\\Blog\\src\\Meowv.Blog.Api","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DEV_ENVIRONMENT":"1","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ENVIRONMENT":"Development","ERLANG_HOME":"C:\\Program Files\\erl10.5","ForceIdentityAuthenticationType":"Embedded","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","FPS_BROWSER_USER_PROFILE_STRING":"Default","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\qianqian.chen","HTTPS_PORT":"44380","IISEXPRESS_SITENAME":"Meowv.Blog.Api","IIS_BIN":"C:\\Program Files\\IIS Express","IIS_DRIVE":"C:","IIS_HTTPAUTH":"anonymous;","IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","IIS_SITES_HOME":"C:\\Users\\qianqian.chen\\Documents\\My Web Sites","IIS_USER_HOME":"C:\\Users\\qianqian.chen\\Documents\\IISExpress","JAVA_HOME":"C:\\Program Files\\Java\\jdk-14.0.2","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\qianqian.chen\\AppData\\Local","LOGONSERVER":"\\\\QTECHDC01","MSBuildLoadMicrosoftTargetsReadOnly":"true","MYSQL_HOME":"D:\\Mysql","NODE_PATH":"C:\\Program Files\\nodejs\\node_modules","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\qianqian.chen\\OneDrive","OS":"Windows_NT","Path":"C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Ruby23-x64\\bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1\\bin;C:\\oracle\\product\\10.2.0\\db_1\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\oracle\\product\\10.2.0\\client_1\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\PuTTY\\;c:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\erl10.5\\bin;C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3\\sbin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\WindowsApps;c:\\program files\\esafenet\\cobra docguard client;C:\\Users\\qianqian.chen\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files\\nodejs\\node_global;C:\\oracle\\product\\10.2.0\\db_1\\BIN;","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW","PERL5LIB":"C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\sysman\\admin\\scripts;","PkgDefApplicationConfigFile":"C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_c314258a\\devenv.exe.config","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\","PUBLIC":"C:\\Users\\Public","RABBITMQ_SERVER":"C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3","ServiceHubLogSessionKey":"93E1AB10","SESSIONNAME":"Console","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"SignInWithHomeTenantOnly":"True","storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"ThreadedWaitDialogDpiContext":"-4","TMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","TNS_ADMIN":"C:\\oracle\\product\\10.2.0\\client_1\\NETWORK\\ADMIN","USERDNSDOMAIN":"QTECH.COM","USERDOMAIN":"QTECH","USERDOMAIN_ROAMINGPROFILE":"QTECH","USERNAME":"qianqian.chen","USERPROFILE":"C:\\Users\\qianqian.chen","VisualStudioDir":"C:\\Users\\qianqian.chen\\Documents\\Visual Studio 2019","VisualStudioEdition":"Microsoft Visual Studio Professional 2019","VisualStudioVersion":"16.0","VS90COMNTOOLS":"C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\Tools\\","VSAPPIDDIR":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\","VSAPPIDNAME":"devenv.exe","VSLANG":"2052","VSSKUEDITION":"Professional","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"}}
-2021-03-11 16:50:50.468 +08:00 [INF] User profile is available. Using 'C:\Users\qianqian.chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-03-11 16:50:50.570 +08:00 [INF] Loaded ABP modules:
-2021-03-11 16:50:50.570 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
-2021-03-11 16:50:50.571 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule
-2021-03-11 16:50:50.669 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2021-03-11 16:50:50.693 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2021-03-11 16:50:50.693 +08:00 [INF] Quartz Scheduler v.3.2.3.0 created.
-2021-03-11 16:50:50.694 +08:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
-2021-03-11 16:50:50.702 +08:00 [INF] RAMJobStore initialized.
-2021-03-11 16:50:50.704 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2021-03-11 16:50:50.705 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
-2021-03-11 16:50:50.705 +08:00 [INF] Quartz scheduler version: 3.2.3.0
-2021-03-11 16:50:50.732 +08:00 [INF] Adding 0 jobs, 0 triggers.
-2021-03-11 16:50:50.751 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
-2021-03-11 16:50:50.756 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:50:51.027 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:50:51.747 +08:00 [INF] Initialized all ABP modules.
-2021-03-11 16:50:51.774 +08:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-03-11 16:50:51.774 +08:00 [INF] Hosting environment: Development
-2021-03-11 16:50:51.774 +08:00 [INF] Content root path: D:\Github\Blog\src\Meowv.Blog.Api
-2021-03-11 16:50:51.840 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/index.html - -
-2021-03-11 16:50:52.127 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/index.html - - - 200 - text/html;charset=utf-8 291.6240ms
-2021-03-11 16:50:52.274 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
-2021-03-11 16:50:52.592 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 318.2407ms
-2021-03-11 16:51:20.230 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:52:26.149 +08:00 [INF] Application Starting.
-2021-03-11 16:52:26.659 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","ANCM_LAUNCHER_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0\\Meowv.Blog.Api.exe","ANCM_PREFER_ENVIRONMENT_VARIABLES":"true","APPDATA":"C:\\Users\\qianqian.chen\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","APP_POOL_CONFIG":"D:\\Github\\Blog\\.vs\\meowv.blog\\config\\applicationhost.config","APP_POOL_ID":"Meowv.Blog.Api AppPool","ASPNETCORE_ENVIRONMENT":"Development","ASPNETCORE_HTTPS_PORT":"44380","ASPNETCORE_IIS_HTTPAUTH":"anonymous;","ASPNETCORE_IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPLUS_ForceENC":"1","COMPLUS_MDA":"managedDebugger","COMPUTERNAME":"CHENQIANQIAN202","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\Github\\Blog\\src\\Meowv.Blog.Api","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DEV_ENVIRONMENT":"1","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ENVIRONMENT":"Development","ERLANG_HOME":"C:\\Program Files\\erl10.5","ForceIdentityAuthenticationType":"Embedded","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","FPS_BROWSER_USER_PROFILE_STRING":"Default","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\qianqian.chen","HTTPS_PORT":"44380","IISEXPRESS_SITENAME":"Meowv.Blog.Api","IIS_BIN":"C:\\Program Files\\IIS Express","IIS_DRIVE":"C:","IIS_HTTPAUTH":"anonymous;","IIS_PHYSICAL_PATH":"D:\\Github\\Blog\\src\\Meowv.Blog.Api\\","IIS_SITES_HOME":"C:\\Users\\qianqian.chen\\Documents\\My Web Sites","IIS_USER_HOME":"C:\\Users\\qianqian.chen\\Documents\\IISExpress","JAVA_HOME":"C:\\Program Files\\Java\\jdk-14.0.2","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\qianqian.chen\\AppData\\Local","LOGONSERVER":"\\\\QTECHDC01","MSBuildLoadMicrosoftTargetsReadOnly":"true","MYSQL_HOME":"D:\\Mysql","NODE_PATH":"C:\\Program Files\\nodejs\\node_modules","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\qianqian.chen\\OneDrive","OS":"Windows_NT","Path":"C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Ruby23-x64\\bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1\\bin;C:\\oracle\\product\\10.2.0\\db_1\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\oracle\\product\\10.2.0\\client_1\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\PuTTY\\;c:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\erl10.5\\bin;C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3\\sbin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\WindowsApps;c:\\program files\\esafenet\\cobra docguard client;C:\\Users\\qianqian.chen\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files\\nodejs\\node_global;C:\\oracle\\product\\10.2.0\\db_1\\BIN;","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW","PERL5LIB":"C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\sysman\\admin\\scripts;","PkgDefApplicationConfigFile":"C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_c314258a\\devenv.exe.config","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\","PUBLIC":"C:\\Users\\Public","RABBITMQ_SERVER":"C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3","ServiceHubLogSessionKey":"93E1AB10","SESSIONNAME":"Console","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"SignInWithHomeTenantOnly":"True","storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"ThreadedWaitDialogDpiContext":"-4","TMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","TNS_ADMIN":"C:\\oracle\\product\\10.2.0\\client_1\\NETWORK\\ADMIN","USERDNSDOMAIN":"QTECH.COM","USERDOMAIN":"QTECH","USERDOMAIN_ROAMINGPROFILE":"QTECH","USERNAME":"qianqian.chen","USERPROFILE":"C:\\Users\\qianqian.chen","VisualStudioDir":"C:\\Users\\qianqian.chen\\Documents\\Visual Studio 2019","VisualStudioEdition":"Microsoft Visual Studio Professional 2019","VisualStudioVersion":"16.0","VS90COMNTOOLS":"C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\Tools\\","VSAPPIDDIR":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\","VSAPPIDNAME":"devenv.exe","VSLANG":"2052","VSSKUEDITION":"Professional","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"}}
-2021-03-11 16:52:30.075 +08:00 [INF] User profile is available. Using 'C:\Users\qianqian.chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2021-03-11 16:52:30.190 +08:00 [INF] Loaded ABP modules:
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
-2021-03-11 16:52:30.190 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
-2021-03-11 16:52:30.191 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule
-2021-03-11 16:52:30.336 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2021-03-11 16:52:30.376 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2021-03-11 16:52:30.377 +08:00 [INF] Quartz Scheduler v.3.2.3.0 created.
-2021-03-11 16:52:30.378 +08:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
-2021-03-11 16:52:30.387 +08:00 [INF] RAMJobStore initialized.
-2021-03-11 16:52:30.389 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2021-03-11 16:52:30.389 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
-2021-03-11 16:52:30.389 +08:00 [INF] Quartz scheduler version: 3.2.3.0
-2021-03-11 16:52:30.432 +08:00 [INF] Adding 0 jobs, 0 triggers.
-2021-03-11 16:52:30.455 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
-2021-03-11 16:52:30.461 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:52:30.768 +08:00 [DBG] Batch acquisition of 0 triggers
-2021-03-11 16:52:31.556 +08:00 [INF] Initialized all ABP modules.
-2021-03-11 16:52:31.591 +08:00 [INF] Application started. Press Ctrl+C to shut down.
-2021-03-11 16:52:31.591 +08:00 [INF] Hosting environment: Development
-2021-03-11 16:52:31.591 +08:00 [INF] Content root path: D:\Github\Blog\src\Meowv.Blog.Api
-2021-03-11 16:52:31.656 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/index.html - -
-2021-03-11 16:52:32.009 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/index.html - - - 200 - text/html;charset=utf-8 353.8774ms
-2021-03-11 16:52:32.165 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
-2021-03-11 16:52:32.479 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 314.1102ms
-2021-03-11 16:52:59.088 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:38:09.549 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
+2021-03-15 14:38:09.549 +08:00 [INF] Quartz scheduler version: 3.2.3.0
+2021-03-15 14:38:09.567 +08:00 [INF] Adding 0 jobs, 0 triggers.
+2021-03-15 14:38:09.581 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2021-03-15 14:38:09.584 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:38:09.781 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:38:10.329 +08:00 [INF] Initialized all ABP modules.
+2021-03-15 14:38:10.349 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-15 14:38:10.350 +08:00 [INF] Hosting environment: Development
+2021-03-15 14:38:10.350 +08:00 [INF] Content root path: D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Api
+2021-03-15 14:38:10.396 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/index.html - -
+2021-03-15 14:38:10.664 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/index.html - - - 200 - text/html;charset=utf-8 269.9201ms
+2021-03-15 14:38:10.827 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
+2021-03-15 14:38:11.136 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 309.1625ms
+2021-03-15 14:38:36.941 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:39:00.189 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:39:23.651 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:39:52.769 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:39:53.314 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - -
+2021-03-15 14:39:53.432 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 118.0038ms
+2021-03-15 14:40:04.666 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/api/meowv/blog/admin/posts/1/10 - -
+2021-03-15 14:40:04.823 +08:00 [INF] Successfully validated the token.
+2021-03-15 14:40:04.830 +08:00 [INF] Authorization was successful.
+2021-03-15 14:40:04.976 +08:00 [INF] Executing endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
+2021-03-15 14:40:05.038 +08:00 [INF] Route matched with {action = "GetAdminPosts", controller = "Blog", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Meowv.Blog.Response.BlogResponse`1[Meowv.Blog.Response.PagedList`1[Meowv.Blog.Dto.Blog.GetAdminPostDto]]] GetAdminPostsAsync(Int32, Int32) on controller Meowv.Blog.Blog.Impl.BlogService (Meowv.Blog.Application).
+2021-03-15 14:40:35.413 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:40:58.241 +08:00 [INF] Executing ObjectResult, writing value of type 'Meowv.Blog.Response.BlogResponse`1[[Meowv.Blog.Response.PagedList`1[[Meowv.Blog.Dto.Blog.GetAdminPostDto, Meowv.Blog.Response, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Meowv.Blog.Response, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-15 14:40:59.465 +08:00 [INF] Executed action Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application) in 54423.4348ms
+2021-03-15 14:40:59.466 +08:00 [INF] Executed endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
+2021-03-15 14:40:59.586 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/api/meowv/blog/admin/posts/1/10 - - - 200 - application/json;+charset=utf-8 54919.5796ms
+2021-03-15 14:41:05.144 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:41:33.268 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:42:01.107 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:42:27.844 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:42:55.026 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:43:23.823 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:43:48.809 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:44:13.219 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:44:38.845 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:45:05.215 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:45:29.175 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:45:53.467 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:46:16.691 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:46:43.014 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:47:08.793 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:47:33.832 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:48:02.642 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:48:27.545 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:48:52.724 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:49:20.754 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:49:45.113 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:50:12.238 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:50:41.212 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:51:08.476 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:51:35.472 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:51:59.765 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:52:26.496 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:52:56.444 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:53:22.719 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:53:46.145 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:54:10.072 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:54:36.037 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:54:46.153 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44380/api/meowv/blog/admin/posts/1/10 - -
+2021-03-15 14:54:46.159 +08:00 [INF] Successfully validated the token.
+2021-03-15 14:54:46.160 +08:00 [INF] Authorization was successful.
+2021-03-15 14:54:46.165 +08:00 [INF] Executing endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
+2021-03-15 14:54:46.167 +08:00 [INF] Route matched with {action = "GetAdminPosts", controller = "Blog", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Meowv.Blog.Response.BlogResponse`1[Meowv.Blog.Response.PagedList`1[Meowv.Blog.Dto.Blog.GetAdminPostDto]]] GetAdminPostsAsync(Int32, Int32) on controller Meowv.Blog.Blog.Impl.BlogService (Meowv.Blog.Application).
+2021-03-15 14:54:48.543 +08:00 [INF] Executing ObjectResult, writing value of type 'Meowv.Blog.Response.BlogResponse`1[[Meowv.Blog.Response.PagedList`1[[Meowv.Blog.Dto.Blog.GetAdminPostDto, Meowv.Blog.Response, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Meowv.Blog.Response, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-15 14:54:48.544 +08:00 [INF] Executed action Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application) in 2376.9376ms
+2021-03-15 14:54:48.544 +08:00 [INF] Executed endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
+2021-03-15 14:54:48.549 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/api/meowv/blog/admin/posts/1/10 - - - 200 - application/json;+charset=utf-8 2396.5723ms
+2021-03-15 14:55:04.861 +08:00 [DBG] Batch acquisition of 0 triggers

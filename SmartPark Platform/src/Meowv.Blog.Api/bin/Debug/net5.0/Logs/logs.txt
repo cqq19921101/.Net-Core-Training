@@ -1,0 +1,160 @@
+2021-03-15 14:29:41.695 +08:00 [INF] Application Starting.
+2021-03-15 14:29:42.148 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","APPDATA":"C:\\Users\\qianqian.chen\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPUTERNAME":"CHENQIANQIAN202","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ERLANG_HOME":"C:\\Program Files\\erl10.5","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\qianqian.chen","JAVA_HOME":"C:\\Program Files\\Java\\jdk-14.0.2","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\qianqian.chen\\AppData\\Local","LOGONSERVER":"\\\\QTECHDC03","MYSQL_HOME":"D:\\Mysql","NODE_PATH":"C:\\Program Files\\nodejs\\node_modules","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\qianqian.chen\\OneDrive","OS":"Windows_NT","Path":"C:\\Program Files\\Java\\jdk-14.0.2\\bin;C:\\Program Files (x86)\\NetSarang\\Xshell 6\\;C:\\Ruby23-x64\\bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1;C:\\app\\qianqian.chen\\product\\11.2.0\\client_1\\bin;C:\\oracle\\product\\10.2.0\\db_1\\bin;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\oracle\\product\\10.2.0\\client_1\\bin\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\PuTTY\\;c:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files\\erl10.5\\bin;C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3\\sbin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Program Files\\dotnet\\;C:\\Users\\qianqian.chen\\AppData\\Local\\Microsoft\\WindowsApps;c:\\program files\\esafenet\\cobra docguard client;C:\\Users\\qianqian.chen\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\qianqian.chen\\.dotnet\\tools;C:\\Program Files\\nodejs\\node_global;C:\\oracle\\product\\10.2.0\\db_1\\BIN","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW","PERL5LIB":"C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\perl\\5.8.3\\lib\\MSWin32-x86;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3;C:\\oracle\\product\\10.2.0\\db_1\\perl\\site\\5.8.3\\lib;C:\\oracle\\product\\10.2.0\\db_1\\sysman\\admin\\scripts;","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\PowerShell\\Modules\\","PUBLIC":"C:\\Users\\Public","RABBITMQ_SERVER":"C:\\Program Files\\erl_rabbitmq-server-windows-3.8.3","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"TMP":"C:\\Users\\QIANQI~1.CHE\\AppData\\Local\\Temp","TNS_ADMIN":"C:\\oracle\\product\\10.2.0\\client_1\\NETWORK\\ADMIN","USERDNSDOMAIN":"QTECH.COM","USERDOMAIN":"QTECH","USERDOMAIN_ROAMINGPROFILE":"QTECH","USERNAME":"qianqian.chen","USERPROFILE":"C:\\Users\\qianqian.chen","VS90COMNTOOLS":"C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\Tools\\","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"}}
+2021-03-15 14:29:46.536 +08:00 [INF] User profile is available. Using 'C:\Users\qianqian.chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-15 14:29:46.618 +08:00 [INF] Loaded ABP modules:
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-03-15 14:29:46.618 +08:00 [INF] - SmartPark.EntityFrameworkCore.SmartParkFrameworkCoreModule
+2021-03-15 14:29:46.618 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule
+2021-03-15 14:29:46.866 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2021-03-15 14:29:46.875 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2021-03-15 14:29:46.875 +08:00 [INF] Quartz Scheduler v.3.2.3.0 created.
+2021-03-15 14:29:46.876 +08:00 [INF] JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2021-03-15 14:29:46.924 +08:00 [INF] RAMJobStore initialized.
+2021-03-15 14:29:46.927 +08:00 [INF] Scheduler meta-data: Quartz Scheduler (v3.2.3.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-15 14:29:46.927 +08:00 [INF] Quartz scheduler 'QuartzScheduler' initialized
+2021-03-15 14:29:46.927 +08:00 [INF] Quartz scheduler version: 3.2.3.0
+2021-03-15 14:29:46.959 +08:00 [INF] Adding 0 jobs, 0 triggers.
+2021-03-15 14:29:46.979 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2021-03-15 14:29:46.985 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:29:47.139 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:29:48.433 +08:00 [INF] Initialized all ABP modules.
+2021-03-15 14:29:48.616 +08:00 [INF] Now listening on: http://localhost:5000
+2021-03-15 14:29:48.616 +08:00 [INF] Now listening on: https://localhost:5001
+2021-03-15 14:29:48.616 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-15 14:29:48.616 +08:00 [INF] Hosting environment: Production
+2021-03-15 14:29:48.616 +08:00 [INF] Content root path: D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Api\bin\Debug\net5.0
+2021-03-15 14:29:51.641 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-03-15 14:29:52.017 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 301 0 - 378.5391ms
+2021-03-15 14:29:52.021 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/index.html - -
+2021-03-15 14:29:52.085 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/index.html - - - 200 - text/html;charset=utf-8 64.4780ms
+2021-03-15 14:29:52.099 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui-bundle.js - -
+2021-03-15 14:29:52.099 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui.css - -
+2021-03-15 14:29:52.100 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger-ui-standalone-preset.js - -
+2021-03-15 14:29:52.125 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-15 14:29:52.125 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-03-15 14:29:52.128 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui.css - - - 200 142933 text/css 28.9669ms
+2021-03-15 14:29:52.128 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 28.2931ms
+2021-03-15 14:29:52.135 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-03-15 14:29:52.135 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger-ui-bundle.js - - - 200 986342 application/javascript 36.5880ms
+2021-03-15 14:29:52.656 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/Smart Park/swagger.json - -
+2021-03-15 14:29:52.687 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon-32x32.png - -
+2021-03-15 14:29:52.687 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-15 14:29:52.688 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon-32x32.png - - - 200 628 image/png 0.8921ms
+2021-03-15 14:29:52.900 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 244.0887ms
+2021-03-15 14:30:14.872 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:30:23.170 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/Smart Park/swagger.json - -
+2021-03-15 14:30:23.282 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/Smart Park/swagger.json - - - 200 - application/json;charset=utf-8 111.4495ms
+2021-03-15 14:30:25.417 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/meowv/accesscontrol/posts/1/10 - -
+2021-03-15 14:30:25.608 +08:00 [INF] Executing endpoint 'Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync (Meowv.Blog.Application)'
+2021-03-15 14:30:25.675 +08:00 [INF] Route matched with {action = "GetAccessControlList", controller = "AccessControl", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Meowv.Blog.Response.SmartParkResponse`1[Meowv.Blog.Response.PagedList`1[Meowv.Blog.Dto.AccessControl.GetAccessControlListDto]]] GetAccessControlListAsync(Int32, Int32) on controller Meowv.Blog.AccessControl.Impl.AccessControlService (Meowv.Blog.Application).
+2021-03-15 14:30:25.832 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2021-03-15 14:30:25.840 +08:00 [INF] Executed action Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync (Meowv.Blog.Application) in 158.7018ms
+2021-03-15 14:30:25.840 +08:00 [INF] Executed endpoint 'Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync (Meowv.Blog.Application)'
+2021-03-15 14:30:26.624 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/meowv/accesscontrol/posts/1/10 - - - 200 121 text/plain;+charset=utf-8 1206.7293ms
+2021-03-15 14:30:43.338 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:30:47.629 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/meowv/accesscontrol/posts/1/10 - -
+2021-03-15 14:30:47.643 +08:00 [INF] Executing endpoint 'Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync (Meowv.Blog.Application)'
+2021-03-15 14:30:47.643 +08:00 [INF] Route matched with {action = "GetAccessControlList", controller = "AccessControl", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Meowv.Blog.Response.SmartParkResponse`1[Meowv.Blog.Response.PagedList`1[Meowv.Blog.Dto.AccessControl.GetAccessControlListDto]]] GetAccessControlListAsync(Int32, Int32) on controller Meowv.Blog.AccessControl.Impl.AccessControlService (Meowv.Blog.Application).
+2021-03-15 14:30:47.646 +08:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2021-03-15 14:30:47.646 +08:00 [INF] Executed action Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync (Meowv.Blog.Application) in 2.8639ms
+2021-03-15 14:30:47.646 +08:00 [INF] Executed endpoint 'Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync (Meowv.Blog.Application)'
+2021-03-15 14:30:47.660 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/meowv/accesscontrol/posts/1/10 - - - 200 121 text/plain;+charset=utf-8 31.7759ms
+2021-03-15 14:30:47.781 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2021-03-15 14:30:47.788 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 404 0 - 6.4326ms
+2021-03-15 14:31:08.487 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:31:33.855 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:31:59.213 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:32:25.234 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:32:48.594 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:33:12.132 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:33:37.298 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:34:01.316 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:34:30.213 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:34:55.763 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:35:19.966 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:35:46.785 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:36:15.532 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:36:40.038 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:36:49.168 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/meowv/blog/admin/posts/1/10 - -
+2021-03-15 14:36:49.210 +08:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-03-15 14:36:49.225 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-03-15 14:36:49.226 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/meowv/blog/admin/posts/1/10 - - - 401 - application/json;+charset=utf-8 57.7500ms
+2021-03-15 14:37:06.702 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:37:17.987 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/meowv/blog/admin/posts/1/10 - -
+2021-03-15 14:37:18.200 +08:00 [INF] Successfully validated the token.
+2021-03-15 14:37:18.202 +08:00 [INF] Authorization was successful.
+2021-03-15 14:37:18.204 +08:00 [INF] Executing endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
+2021-03-15 14:37:18.208 +08:00 [INF] Route matched with {action = "GetAdminPosts", controller = "Blog", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Meowv.Blog.Response.BlogResponse`1[Meowv.Blog.Response.PagedList`1[Meowv.Blog.Dto.Blog.GetAdminPostDto]]] GetAdminPostsAsync(Int32, Int32) on controller Meowv.Blog.Blog.Impl.BlogService (Meowv.Blog.Application).
+2021-03-15 14:37:27.910 +08:00 [INF] Executing ObjectResult, writing value of type 'Meowv.Blog.Response.BlogResponse`1[[Meowv.Blog.Response.PagedList`1[[Meowv.Blog.Dto.Blog.GetAdminPostDto, Meowv.Blog.Response, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Meowv.Blog.Response, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-15 14:37:27.923 +08:00 [INF] Executed action Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application) in 9714.7585ms
+2021-03-15 14:37:27.923 +08:00 [INF] Executed endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
+2021-03-15 14:37:27.934 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/meowv/blog/admin/posts/1/10 - - - 200 - application/json;+charset=utf-8 9947.5155ms
+2021-03-15 14:37:30.717 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 14:37:55.597 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED shutting down.
+2021-03-15 14:37:55.598 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED paused.
+2021-03-15 14:37:55.599 +08:00 [DBG] Shutting down threadpool...
+2021-03-15 14:37:55.599 +08:00 [DBG] Shutdown of threadpool complete.
+2021-03-15 14:37:55.601 +08:00 [INF] Scheduler QuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2021-03-15 14:37:55.601 +08:00 [INF] Application is shutting down...

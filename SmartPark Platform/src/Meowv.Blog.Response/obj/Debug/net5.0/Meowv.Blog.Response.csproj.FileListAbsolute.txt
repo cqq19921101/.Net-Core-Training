@@ -10,3 +10,14 @@ D:\Github\Blog\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.dll
 D:\Github\Blog\src\Meowv.Blog.Response\obj\Debug\net5.0\ref\Meowv.Blog.Response.dll
 D:\Github\Blog\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.pdb
 D:\Github\Blog\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.csprojAssemblyReference.cache
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\bin\Debug\net5.0\Meowv.Blog.Response.deps.json
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\bin\Debug\net5.0\Meowv.Blog.Response.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\bin\Debug\net5.0\ref\Meowv.Blog.Response.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\bin\Debug\net5.0\Meowv.Blog.Response.pdb
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\ref\Meowv.Blog.Response.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.Response\obj\Debug\net5.0\Meowv.Blog.Response.pdb

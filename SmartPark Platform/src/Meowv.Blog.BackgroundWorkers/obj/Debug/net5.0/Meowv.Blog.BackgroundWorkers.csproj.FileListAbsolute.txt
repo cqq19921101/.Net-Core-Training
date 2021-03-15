@@ -16,3 +16,21 @@ D:\Github\Blog\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.Back
 D:\Github\Blog\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.dll
 D:\Github\Blog\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\ref\Meowv.Blog.BackgroundWorkers.dll
 D:\Github\Blog\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.pdb
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.BackgroundWorkers.deps.json
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.BackgroundWorkers.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\ref\Meowv.Blog.BackgroundWorkers.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.BackgroundWorkers.pdb
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.Core.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.Response.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.Core.pdb
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.Core.xml
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\bin\Debug\net5.0\Meowv.Blog.Response.pdb
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.csprojAssemblyReference.cache
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.AssemblyInfoInputs.cache
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.AssemblyInfo.cs
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.csproj.CoreCompileInputs.cache
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.csproj.CopyComplete
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\ref\Meowv.Blog.BackgroundWorkers.dll
+D:\Github\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.BackgroundWorkers\obj\Debug\net5.0\Meowv.Blog.BackgroundWorkers.pdb

@@ -1,4 +1,5 @@
 ﻿using Meowv.Blog.Domain.AccessControl.Repositories;
+using Microsoft.EntityFrameworkCore;
 using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,20 @@ namespace SmartPark.EntityFrameworkCore.Repositories.AccessControl
 
 
             return null;
+        }
+
+
+        /// <summary>
+        /// Get Access Control History Data By Timestamp
+        /// </summary>
+        /// <param name="skipCount"></param>
+        /// <param name="maxResultCount"></param>
+        /// <returns></returns>
+        public async Task<List<FaceCapture>> GetListAsync(int skipCount, int maxResultCount)
+        {
+            var sql = string.Empty;
+            sql = @"select top 1000 * from [SP_FaceCapture]";
+            return await DbContext.Set<FaceCapture>().FromSqlRaw(sql).ToListAsync();
         }
 
     }

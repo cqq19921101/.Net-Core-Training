@@ -19,19 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meowv.Blog.Response", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meowv.Blog.DbMigrator", "src\Meowv.Blog.DbMigrator\Meowv.Blog.DbMigrator.csproj", "{64D9E8BC-DEA8-47ED-8932-7AD0C8B3D282}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73AB396B-140D-4293-8560-CFCA0D726BC1}"
-	ProjectSection(SolutionItems) = preProject
-		.dockerignore = .dockerignore
-		.gitattributes = .gitattributes
-		.gitignore = .gitignore
-		.github\FUNDING.yml = .github\FUNDING.yml
-		LICENSE = LICENSE
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPark.EntityFrameworkCore", "src\SmartPark.EntityFrameworkCore\SmartPark.EntityFrameworkCore.csproj", "{1E586E2A-27AE-48CC-B893-051A32FFCC0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPark.EntityFrameworkCore.DbMigrator", "src\SmartPark.EntityFrameworkCore.DbMigrator\SmartPark.EntityFrameworkCore.DbMigrator.csproj", "{747D541E-4359-4E7E-8899-6761627D63E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPark.EntityFrameworkCore.DbMigrator", "src\SmartPark.EntityFrameworkCore.DbMigrator\SmartPark.EntityFrameworkCore.DbMigrator.csproj", "{747D541E-4359-4E7E-8899-6761627D63E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
