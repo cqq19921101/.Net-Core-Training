@@ -144,3 +144,64 @@
 2021-03-15 14:54:48.544 +08:00 [INF] Executed endpoint 'Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync (Meowv.Blog.Application)'
 2021-03-15 14:54:48.549 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44380/api/meowv/blog/admin/posts/1/10 - - - 200 - application/json;+charset=utf-8 2396.5723ms
 2021-03-15 14:55:04.861 +08:00 [DBG] Batch acquisition of 0 triggers
+2021-03-15 21:42:05.587 +08:00 [INF] Application Starting.
+2021-03-15 21:42:06.583 +08:00 [INF] appsettings {"ALLUSERSPROFILE":"C:\\ProgramData","ANCM_LAUNCHER_PATH":"D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\bin\\Debug\\net5.0\\Meowv.Blog.Api.exe","ANCM_PREFER_ENVIRONMENT_VARIABLES":"true","APPDATA":"C:\\Users\\Lenovo\\AppData\\Roaming","applicationName":"Meowv.Blog.Api","APP_POOL_CONFIG":"D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\.vs\\meowv.blog\\config\\applicationhost.config","APP_POOL_ID":"Meowv.Blog.Api AppPool","ASPNETCORE_ENVIRONMENT":"Development","ASPNETCORE_HTTPS_PORT":"44380","ASPNETCORE_IIS_HTTPAUTH":"anonymous;","ASPNETCORE_IIS_PHYSICAL_PATH":"D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\","authorize":{"alipay":{"appId":"2021002125624107","privateKey":"","publicKey":"","redirectUrl":"https://admin.meowv.com/oauth/alipay","scope":"auth_user"},"dingtalk":{"appId":"dingoakqr9viaxcysinlzh","appSecret":"","redirectUrl":"https://admin.meowv.com/oauth/dingtalk","scope":"snsapi_login"},"gitee":{"clientId":"2aa9116886160b7a7d5d87f043df4f3331d15ac1b1f3b57844d87e0b7b62e9c2","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/gitee","scope":"user_info emails"},"github":{"clientId":"e31df3ad90fb05adc29c","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/github","scope":"user"},"microsoft":{"clientId":"b4c12337-8504-4da9-b85a-4961b7771426","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/microsoft","scope":"user.read"},"qq":{"clientId":"101935194","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/qq","scope":"get_user_info"},"weibo":{"clientId":"3725213942","clientSecret":"","redirectUrl":"https://admin.meowv.com/oauth/weibo","scope":"all"}},"CommonProgramFiles":"C:\\Program Files\\Common Files","CommonProgramFiles(x86)":"C:\\Program Files (x86)\\Common Files","CommonProgramW6432":"C:\\Program Files\\Common Files","COMPLUS_ForceENC":"1","COMPLUS_MDA":"managedDebugger","COMPUTERNAME":"LAPTOP-0CP0PGD2","ComSpec":"C:\\windows\\system32\\cmd.exe","contentRoot":"D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api","cors":{"origins":"https://*.meowv.com,https://localhost:44381,https://localhost:44382","policyName":"meowv-policy"},"DEV_ENVIRONMENT":"1","DriverData":"C:\\Windows\\System32\\Drivers\\DriverData","ENVIRONMENT":"Development","FPS_BROWSER_APP_PROFILE_STRING":"Internet Explorer","FPS_BROWSER_USER_PROFILE_STRING":"Default","HOMEDRIVE":"C:","HOMEPATH":"\\Users\\Lenovo","HTTPS_PORT":"44380","IISEXPRESS_SITENAME":"Meowv.Blog.Api","IIS_BIN":"C:\\Program Files\\IIS Express","IIS_DRIVE":"C:","IIS_HTTPAUTH":"anonymous;","IIS_PHYSICAL_PATH":"D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Api\\","IIS_SITES_HOME":"C:\\Users\\Lenovo\\Documents\\My Web Sites","IIS_USER_HOME":"C:\\Users\\Lenovo\\Documents\\IISExpress","jwt":{"audience":"meowv_blog api","issuer":"meowv_blog","signingKey":"H4sIAAAAAAAAA3N0cnZxdXP38PTy9vH18w8I9AkOCQ0Lj4iMAgDB4fXPGgAAAA=="},"LOCALAPPDATA":"C:\\Users\\Lenovo\\AppData\\Local","LOGONSERVER":"\\\\LAPTOP-0CP0PGD2","MSBuildLoadMicrosoftTargetsReadOnly":"true","NUMBER_OF_PROCESSORS":"8","OneDrive":"C:\\Users\\Lenovo\\OneDrive","OneDriveConsumer":"C:\\Users\\Lenovo\\OneDrive","OS":"Windows_NT","Path":"C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Common Files\\Thunder Network\\KanKan\\Codecs;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\dotnet\\;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;D:\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\npm","PATHEXT":".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC","PkgDefApplicationConfigFile":"C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\VisualStudio\\16.0_84d751b7\\devenv.exe.config","PROCESSOR_ARCHITECTURE":"AMD64","PROCESSOR_IDENTIFIER":"Intel64 Family 6 Model 142 Stepping 12, GenuineIntel","PROCESSOR_LEVEL":"6","PROCESSOR_REVISION":"8e0c","ProgramData":"C:\\ProgramData","ProgramFiles":"C:\\Program Files","ProgramFiles(x86)":"C:\\Program Files (x86)","ProgramW6432":"C:\\Program Files","PSModulePath":"C:\\Program Files\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules","PUBLIC":"C:\\Users\\Public","ServiceHubLogSessionKey":"1A55E62C","SESSIONNAME":"Console","signature":{"path":"D:\\static\\signature","urls":{"0":{"param":"1","url":"https://api1.meowv.com"},"1":{"param":"2","url":"https://api2.meowv.com"},"2":{"param":"3","url":"https://api3.meowv.com"}}},"SignInWithHomeTenantOnly":"False","storage":{"mongodb":"mongodb://localhost/meowv_blog","redis":"127.0.0.1","redisIsEnabled":"true"},"swagger":{"description":"Powered by .NET 5 on Linux","documentTitle":"Api Platform","name":"Smart Park","routePrefix":"","title":"Smart Park Platform Api","version":"v2.0.0"},"SystemDrive":"C:","SystemRoot":"C:\\windows","TEMP":"C:\\Users\\Lenovo\\AppData\\Local\\Temp","tencentCloud":{"secretId":"AKIDlSrzZj0DXZKo0zslPnvmMfWdjYC6CG3d","secretKey":""},"ThreadedWaitDialogDpiContext":"-4","TMP":"C:\\Users\\Lenovo\\AppData\\Local\\Temp","USERDOMAIN":"LAPTOP-0CP0PGD2","USERDOMAIN_ROAMINGPROFILE":"LAPTOP-0CP0PGD2","USERNAME":"Lenovo","USERPROFILE":"C:\\Users\\Lenovo","VisualStudioDir":"C:\\Users\\Lenovo\\Documents\\Visual Studio 2019","VisualStudioEdition":"Microsoft Visual Studio Professional 2019","VisualStudioVersion":"16.0","VSAPPIDDIR":"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\IDE\\","VSAPPIDNAME":"devenv.exe","VSLANG":"2052","VSSKUEDITION":"Professional","windir":"C:\\windows","worker":{"cron":"0 0 0/1 * * ? *","isEnabled":"true"}}
+2021-03-15 21:42:13.290 +08:00 [INF] User profile is available. Using 'C:\Users\Lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-15 21:42:13.383 +08:00 [INF] Loaded ABP modules:
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Specifications.AbpSpecificationsModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Meowv.Blog.MeowvBlogCoreModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Meowv.Blog.MeowvBlogApplicationModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.AuditLogging.MongoDB.AbpAuditLoggingMongoDbModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Meowv.Blog.MeowvBlogMongoDbModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.Quartz.AbpQuartzModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.BackgroundWorkers.Quartz.AbpBackgroundWorkersQuartzModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Meowv.Blog.MeowvBlogBackgroundWorkersModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2021-03-15 21:42:13.383 +08:00 [INF] - SmartPark.EntityFrameworkCore.SmartParkFrameworkCoreModule
+2021-03-15 21:42:13.383 +08:00 [INF] - Meowv.Blog.Api.MeowvBlogApiModule

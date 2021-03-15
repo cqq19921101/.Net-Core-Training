@@ -21,6 +21,23 @@ namespace Meowv.Blog.Admin.Shared
                     Icon = "dashboard"
                 },
                 new MenuDataItem
+                { 
+                    Name = "门禁管理",
+                    Key = "accesscontrol",
+                    Path = "/accesscontrol",
+                    Icon = "form",
+                    Children = new MenuDataItem[]
+                    {
+                        new MenuDataItem
+                        {
+                            Name = "识别记录",
+                            Key = "accesscontrol-list",
+                            Path = "/accesscontrol/list",
+                            Icon = "form"
+                        }
+                    }
+                },
+                new MenuDataItem
                 {
                     Name = "文章管理",
                     Key = "posts",

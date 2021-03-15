@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj": {}
+    "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj": {}
   },
   "projects": {
-    "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj": {
+    "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj",
+        "projectUniqueName": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj",
         "projectName": "Meowv.Blog.Application",
-        "projectPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj",
-        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\obj\\",
+        "projectPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\Meowv.Blog.Application.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj": {
-                "projectPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj"
+              "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj": {
+                "projectPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj"
               }
             }
           }
@@ -98,24 +95,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj": {
+    "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj",
+        "projectUniqueName": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj",
         "projectName": "Meowv.Blog.Core",
-        "projectPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj",
-        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\obj\\",
+        "projectPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\Meowv.Blog.Core.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,8 +123,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj": {
-                "projectPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj"
+              "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj": {
+                "projectPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj"
               }
             }
           }
@@ -181,24 +175,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj": {
+    "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
+        "projectUniqueName": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
         "projectName": "Meowv.Blog.Response",
-        "projectPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
-        "packagesPath": "C:\\Users\\qianqian.chen\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\obj\\",
+        "projectPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\qianqian.chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -244,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

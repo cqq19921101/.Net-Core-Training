@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Meowv.Blog.Application</name>
+    </assembly>
+    <members>
+        <member name="M:Meowv.Blog.AccessControl.Impl.AccessControlService.GetAccessControlListAsync(System.Int32,System.Int32)">
+            <summary>
+            Get Access Control Information list of posts by paging.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Authorize.Impl.AuthorizeService.GetAuthorizeUrlAsync(System.String)">
+            <summary>
+            Get authorize url.
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Authorize.Impl.AuthorizeService.GenerateTokenAsync(System.String,System.String,System.String)">
+            <summary>
+            Generate token by <paramref name="type"/>.
+            </summary>
+            <param name="type"></param>
+            <param name="code"></param>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Authorize.Impl.AuthorizeService.GenerateTokenAsync(System.String)">
+            <summary>
+            Generate token by authorization code.
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Authorize.Impl.AuthorizeService.GenerateTokenAsync(Meowv.Blog.Users.IUserService,Meowv.Blog.Dto.Authorize.Params.AccountInput)">
+            <summary>
+            Generate token by account.
+            </summary>
+            <param name="userService"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Authorize.Impl.AuthorizeService.SendAuthorizeCodeAsync">
+            <summary>
+            Send authorization code.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.CreateCategoryAsync(Meowv.Blog.Dto.Blog.Params.CreateCategoryInput)">
+            <summary>
+            Create a category.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.DeleteCategoryAsync(System.String)">
+            <summary>
+            Delete category by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.UpdateCategoryAsync(System.String,Meowv.Blog.Dto.Blog.Params.UpdateCategoryInput)">
+            <summary>
+            Update category by id.
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetAdminCategoriesAsync">
+            <summary>
+            Get the list of categories.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetCategoriesAsync">
+            <summary>
+            Get the list of categories.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetStatisticsAsync">
+            <summary>
+            Get statistics on the total number of posts, categories and tags.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.CreateFriendLinkAsync(Meowv.Blog.Dto.Blog.Params.CreateFriendLinkInput)">
+            <summary>
+            Create a friendLink.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.DeleteFriendLinkAsync(System.String)">
+            <summary>
+            Delete friendLink by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.UpdateFriendLinkAsync(System.String,Meowv.Blog.Dto.Blog.Params.UpdateFriendLinkInput)">
+            <summary>
+            Update friendLink by id.
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetAdminFriendLinksAsync">
+            <summary>
+            Get the list of friendlinks.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetFriendLinksAsync">
+            <summary>
+            Get the list of friendlinks.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.CreatePostAsync(Meowv.Blog.Dto.Blog.Params.CreatePostInput)">
+            <summary>
+            Create a post.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.DeletePostAsync(System.String)">
+            <summary>
+            Delete post by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.UpdatePostAsync(System.String,Meowv.Blog.Dto.Blog.Params.UpdatePostInput)">
+            <summary>
+            Update post by id.
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetPostAsync(System.String)">
+            <summary>
+            Get post by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetAdminPostsAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of posts by paging.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetPostByUrlAsync(System.String)">
+            <summary>
+            Get post by url.
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetPostsAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of posts by paging.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetPostsByCategoryAsync(System.String)">
+            <summary>
+            Get the list of posts by category.
+            </summary>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetPostsByTagAsync(System.String)">
+            <summary>
+            Get the list of posts by tag.
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.CreateTagAsync(Meowv.Blog.Dto.Blog.Params.CreateTagInput)">
+            <summary>
+            Create a tag.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.DeleteTagAsync(System.String)">
+            <summary>
+            Delete tag by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.UpdateTagAsync(System.String,Meowv.Blog.Dto.Blog.Params.UpdateTagInput)">
+            <summary>
+            Update tag by id.
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetAdminTagsAsync">
+            <summary>
+            Get the list of tags.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Blog.Impl.BlogService.GetTagsAsync">
+            <summary>
+            Get the list of tags.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetCategoriesAsync(System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Blog.GetCategoryDto}}}})">
+            <summary>
+            Get the list of categories from the cache.
+            </summary>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetFriendLinksAsync(System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Blog.FriendLinkDto}}}})">
+            <summary>
+            Get the list of friendlinks from the cache.
+            </summary>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetPostByUrlAsync(System.String,System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{Meowv.Blog.Dto.Blog.PostDetailDto}}})">
+            <summary>
+            Get post by url from the cache.
+            </summary>
+            <param name="url"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetPostsAsync(System.Int32,System.Int32,System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{Meowv.Blog.Response.PagedList{Meowv.Blog.Dto.Blog.GetPostDto}}}})">
+            <summary>
+            Get the list of posts by paging from the cache.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetPostsByCategoryAsync(System.String,System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Blog.GetPostDto}}}})">
+            <summary>
+            Get the list of posts by category from the cache.
+            </summary>
+            <param name="category"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetPostsByTagAsync(System.String,System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Blog.GetPostDto}}}})">
+            <summary>
+            Get the list of posts by tag from the cache.
+            </summary>
+            <param name="tag"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Blog.IBlogCacheService.GetTagsAsync(System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Blog.GetTagDto}}}})">
+            <summary>
+            Get the list of tags from the cache.
+            </summary>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Hots.IHotCacheService.GetSourcesAsync(System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Hots.HotSourceDto}}}})">
+            <summary>
+            Get the list of sources from the cache.
+            </summary>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Hots.IHotCacheService.GetHotsAsync(System.String,System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{Meowv.Blog.Dto.Hots.HotDto}}})">
+            <summary>
+            Get the list of hot news by id from the cache.
+            </summary>
+            <param name="id"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Meowv.Blog.Caching.CachingConsts.CacheStrategy.NEVER">
+            <summary>
+            Never expire
+            </summary>
+        </member>
+        <member name="F:Meowv.Blog.Caching.CachingConsts.CacheStrategy.ONE_HOURS">
+            <summary>
+            Expires in 1 hour
+            </summary>
+        </member>
+        <member name="F:Meowv.Blog.Caching.CachingConsts.CacheStrategy.HALF_DAY">
+            <summary>
+            Expires in 12 hours
+            </summary>
+        </member>
+        <member name="M:Meowv.Blog.Caching.MeowvBlogApplicationCachingExtensions.GetOrAddAsync``1(Microsoft.Extensions.Caching.Distributed.IDistributedCache,System.String,System.Func{System.Threading.Tasks.Task{``0}},System.Int32)">
+            <summary>
+            Gets or sets a string with the specified key.
+            </summary>
+            <typeparam name="TCacheItem"></typeparam>
+            <param name="cache"></param>
+            <param name="key"></param>
+            <param name="factory"></param>
+            <param name="minutes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Signatures.ISignatureCacheService.GetTypesAsync(System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.Collections.Generic.List{Meowv.Blog.Dto.Signatures.SignatureTypeDto}}}})">
+            <summary>
+            Get the list of signature types from the cache.
+            </summary>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Caching.Signatures.ISignatureCacheService.GenerateAsync(Meowv.Blog.Dto.Signatures.Params.GenerateSignatureInput,System.Func{System.Threading.Tasks.Task{Meowv.Blog.Response.BlogResponse{System.String}}})">
+            <summary>
+            Generate a signature from the cache.
+            </summary>
+            <param name="input"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Hots.Impl.HotService.GetSourcesAsync">
+            <summary>
+            Get the list of sources.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Hots.Impl.HotService.GetHotsAsync(System.String)">
+            <summary>
+            Get the list of hot news by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Messages.Impl.MessageService.CreateAsync(Meowv.Blog.Dto.Messages.Params.CreateMessageInput)">
+            <summary>
+            Create a message.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Messages.Impl.MessageService.ReplyAsync(System.String,Meowv.Blog.Dto.Messages.Params.ReplyMessageInput)">
+            <summary>
+            Reply to a message.
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Messages.Impl.MessageService.DeleteAsync(System.String)">
+            <summary>
+            Delete a message by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Messages.Impl.MessageService.DeleteReplyAsync(System.String,System.String)">
+            <summary>
+            Delete a reply message by id.
+            </summary>
+            <param name="id"></param>
+            <param name="replyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Messages.Impl.MessageService.GetMessagesAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of messages by paging.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Sayings.Impl.SayingService.CreateAsync(Meowv.Blog.Dto.Sayings.Params.CreateInput)">
+            <summary>
+            Create sayings.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Sayings.Impl.SayingService.DeleteAsync(System.String)">
+            <summary>
+            Delete saying by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Sayings.Impl.SayingService.GetSayingsAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of sayings by paging.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Sayings.Impl.SayingService.GetRandomAsync">
+            <summary>
+            Get a saying.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Signatures.Impl.SignatureService.DeleteAsync(System.String)">
+            <summary>
+            Delete signature by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Signatures.Impl.SignatureService.GetSignaturesAsync(System.Int32,System.Int32)">
+            <summary>
+            Get the list of signatures by paging.
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Signatures.Impl.SignatureService.GetTypesAsync">
+            <summary>
+            Get the list of signature types.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Signatures.Impl.SignatureService.GenerateAsync(Meowv.Blog.Dto.Signatures.Params.GenerateSignatureInput)">
+            <summary>
+            Generate a signature.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.GetBingBackgroundUrlAsync">
+            <summary>
+            Get bing background url.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.GetBingBackgroundImgAsync">
+            <summary>
+            Get bing background image.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.Ip2RegionAsync(System.String)">
+            <summary>
+            Get the region by ip address.
+            </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.SendMessageAsync(Meowv.Blog.Dto.Tools.Params.SendMessageInput)">
+            <summary>
+            Send a message to weixin.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.GetImgAsync(System.String)">
+            <summary>
+            Get img by url
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.PurgeCdnUrlsAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Purge the cdn url cache.
+            </summary>
+            <param name="urls"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.PurgeCdnPathsAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Purge the cdn path cache.
+            </summary>
+            <param name="paths"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Tools.Impl.ToolService.PushCdnUrlsAsync(System.Collections.Generic.List{System.String})">
+            <summary>
+            Push the cdn url cache.
+            </summary>
+            <param name="urls"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.CreateUserAsync(Meowv.Blog.Dto.Users.Params.CreateUserInput)">
+            <summary>
+            Create a user.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.DeleteUserAsync(System.String)">
+            <summary>
+            Delete user by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.UpdateUserAsync(System.String,Meowv.Blog.Dto.Users.Params.UpdateUserinput)">
+            <summary>
+            Update user by id.
+            </summary>
+            <param name="id"></param>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.UpdatePasswordAsync(System.String,System.String)">
+            <summary>
+            Update user password by id.
+            </summary>
+            <param name="id"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.SettingAdminAsync(System.String,System.Boolean)">
+            <summary>
+            Set user as administrator.
+            </summary>
+            <param name="id"></param>
+            <param name="isAdmin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.GetUsersAsync">
+            <summary>
+            Get the list of users.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.GetUserAsync(System.String)">
+            <summary>
+            Get user by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Meowv.Blog.Users.Impl.UserService.GetCurrentUserAsync">
+            <summary>
+            Get current user.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

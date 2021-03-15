@@ -1,9 +1,9 @@
 ﻿---
 swagger:
-  version: 'v2.0.0'
+  version: 'v1.0.0'
   name: 'Smart Park'
   title: 'Smart Park Platform Api'
-  description: 'Powered by .NET 5 on Linux'
+  description: 'Powered by .NET 5 on Linux or Windows'
   routePrefix: ''
   documentTitle: 'Api Platform'
 
@@ -28,11 +28,11 @@ worker:
 signature:
   path: 'D:\static\signature'
   urls:
-  - url: 'https://api1.meowv.com'
+  - url: 'https://apiplatform1.com'
     param: '1'
-  - url: 'https://api2.meowv.com'
+  - url: 'https://apiplatformi2.meowv.com'
     param: '2'
-  - url: 'https://api3.meowv.com'
+  - url: 'https://apiplatform3.meowv.com'
     param: '3'
 
 tencentCloud:

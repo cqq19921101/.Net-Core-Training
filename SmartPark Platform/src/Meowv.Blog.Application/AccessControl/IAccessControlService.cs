@@ -16,5 +16,7 @@ namespace Meowv.Blog.AccessControl
         ///// </summary>
         ///// <returns></returns>
         //Task<BlogResponse<Tuple<int, int, int>>> GetStatisticsAsync();
+
+        Task<SmartParkResponse<PagedList<GetAccessControlListDto>>> GetAccessControlListAsync(int page, int limit);
     }
 }

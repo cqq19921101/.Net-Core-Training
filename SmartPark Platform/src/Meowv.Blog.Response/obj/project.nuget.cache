@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uM9mTsdhVl0kGf25g8G4ttzOfLnR3KfRGZYOzqTC8UVyUoF0xV7zgPJwyINvckbOsu+bKnif4kb7LqNSb5JjtQ==",
+  "dgSpecHash": "rDMuMKKRYJ4cPBviY5RxZTJs5TybCxXNk/pu/YvJ4eWWr9IeA3L6xBQ4NXE+xmYF3iirt5QWWzt9+rpPCoS90w==",
   "success": true,
-  "projectFilePath": "D:\\Github\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
+  "projectFilePath": "D:\\WorkShop\\.Net-Core-Training\\SmartPark Platform\\src\\Meowv.Blog.Response\\Meowv.Blog.Response.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\qianqian.chen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

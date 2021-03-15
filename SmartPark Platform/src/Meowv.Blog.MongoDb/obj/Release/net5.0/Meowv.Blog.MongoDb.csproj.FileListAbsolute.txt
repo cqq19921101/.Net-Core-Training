@@ -1,0 +1,17 @@
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.MongoDb.deps.json
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.MongoDb.dll
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\ref\Meowv.Blog.MongoDb.dll
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.MongoDb.pdb
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.Core.dll
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.Response.dll
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.Core.pdb
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\bin\Release\net5.0\Meowv.Blog.Response.pdb
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.csprojAssemblyReference.cache
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.AssemblyInfoInputs.cache
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.AssemblyInfo.cs
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.csproj.CoreCompileInputs.cache
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.csproj.CopyComplete
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.dll
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\ref\Meowv.Blog.MongoDb.dll
+D:\WorkShop\.Net-Core-Training\SmartPark Platform\src\Meowv.Blog.MongoDb\obj\Release\net5.0\Meowv.Blog.MongoDb.pdb
