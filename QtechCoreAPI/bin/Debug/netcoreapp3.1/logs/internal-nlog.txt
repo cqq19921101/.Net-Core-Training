@@ -1,0 +1,322 @@
+2020-07-06 13:29:22.1262 Info Message Template Auto Format enabled
+2020-07-06 13:29:22.1262 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:29:22.1831 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:29:22.1875 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:29:22.1875 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:29:22.2133 Info Found 46 configuration items
+2020-07-06 13:29:24.3648 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:29:24.3783 Info Logger has been shut down.
+2020-07-06 13:31:18.0356 Info Message Template Auto Format enabled
+2020-07-06 13:31:18.0356 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:31:18.0793 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:31:18.0793 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:31:18.0942 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:31:18.0942 Info Found 46 configuration items
+2020-07-06 13:31:20.4832 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:31:20.4952 Info Logger has been shut down.
+2020-07-06 13:37:04.3513 Info Message Template Auto Format enabled
+2020-07-06 13:37:04.3671 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:37:04.4811 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:37:04.4945 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:37:04.5151 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:37:04.5604 Info Found 46 configuration items
+2020-07-06 13:38:22.2689 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:38:22.2689 Info Logger has been shut down.
+2020-07-06 13:38:36.6999 Info Message Template Auto Format enabled
+2020-07-06 13:38:36.7056 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:38:36.7436 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:38:36.7436 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:38:36.7581 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:38:36.7683 Info Found 46 configuration items
+2020-07-06 13:38:38.6768 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:38:38.6900 Info Logger has been shut down.
+2020-07-06 13:38:49.1189 Info Message Template Auto Format enabled
+2020-07-06 13:38:49.1272 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:38:49.1664 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:38:49.1664 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:38:49.1808 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:38:49.1921 Info Found 46 configuration items
+2020-07-06 13:40:40.8285 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:40:40.8421 Info Logger has been shut down.
+2020-07-06 13:40:51.3007 Info Message Template Auto Format enabled
+2020-07-06 13:40:51.3146 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:40:51.3942 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:40:51.3942 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:40:51.4161 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:40:51.4416 Info Found 46 configuration items
+2020-07-06 13:42:53.4173 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:42:53.4311 Info Logger has been shut down.
+2020-07-06 13:48:28.9855 Info Message Template Auto Format enabled
+2020-07-06 13:48:28.9924 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:48:29.0357 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:48:29.0357 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:48:29.0579 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:48:29.0703 Info Found 46 configuration items
+2020-07-06 13:49:20.5806 Info Message Template Auto Format enabled
+2020-07-06 13:49:20.5967 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:49:20.6971 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:49:20.6971 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:49:20.7252 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:49:20.7516 Info Found 46 configuration items
+2020-07-06 13:50:26.3158 Info Message Template Auto Format enabled
+2020-07-06 13:50:26.3304 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:50:26.4020 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:50:26.4020 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:50:26.4244 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:50:26.4550 Info Found 46 configuration items
+2020-07-06 13:50:41.1356 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:50:41.1468 Info Logger has been shut down.
+2020-07-06 13:51:05.1638 Info Message Template Auto Format enabled
+2020-07-06 13:51:05.1997 Info Loading assembly: NLog.Web.AspNetCore
+2020-07-06 13:51:05.2721 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-07-06 13:51:05.2721 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-07-06 13:51:05.2982 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-07-06 13:51:05.3273 Info Found 46 configuration items
+2020-07-06 13:52:21.3620 Info AppDomain Shutting down. Logger closing...
+2020-07-06 13:52:21.3765 Info Logger has been shut down.
+2020-08-06 09:56:12.6729 Info Message Template Auto Format enabled
+2020-08-06 09:56:12.6729 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 09:56:12.7283 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 09:56:12.7332 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 09:56:12.7332 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 09:56:12.7587 Info Found 46 configuration items
+2020-08-06 09:58:41.6786 Info AppDomain Shutting down. Logger closing...
+2020-08-06 09:58:41.6941 Info Logger has been shut down.
+2020-08-06 09:59:22.8708 Info Message Template Auto Format enabled
+2020-08-06 09:59:22.8708 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 09:59:22.9351 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 09:59:22.9351 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 09:59:22.9531 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 09:59:22.9693 Info Found 46 configuration items
+2020-08-06 10:20:59.4973 Info AppDomain Shutting down. Logger closing...
+2020-08-06 10:20:59.5120 Info Logger has been shut down.
+2020-08-06 10:37:22.2692 Info Message Template Auto Format enabled
+2020-08-06 10:37:22.2692 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 10:37:22.3239 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 10:37:22.3275 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 10:37:22.3432 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 10:37:22.3603 Info Found 46 configuration items
+2020-08-06 10:40:12.1992 Info AppDomain Shutting down. Logger closing...
+2020-08-06 10:40:12.2129 Info Logger has been shut down.
+2020-08-06 10:40:50.1130 Info Message Template Auto Format enabled
+2020-08-06 10:40:50.1401 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 10:40:50.2517 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 10:40:50.2695 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 10:40:50.2881 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 10:40:50.3369 Info Found 46 configuration items
+2020-08-06 10:46:03.8094 Info Message Template Auto Format enabled
+2020-08-06 10:46:03.8217 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 10:46:03.8936 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 10:46:03.8936 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 10:46:03.9137 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 10:46:03.9376 Info Found 46 configuration items
+2020-08-06 10:49:17.9304 Info Message Template Auto Format enabled
+2020-08-06 10:49:17.9479 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 10:49:18.0623 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 10:49:18.0826 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 10:49:18.1010 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 10:49:18.1450 Info Found 46 configuration items
+2020-08-06 10:49:51.0174 Info Message Template Auto Format enabled
+2020-08-06 10:49:51.0394 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 10:49:51.1965 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 10:49:51.2101 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 10:49:51.2309 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 10:49:51.2715 Info Found 46 configuration items
+2020-08-06 11:06:25.0938 Info AppDomain Shutting down. Logger closing...
+2020-08-06 11:06:25.1073 Info Logger has been shut down.
+2020-08-06 14:24:37.2725 Info Message Template Auto Format enabled
+2020-08-06 14:24:37.2850 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:24:37.3500 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:24:37.3500 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:24:37.3666 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:24:37.3798 Info Found 46 configuration items
+2020-08-06 14:25:32.5591 Info Message Template Auto Format enabled
+2020-08-06 14:25:32.5646 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:25:32.6052 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:25:32.6052 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:25:32.6200 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:25:32.6316 Info Found 46 configuration items
+2020-08-06 14:26:14.6887 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:26:14.6887 Info Logger has been shut down.
+2020-08-06 14:28:24.5443 Info Message Template Auto Format enabled
+2020-08-06 14:28:24.5500 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:28:24.5974 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:28:24.5974 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:28:24.6260 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:28:24.6474 Info Found 46 configuration items
+2020-08-06 14:32:55.2298 Info Configuration file change detected! Reloading in 1000ms...
+2020-08-06 14:32:55.2298 Info Configuration file change detected! Reloading in 1000ms...
+2020-08-06 14:32:56.2425 Info Reloading configuration...
+2020-08-06 14:32:56.2425 Info Configuring from an XML element in D:\WorkShop\MiddleWare\QtechCoreAPI\bin\Debug\netcoreapp3.1\nlog.config...
+2020-08-06 14:32:56.2425 Info Message Template Auto Format enabled
+2020-08-06 14:32:56.2425 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:32:56.2425 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:32:56.2425 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:32:56.2425 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:32:56.2425 Info Closing old configuration.
+2020-08-06 14:32:56.2632 Info Found 46 configuration items
+2020-08-06 14:32:57.9757 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:32:57.9757 Info Logger has been shut down.
+2020-08-06 14:33:11.3548 Info Message Template Auto Format enabled
+2020-08-06 14:33:11.3548 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:33:11.4047 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:33:11.4047 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:33:11.4200 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:33:11.4356 Info Found 46 configuration items
+2020-08-06 14:33:26.9680 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:33:26.9793 Info Logger has been shut down.
+2020-08-06 14:34:05.2914 Info Message Template Auto Format enabled
+2020-08-06 14:34:05.2914 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:34:05.3499 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:34:05.3523 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:34:05.3677 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:34:05.3677 Info Found 46 configuration items
+2020-08-06 14:34:19.6654 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:34:19.6654 Info Logger has been shut down.
+2020-08-06 14:34:34.4778 Info Message Template Auto Format enabled
+2020-08-06 14:34:34.4778 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:34:34.5450 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:34:34.5450 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:34:34.5629 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:34:34.5765 Info Found 46 configuration items
+2020-08-06 14:35:09.3404 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:35:09.3536 Info Logger has been shut down.
+2020-08-06 14:35:38.4380 Info Message Template Auto Format enabled
+2020-08-06 14:35:38.4380 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:35:38.4958 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:35:38.4958 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:35:38.5146 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:35:38.5324 Info Found 46 configuration items
+2020-08-06 14:36:15.8475 Info Message Template Auto Format enabled
+2020-08-06 14:36:15.8622 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:36:15.9633 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:36:15.9633 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:36:15.9906 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:36:16.0197 Info Found 46 configuration items
+2020-08-06 14:36:26.7695 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:36:26.7817 Info Logger has been shut down.
+2020-08-06 14:36:29.6654 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:36:33.0613 Info Message Template Auto Format enabled
+2020-08-06 14:36:33.0790 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:36:33.1589 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:36:33.1674 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:36:33.1674 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:36:33.2057 Info Found 46 configuration items
+2020-08-06 14:40:35.9918 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:40:36.0060 Info Logger has been shut down.
+2020-08-06 14:45:27.4289 Info Message Template Auto Format enabled
+2020-08-06 14:45:27.4358 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:45:27.4890 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:45:27.4890 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:45:27.5088 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:45:27.5261 Info Found 46 configuration items
+2020-08-06 14:52:07.0950 Info AppDomain Shutting down. Logger closing...
+2020-08-06 14:52:07.1084 Info Logger has been shut down.
+2020-08-06 14:54:42.5808 Info Message Template Auto Format enabled
+2020-08-06 14:54:42.5978 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:54:42.6971 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:54:42.7192 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:54:42.7362 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:54:42.7693 Info Found 46 configuration items
+2020-08-06 14:56:00.6662 Info Message Template Auto Format enabled
+2020-08-06 14:56:00.6805 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:56:00.7735 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:56:00.7824 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:56:00.7824 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:56:00.8214 Info Found 46 configuration items
+2020-08-06 14:58:30.9770 Info Message Template Auto Format enabled
+2020-08-06 14:58:30.9927 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 14:58:31.0924 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 14:58:31.1014 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 14:58:31.1194 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 14:58:31.1749 Info Found 46 configuration items
+2020-08-06 15:07:29.9113 Info Message Template Auto Format enabled
+2020-08-06 15:07:29.9113 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 15:07:29.9814 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 15:07:29.9814 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 15:07:29.9987 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 15:07:30.0131 Info Found 46 configuration items
+2020-08-06 15:14:14.0131 Info AppDomain Shutting down. Logger closing...
+2020-08-06 15:14:14.0256 Info Logger has been shut down.
+2020-08-06 15:14:54.2534 Info Message Template Auto Format enabled
+2020-08-06 15:14:54.2534 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 15:14:54.2973 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 15:14:54.2989 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 15:14:54.2989 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 15:14:54.3223 Info Found 46 configuration items
+2020-08-06 15:16:12.9326 Info AppDomain Shutting down. Logger closing...
+2020-08-06 15:16:12.9456 Info Logger has been shut down.
+2020-08-06 15:16:46.2230 Info Message Template Auto Format enabled
+2020-08-06 15:16:46.2230 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 15:16:46.2886 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 15:16:46.2886 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 15:16:46.3066 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 15:16:46.3214 Info Found 46 configuration items
+2020-08-06 15:20:30.4284 Info AppDomain Shutting down. Logger closing...
+2020-08-06 15:20:30.4414 Info Logger has been shut down.
+2020-08-06 15:23:00.1337 Info Message Template Auto Format enabled
+2020-08-06 15:23:00.1337 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 15:23:00.1798 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 15:23:00.1798 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 15:23:00.1946 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 15:23:00.2063 Info Found 46 configuration items
+2020-08-06 15:39:34.1640 Info AppDomain Shutting down. Logger closing...
+2020-08-06 15:39:34.1769 Info Logger has been shut down.
+2020-08-06 16:13:59.3831 Info Message Template Auto Format enabled
+2020-08-06 16:13:59.3831 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:13:59.4410 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:13:59.4431 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:13:59.4642 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:13:59.4769 Info Found 46 configuration items
+2020-08-06 16:14:05.9779 Info Shutdown() called. Logger closing...
+2020-08-06 16:14:05.9779 Info Closing old configuration.
+2020-08-06 16:14:05.9886 Info Logger has been closed down.
+2020-08-06 16:14:11.8701 Info Message Template Auto Format enabled
+2020-08-06 16:14:11.8701 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:14:11.9180 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:14:11.9180 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:14:11.9351 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:14:11.9498 Info Found 46 configuration items
+2020-08-06 16:14:28.1655 Info AppDomain Shutting down. Logger closing...
+2020-08-06 16:14:28.1758 Info Logger has been shut down.
+2020-08-06 16:14:33.3955 Info Message Template Auto Format enabled
+2020-08-06 16:14:33.3955 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:14:33.4448 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:14:33.4448 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:14:33.4591 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:14:33.4591 Info Found 46 configuration items
+2020-08-06 16:15:04.7039 Info AppDomain Shutting down. Logger closing...
+2020-08-06 16:15:04.7160 Info Logger has been shut down.
+2020-08-06 16:15:32.3325 Info Message Template Auto Format enabled
+2020-08-06 16:15:32.3455 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:15:32.4326 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:15:32.4442 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:15:32.4442 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:15:32.4847 Info Found 46 configuration items
+2020-08-06 16:18:17.9850 Info Message Template Auto Format enabled
+2020-08-06 16:18:17.9934 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:18:18.0338 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:18:18.0338 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:18:18.0484 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:18:18.0614 Info Found 46 configuration items
+2020-08-06 16:21:58.6571 Info AppDomain Shutting down. Logger closing...
+2020-08-06 16:21:58.6571 Info Logger has been shut down.
+2020-08-06 16:22:13.5705 Info Message Template Auto Format enabled
+2020-08-06 16:22:13.5705 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:22:13.6150 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:22:13.6150 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:22:13.6292 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:22:13.6404 Info Found 46 configuration items
+2020-08-06 16:23:16.7937 Info Configuration file change detected! Reloading in 1000ms...
+2020-08-06 16:23:16.7937 Info Configuration file change detected! Reloading in 1000ms...
+2020-08-06 16:23:17.7976 Info Reloading configuration...
+2020-08-06 16:23:17.7976 Info Configuring from an XML element in D:\WorkShop\MiddleWare\QtechCoreAPI\bin\Debug\netcoreapp3.1\nlog.config...
+2020-08-06 16:23:17.7976 Info Message Template Auto Format enabled
+2020-08-06 16:23:17.7976 Info Loading assembly: NLog.Web.AspNetCore
+2020-08-06 16:23:17.7976 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-08-06 16:23:17.7976 Info Adding target AsyncTargetWrapper(Name=ownFile-web)
+2020-08-06 16:23:17.7976 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: ownFile-web
+2020-08-06 16:23:17.7976 Info Closing old configuration.
+2020-08-06 16:23:17.8250 Info Found 46 configuration items
+2020-08-06 16:23:32.5706 Info AppDomain Shutting down. Logger closing...
+2020-08-06 16:23:32.5706 Info Logger has been shut down.
